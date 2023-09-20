@@ -104,7 +104,6 @@ var simplemaps_countrymap_mapdata={
     },
     "12": {
       name: "Gujarat",
-      description: "we are here!",
       url: "404.html"
     },
     "13": {
