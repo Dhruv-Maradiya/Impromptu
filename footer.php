@@ -1,3 +1,12 @@
+<?php
+include('server.php'); 
+error_reporting(E_ALL ^ E_WARNING);
+// if(isset($_SESSION['id']))
+// {
+//     header("location: Home.php");
+// }
+// else
+?>
 <div data-elementor-type="footer" data-elementor-id="490" class="elementor elementor-490 elementor-location-footer">
 <div class="elementor-section-wrap">
 <div class="elementor-section elementor-top-section elementor-element elementor-element-1f3d631 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1f3d631" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
@@ -346,7 +355,7 @@ Encino, CA 91316 </p>
 <div class="my_account_page_content_wrapper">
 <div id="login_form">
 <h3>Login</h3>
-<form name="babe_login" id="babe_login" action="https://demo2.pavothemes.com/triply/my-account/?action=login" method="post">
+<!-- <form name="babe_login" id="babe_login" action="https://demo2.pavothemes.com/triply/my-account/?action=login" method="post">
 <div class="login_username">
 <label for="login_username">Username or email</label>
 <input type="text" name="login_username" id="login_username" class="input" value size="20" required="required">
@@ -361,8 +370,29 @@ Encino, CA 91316 </p>
 <div id="forgot_url">
 <a href="my-account/indexc2b6.html?action=lostpassword">Forgot password?</a>
 </div>
+</form> -->
+<form action="server.php" method="post">
+<div class="login_username">
+<label for="login_username" style="color:black;">Username or email</label>
+<input type="text" name="email_user" id="email_user" value size="20" required="required">
+</div>
+<br>
+<div class="login_pw">
+<label for="login_pw" style="color:black;">Password</label>
+<input type="password" name="login_pw" id="login_pw" value size="20" required="required">
+</div>
+<br>
+<div class="login_submit">
+<input type="submit" name="login_submit" id="login_submit" value="Sign in">
+</div>
 </form>
-</div> <div class="login_registration">
+<center>
+<div id="forgot_url">
+<a href="my-account/indexc2b6.html?action=lostpassword">Forgot password?</a>
+</div>
+</center>
+</div>
+<div class="login_registration">
 <h3>Do not have an account?</h3>
 <div class="registration_link">
 <a class="btn-register js-btn-register-popup" href="#triply-register-form">Register</a>
@@ -374,7 +404,7 @@ Encino, CA 91316 </p>
 <div class="my_account_page_content_wrapper">
 <div id="signup_form" class="triply-form-popup login_reg_content">
 <h3 class="triply-login-title">Sign Up</h3>
-<form name="registration_form" id="registration_form" action="https://demo2.pavothemes.com/triply/my-account/?action=registration" method="post">
+<!-- <form name="registration_form" id="registration_form" action="https://demo2.pavothemes.com/triply/my-account/?action=registration" method="post">
 <div class="new-username">
 <label for="new_username">Username *</label>
 <input type="text" name="new_username" id="new_username" class="input" value size="20" required="required">
@@ -401,7 +431,46 @@ Encino, CA 91316 </p>
 <input type="submit" name="new-submit" id="new-submit" class="button button-primary" value="Sign up">
 <div class="form-spinner"><i class="fas fa-spinner fa-spin"></i></div>
 </div>
+</form> -->
+<form action="server.php" method="post">
+<div class="new-username">
+<label for="new_username" style="color:black;">Username</label>
+<input type="text" name="new_username" id="new_username" value size="20" required="required">
+</div><br>
+<div class="new-email">
+<label for="new_email" style="color:black;">Your email</label>
+<input type="email" name="new_email" id="new_email" required="required">
+</div><br>
+<div class="new-first-name">
+<label for="new_first_name" style="color:black;">Password</label>
+<input type="password" name="password" id="password" value size="20" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters." required>
+</div><br>
+<div class="new-last-name">
+<label for="new_last_name" style="color:black;">Confirm Password</label>
+<input type="password" name="confirm_password" id="confirm_password" value size="20" required="required">
+</div>
+<script>
+	var password = document.getElementById("password")
+  , confirm_password = document.getElementById("confirm_password");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match.");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
+</script>
+<br>
+<div class="new-submit">
+<input type="submit" name="new-submit" id="new-submit"  value="Sign up">
+<!-- <div class="form-spinner"><i class="fas fa-spinner fa-spin"></i></div> -->
+</div>
 </form>
+<br>
 <div class="login_registration">
 <h3>Already have an account?</h3>
 <div class="registration_link">
