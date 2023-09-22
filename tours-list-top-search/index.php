@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- Mirrored from demo2.pavothemes.com/triply/tours-list-view/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:56:17 GMT -->
+<!-- Mirrored from demo2.pavothemes.com/triply/tours-list-top-search/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:56:03 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Tours List View &#8211; Triply</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Tours List Top Search &#8211; Triply</title>
 <meta name="robots" content="max-image-preview:large" />
 <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 <link rel="dns-prefetch" href="http://s.w.org/">
@@ -65,7 +65,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <link rel="stylesheet" id="font-awesome-5-all-css" href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/all.minfb6f.css?ver=3.12.1" type="text/css" media="all" />
 <link rel="stylesheet" id="font-awesome-4-shim-css" href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.minfb6f.css?ver=3.12.1" type="text/css" media="all" />
 <link rel="stylesheet" id="elementor-global-css" href="../wp-content/uploads/elementor/css/global541d.css?ver=1685604290" type="text/css" media="all" />
-<link rel="stylesheet" id="elementor-post-6632-css" href="../wp-content/uploads/elementor/css/post-663257d0.css?ver=1685618280" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-post-6630-css" href="../wp-content/uploads/elementor/css/post-66301ed1.css?ver=1685609135" type="text/css" media="all" />
 <link rel="stylesheet" id="babe-admin-elementor-style-css" href="../wp-content/plugins/ba-book-everything/css/admin/babe-admin-elementor3781.css?ver=6.2.2" type="text/css" media="all" />
 <link rel="stylesheet" id="elementor-post-1589-css" href="../wp-content/uploads/elementor/css/post-1589541d.css?ver=1685604290" type="text/css" media="all" />
 <link rel="stylesheet" id="elementor-post-1209-css" href="../wp-content/uploads/elementor/css/post-1209541d.css?ver=1685604290" type="text/css" media="all" />
@@ -79,13 +79,13 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min6b00.js?ver=3.4.0" id="jquery-migrate-js"></script>
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/frontend/wishlist95b8.js?ver=2.3.2" id="triply-wishlist-js"></script>
 <script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.minfb6f.js?ver=3.12.1" id="font-awesome-4-shim-js"></script>
-<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/6632.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/6630.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 6.2.2" />
 <link rel="canonical" href="index.html" />
-<link rel="shortlink" href="../indexc02a.html?p=6632" />
-<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed61b5.json?url=https%3A%2F%2Fdemo2.pavothemes.com%2Ftriply%2Ftours-list-view%2F" />
-<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed6051?url=https%3A%2F%2Fdemo2.pavothemes.com%2Ftriply%2Ftours-list-view%2F&amp;format=xml" />
+<link rel="shortlink" href="../indexa9d3.html?p=6630" />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embede1fc.json?url=https%3A%2F%2Fdemo2.pavothemes.com%2Ftriply%2Ftours-list-top-search%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embedcc55?url=https%3A%2F%2Fdemo2.pavothemes.com%2Ftriply%2Ftours-list-top-search%2F&amp;format=xml" />
 <meta name="generator" content="Elementor 3.12.1; features: a11y_improvements; settings: css_print_method-external, google_font-enabled, font_display-auto">
 <meta name="generator" content="Powered by Slider Revolution 6.5.31 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 <script>function setREVStartSize(e){
@@ -138,143 +138,11 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 			//});
 		  };</script>
 </head>
-<body class="page-template-default page page-id-6632 wp-custom-logo wp-embed-responsive no-wc-breadcrumb theme-triply elementor-default elementor-template-full-width elementor-kit-12 elementor-page elementor-page-6632">
+<body class="page-template page-template-elementor_header_footer page page-id-6630 wp-custom-logo wp-embed-responsive no-wc-breadcrumb theme-triply elementor-default elementor-template-full-width elementor-kit-12 elementor-page elementor-page-6630">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg> <div id="page" class="hfeed site">
 <div data-elementor-type="header" data-elementor-id="406" class="elementor elementor-406 elementor-location-header">
 <div class="elementor-section-wrap">
-<header class="elementor-section elementor-top-section elementor-element elementor-element-69072552 elementor-section-content-middle elementor-section-stretched elementor-section-height-min-height sticky-header elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="69072552" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_effects_offset&quot;:120,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6733616b" data-id="6733616b" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-66f99ff elementor-widget__width-auto elementor-hidden-desktop elementor-view-default elementor-widget elementor-widget-icon" data-id="66f99ff" data-element_type="widget" data-widget_type="icon.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-wrapper">
-<a class="elementor-icon" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEyMDkiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-<i aria-hidden="true" class="triply-icon- triply-icon-bars"></i> </a>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-75d5909a elementor-widget__width-auto logo elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="75d5909a" data-element_type="widget" data-widget_type="theme-site-logo.default">
-<div class="elementor-widget-container">
-<div class="elementor-image">
-<a href="https://demo2.pavothemes.com/triply">
-<img width="1" height="1" src="../wp-content/uploads/2020/11/logo.svg" class="attachment-full size-full wp-image-371" alt loading="lazy" /> </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87471b elementor-hidden-tablet elementor-hidden-phone" data-id="a87471b" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-32a3ceff elementor-widget elementor-widget-triply-nav-menu" data-id="32a3ceff" data-element_type="widget" data-widget_type="triply-nav-menu.default">
-<div class="elementor-widget-container">
-<div class="elementor-nav-menu-wrapper">
-<nav class="main-navigation" role="navigation" aria-label="Primary Navigation">
-<div class="primary-navigation"><ul id="menu-main-menu" class="menu"><li id="menu-item-950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-950"><a href="../index.html">Home</a>
-<ul class="sub-menu">
-<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-430"><a href="../index.html">Home 01</a></li>
-<li id="menu-item-954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-954"><a href="../home-2/index.html">Home 02</a></li>
-<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="../home-3/index.html">Home 03</a></li>
-<li id="menu-item-479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-479"><a href="../home-4/index.html">Home 04</a></li>
-<li id="menu-item-8250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8250"><a href="../home-5/index.html">Home 05</a></li>
-<li id="menu-item-8249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8249"><a href="../home-6/index.html">Home 06</a></li>
-<li id="menu-item-8248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8248"><a href="../home-7/index.html">Home 07</a></li>
-<li id="menu-item-8247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8247"><a href="../home-8/index.html">Home 08</a></li>
-</ul>
-</li>
-<li id="menu-item-433" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-433"><a href="../tours-list-top-search/index.html">Tours</a>
-<ul class="sub-menu">
-<li id="menu-item-6636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6636"><a href="../tours-list-top-search/index.html">Tour List &#8211; Top Search</a></li>
-<li id="menu-item-6637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6637"><a href="../tours-list-sidebar/index.html">Tour List &#8211; Sidebar Filter</a></li>
-<li id="menu-item-6635" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6632 current_page_item menu-item-6635"><a href="index.html" aria-current="page">Tour List &#8211; List View</a></li>
-<li id="menu-item-7190" class="menu-item menu-item-type-post_type menu-item-object-to_book menu-item-7190"><a href="../to_book/buenos-aires-calafate-chalten-ushuaia/index.html">Tour Single &#8211; Layout 1</a></li>
-<li id="menu-item-7189" class="menu-item menu-item-type-post_type menu-item-object-to_book menu-item-7189"><a href="../to_book/waterfalls-geysers-and-glacier/index.html">Tour Single &#8211; Layout 2</a></li>
-<li id="menu-item-7192" class="menu-item menu-item-type-post_type menu-item-object-to_book menu-item-7192"><a href="../to_book/best-of-argentina/index.html">Tour Single &#8211; Layout 3</a></li>
-</ul>
-</li>
-<li id="menu-item-7088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7088"><a href="../destination-list/index.html">Destination</a>
-<ul class="sub-menu">
-<li id="menu-item-3201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3201"><a href="../destination-list/index.html">Destination List 1</a></li>
-<li id="menu-item-3202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3202"><a href="../destination-list-2/index.html">Destination List 2</a></li>
-<li id="menu-item-6973" class="menu-item menu-item-type-taxonomy menu-item-object-ba_locations menu-item-6973"><a href="../ba_locations/americas/index.html">Destination Detail</a></li>
-</ul>
-</li>
-<li id="menu-item-969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-969"><a href="../blog/index.html">Blog</a>
-<ul class="sub-menu">
-<li id="menu-item-971" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-971"><a href="../blog/index.html">Blog &#8211; Listview</a></li>
-<li id="menu-item-972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-972"><a href="../blog/indexb995.html?blog_style=grid">Blog &#8211; Gridview</a></li>
-<li id="menu-item-973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-973"><a href="../pack-wisely-before-traveling-2/index.html">Blog &#8211; Single Post</a></li>
-</ul>
-</li>
-<li id="menu-item-432" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-432"><a href="#">Page</a>
-<ul class="sub-menu">
-<li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958"><a href="../about-us/index.html">About Us</a></li>
-<li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="../icons/index.html">Icons</a></li>
-<li id="menu-item-4136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4136"><a href="../faq/index.html">FAQ</a></li>
-<li id="menu-item-959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-959"><a href="../404.html">404</a></li>
-</ul>
-</li>
-<li id="menu-item-970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"><a href="../contact/index.html">Contact</a></li>
-</ul></div> </nav>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f3d336e" data-id="f3d336e" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-36fefbb8 elementor-widget__width-auto elementor-hidden-phone elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="36fefbb8" data-element_type="widget" data-widget_type="icon-list.default">
-<div class="elementor-widget-container">
-<ul class="elementor-icon-list-items">
-<li class="elementor-icon-list-item">
-<a href="tel:1800%20-%20333%205578">
-<span class="elementor-icon-list-icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-phone-1"></i> </span>
-<span class="elementor-icon-list-text">1800 - 333 5578</span>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="elementor-element elementor-element-3f99baa2 elementor-widget__width-auto elementor-hidden-phone elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="3f99baa2" data-element_type="widget" data-widget_type="divider.default">
-<div class="elementor-widget-container">
-<div class="elementor-divider">
-<span class="elementor-divider-separator">
-</span>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-7bf2274 elementor-widget__width-auto elementor-widget elementor-widget-triply-login" data-id="7bf2274" data-element_type="widget" data-widget_type="triply-login.default">
-<div class="elementor-widget-container">
-<div class="elementor-login-wrapper elementor-login-style-1">
-<div class="login-action">
-<div class="site-header-account">
-<a class="login-button-icon group-button popup js-btn-register-popup" href="#triply-login-form"><i class="triply-icon-login"></i></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-151299dd elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="151299dd" data-element_type="widget" data-widget_type="icon.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-wrapper">
-<a class="elementor-icon" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE1ODkiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-<i aria-hidden="true" class="triply-icon- triply-icon-menu"></i> </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</header>
+<?php include 'header.php';?>
 <div class="elementor-section elementor-top-section elementor-element elementor-element-4a39b113 elementor-section-stretched elementor-section-height-min-height triply-breadcrumb-build elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="4a39b113" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 <div class="elementor-background-overlay"></div>
 <div class="elementor-container elementor-column-gap-no">
@@ -288,7 +156,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div class="elementor-element elementor-element-3c6b8263 elementor-widget elementor-widget-theme-page-title elementor-page-title elementor-widget-heading" data-id="3c6b8263" data-element_type="widget" data-widget_type="theme-page-title.default">
 <div class="elementor-widget-container">
-<h1 class="elementor-heading-title elementor-size-default">Tours List View</h1> </div>
+<h1 class="elementor-heading-title elementor-size-default">Tours List Top Search</h1> </div>
 </div>
 </div>
 </div>
@@ -300,281 +168,26 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div id="content" class="site-content" tabindex="-1">
 <div class="col-full">
-<div data-elementor-type="wp-page" data-elementor-id="6632" class="elementor elementor-6632">
+<div data-elementor-type="wp-page" data-elementor-id="6630" class="elementor elementor-6630">
 <div class="elementor-inner">
 <div class="elementor-section-wrap">
-<div class="elementor-section elementor-top-section elementor-element elementor-element-2bb7fae elementor-section-stretched elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2bb7fae" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+<div class="elementor-section elementor-top-section elementor-element elementor-element-ecadff2 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ecadff2" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
 <div class="elementor-container elementor-column-gap-no">
 <div class="elementor-row">
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-17e50f2" data-id="17e50f2" data-element_type="column">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-017fcab" data-id="017fcab" data-element_type="column">
 <div class="elementor-column-wrap elementor-element-populated">
 <div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-0afa9eb elementor-widget elementor-widget-babe-search-results" data-id="0afa9eb" data-element_type="widget" data-widget_type="babe-search-results.default">
-<div class="elementor-widget-container">
-<div class="babe_search_results">
-<div class="babe_search_results_filters">
-<div class="count-posts">
-<strong class="count">20</strong>&nbsp;
-Tours </div>
-<div class="filter-sort"><span>Sort by</span><div class="input_select_field input_select_field_sr_sort_by " data-name="sr_sort_by" tabindex="0">
-<div class="input_select_sort"><i class="fa fa-sort-alpha-down"></i>
-<input type="hidden" class="input_select_input_value" name="sr_sort_by" value="title_desc">
-</div>
-</div>
-<div class="input_select_field input_select_field_sr_sort_by " data-name="sr_sort_by" tabindex="0">
-<div class="input_select_title">
-<div class="input_select_wrapper">
-<input type="text" class="input_select_input" name="sr_sort_by_label" value="Title">
-<input type="hidden" class="input_select_input_value" name="sr_sort_by" value="title_asc">
-<ul class="input_select_list">
-<li class="term_item term_item_selected" data-id="title_asc" data-value="Title">Title</li><li class="term_item" data-id="price_asc" data-value="Price">Price</li><li class="term_item" data-id="rating_asc" data-value="Rating">Rating</li><li class="term_item" data-id="avdatefrom_asc" data-value="Availability date">Availability date</li>
-</ul>
-<i class="fas fa-chevron-down"></i>
-</div>
-</div>
-</div>
-</div> </div>
-<div class="ba-items-style-5" data-elementor-columns="1" data-elementor-columns-tablet="1" data-elementor-columns-mobile="1">
-<div class="babe_shortcode_block sc_all_items">
-<div class="babe_shortcode_block_bg_inner">
-<div class="babe_shortcode_block_inner ">
-<div class="babe_items babe_items_4 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<a class="item-thumb" href="../to_book/7-days-in-costa-rica-classic-self-drive/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c2e340c508523a216a4bba3_02-10-copy-820x520.jpg" alt="7 Days in Costa Rica - Classic (Self-Drive)"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="7 Days in Costa Rica &#8211; Classic (Self-Drive)" data-book-id="272">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span></span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>30</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:274,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e446385610a9322e525fa06_zdenek-machacek-EtxsgEcHnZg-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 1&quot;},{&quot;image_id&quot;:275,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e445afc5b99c9de272f18a9_ftntrek-102-9346.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 2&quot;},{&quot;image_id&quot;:276,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44646533c82610595d5850_ftntrek-ext172-3457.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 3&quot;},{&quot;image_id&quot;:277,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2e35016602754fe65ec277_03-11-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 4&quot;},{&quot;image_id&quot;:278,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44639d8cccc3c760f51893_atanas-malamov-xGhaXZtQb1s-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 5&quot;},{&quot;image_id&quot;:279,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44647eafa7d72f839dee41_ftnwalk-ext172-3457.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 6&quot;},{&quot;image_id&quot;:280,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44641cd2b9fa5b2639a2c6_etienne-delorieux-Vfl75eA2Zu0-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 7&quot;},{&quot;image_id&quot;:281,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e445b217bb0e8572899f28f_ftnwalk-154-6784.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 8&quot;},{&quot;image_id&quot;:282,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e4463cb34f5fc176b819bce_chalo-garcia-kfj6GRCBCFQ-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 9&quot;},{&quot;image_id&quot;:283,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e4463c08cccc36dc7f525a7_zdenek-machacek-XUFMiGkv-60-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 10&quot;},{&quot;image_id&quot;:284,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2e3515d604bdcdd721ed81_010_0530-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 11&quot;},{&quot;image_id&quot;:285,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e4463b58cccc3d927f52164_dana-fallentine-1rMHZ-omK9Y-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 12&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>12</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/7-days-in-costa-rica-classic-self-drive/index.html">7 Days in Costa Rica - Classic (Self-Drive)</a>
-</div>
-<div class="item_description">
-Set off on this Epic 7 day trip through Costa Rica's must see locations. From jungle to beach you will get to explore the amazing wildlife rich park of Manuel... </div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="114"><span class="currency_symbol">&#36;</span>114.00</span></span>
-</div>
-<a class="read-more-item" href="../to_book/7-days-in-costa-rica-classic-self-drive/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div><div class="babe_items babe_items_4 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<span class="item-label">Featured</span> <a class="item-thumb" href="../to_book/adventure-colombia/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c284b5932e9aae035a5aed9_DSC05668-copy-820x520.jpg" alt="Adventure Colombia"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Adventure Colombia" data-book-id="75">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>8 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>30</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:77,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284b8232e9aa84cea5aeda_tayrona-national-park-colombia.ngsversion.1506546030343.adapt_.1900.1-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 1&quot;},{&quot;image_id&quot;:78,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bb499ec4ae9785ef7b7_DSC05631-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 2&quot;},{&quot;image_id&quot;:79,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bcb75fcbdfa5d6e5b1d_6697602067_324b1c6fae_o-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 3&quot;},{&quot;image_id&quot;:80,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bde0d5f11821cac7be3_DSC05639-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 4&quot;},{&quot;image_id&quot;:81,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bf39d056973ac400cfa_DSC05673-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 5&quot;},{&quot;image_id&quot;:82,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c020d5f1160efac7be4_Screen-Shot-2018-08-27-at-10.08.01-AM-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 6&quot;},{&quot;image_id&quot;:83,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c100d5f117c58ac7be5_DSC05629-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 7&quot;},{&quot;image_id&quot;:84,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c2075fcbd79326e5b1e_DSC05680-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 8&quot;},{&quot;image_id&quot;:85,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c39b482f907c069efe4_7955286556_a51c5cc452_o-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/adventure-colombia/index.html">Adventure Colombia</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Kathmandu, Nepal</span>
-</div>
-<div class="item_description">
-This northern Colombian adventure hits many of the highlights. Enjoy blissful tropical beaches, rainforest, Sierra Nevada mountains reaching 5,700m (18,701 ft) of altitude, coral islands and the wonderful colonial city... </div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="100"><span class="currency_symbol">&#36;</span>100.00</span></span>
-</div>
-<a class="read-more-item" href="../to_book/adventure-colombia/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div><div class="babe_items babe_items_4 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<span class="item-label price_discount">6% OFF</span> <a class="item-thumb" href="../to_book/best-of-argentina/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c150fbcde252d9a3b26f63c_16297416313_6217f4e8a9_k-copy-820x520.jpg" alt="Best of Argentina"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Best of Argentina" data-book-id="45">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>11 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>50</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:47,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c15114665ec9ab1829e74e3_15407580523_19583a0687_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 1&quot;},{&quot;image_id&quot;:48,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1511ea4b011f504197a3f6_16316752354_3fd5acf251_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 2&quot;},{&quot;image_id&quot;:49,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1423792567d46e6f1394f3_30421950892_fb623ab31d_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 3&quot;},{&quot;image_id&quot;:50,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1420daf4422044f18188f2_31571834482_4256fb6757_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 4&quot;},{&quot;image_id&quot;:51,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1422d292da9779d1d7cf2b_30502347256_2fb2d15897_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 5&quot;},{&quot;image_id&quot;:52,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c15115565ec9ac21e9e74e4_32403715608_5bf04bcb7c_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 6&quot;},{&quot;image_id&quot;:53,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c151167aed7fc6f5acf5a98_15841162369_873e7fe835_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 7&quot;},{&quot;image_id&quot;:54,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1509aaf819975e0e064e34_16916202602_7b37127472_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 8&quot;},{&quot;image_id&quot;:55,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1420b6f442203ddd8188f0_30240197730_f560bc967b_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/best-of-argentina/index.html">Best of Argentina</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Siem Reap, Cambodia</span>
-</div>
-<div class="item_description">
-Included in National Geographic Canada’s 50 Places of a Lifetime, the Discovery Islands are a sea kayaking paradise, and as you will discover, one of the West Coast’s best kept... </div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="91.18"><span class="currency_symbol">&#36;</span>91.18</span></span>
-<span class="item_info_price_old"><span class="currency_amount" data-amount="97"><span class="currency_symbol">&#36;</span>97.00</span></span> </div>
-<a class="read-more-item" href="../to_book/best-of-argentina/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div><div class="babe_items babe_items_4 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<a class="item-thumb" href="../to_book/buenos-aires-calafate-chalten-ushuaia/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5caf5b5a4230ad69dfa896e5_16710074567_8ed2f67f22_k-820x520.jpg" alt="Buenos Aires, Calafate, Chalten &amp; Ushuaia"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Buenos Aires, Calafate, Chalten &#038; Ushuaia" data-book-id="31">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>12 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>40</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:33,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c4c80ec1fec800b2bf05772_29907871814_daa2960290_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 1&quot;},{&quot;image_id&quot;:34,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2ae84c8360bf3ad4becd9c_30240197730_f560bc967b_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 2&quot;},{&quot;image_id&quot;:35,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c4b5cf89c5e26b83fa7f315_30502347256_2fb2d15897_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 3&quot;},{&quot;image_id&quot;:36,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1b9dae4b0b2e80ccf9c55c_31555162091_27a8463c24_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 4&quot;},{&quot;image_id&quot;:37,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1b9dbf984faa6a30f9a51d_31571834482_4256fb6757_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 5&quot;},{&quot;image_id&quot;:38,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c60253b2279344176d4bbe3_6927488126_bc0e79532b_o-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 6&quot;},{&quot;image_id&quot;:39,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5caf5bc5b5fe8466ed1283a3_6927510390_42a638d9fe_o-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 7&quot;},{&quot;image_id&quot;:40,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c602554e2f3d15960bab681_dennis-fidalgo-222461-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 8&quot;},{&quot;image_id&quot;:41,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6024a2472d4d5c5d0c57e9_dennis-fidalgo-533478-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 9&quot;},{&quot;image_id&quot;:42,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c9389b6ea92245f8ca1b297_16916202602_7b37127472_k.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 10&quot;},{&quot;image_id&quot;:43,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5caf5bfcb5fe84985212a051_16944221892_c6d2bade54_k.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 11&quot;},{&quot;image_id&quot;:44,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c59cb57bfe4bfebc2dc5e30_16297416313_6217f4e8a9_k-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 12&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>12</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/buenos-aires-calafate-chalten-ushuaia/index.html">Buenos Aires, Calafate, Chalten & Ushuaia</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Honolulu, USA</span>
-</div>
-<div class="item_description">
-Tour Argentina´s glaciers, hike Chalten, Patagonia´s mountain trails and kayak Tierra del Fuego National Park. From Buenos Aires´ tango shows and eclectic neighborhoods to the surreal, southern city of Ushuaia,... </div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="94"><span class="currency_symbol">&#36;</span>94.00</span></span>
-</div>
-<a class="read-more-item" href="../to_book/buenos-aires-calafate-chalten-ushuaia/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div><div class="babe_items babe_items_4 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<span class="item-label price_discount">5% OFF</span> <a class="item-thumb" href="../to_book/cano-cristales-river-trip/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c486ea739c52128a578315e_DSC04947-copy-820x520.jpg" alt="Caño Cristales River Trip"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Caño Cristales River Trip" data-book-id="64">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>4 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>50</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:66,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c48735739c52149617831f9_DSC04931-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 1&quot;},{&quot;image_id&quot;:67,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486fb7ffe01243a830dee3_DSC04942-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 2&quot;},{&quot;image_id&quot;:68,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486fd0ffe0127baf30defd_DSC04972-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 3&quot;},{&quot;image_id&quot;:69,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486e8171e5c96425eb2164_cc5.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 4&quot;},{&quot;image_id&quot;:70,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486fde39c52198d2783174_DSC04989-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 5&quot;},{&quot;image_id&quot;:71,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c48753a6643ac423cba22d2_cano_cristales_la_macarena.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 6&quot;},{&quot;image_id&quot;:72,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c48704a079e2abe81530715_DSC04935-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 7&quot;},{&quot;image_id&quot;:73,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486e7270c16e87069fbb70_cano-cristales-fluss-in-Kolumbien.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 8&quot;},{&quot;image_id&quot;:74,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c4875597c042e6e499061e8_cc4.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/cano-cristales-river-trip/index.html">Caño Cristales River Trip</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Chukhung, Nepal</span>
-</div>
-<div class="item_description">
-Caño Cristales Tour, (aka the most beautiful river in the world) is an exceptional and surprising natural beauty. Its unique ecosystem is very fragile and now belongs to the Sierra... </div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="131.1"><span class="currency_symbol">&#36;</span>131.10</span></span>
-<span class="item_info_price_old"><span class="currency_amount" data-amount="138"><span class="currency_symbol">&#36;</span>138.00</span></span> </div>
-<a class="read-more-item" href="../to_book/cano-cristales-river-trip/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div><div class="babe_items babe_items_4 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<span class="item-label price_discount">15% OFF</span> <a class="item-thumb" href="../to_book/discovery-islands-kayaking-tour/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c50ac0708cc654bf60a5e7b_discovery-islands-176-kayaking-copy-820x520.jpg" alt="Discovery Islands Kayaking Tour"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Discovery Islands Kayaking Tour" data-book-id="98">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>6 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>60</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:100,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50ac8151a9d8597fd92515_discovery-islands-193-tent-and-campfire-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 1&quot;},{&quot;image_id&quot;:101,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50ac1e692a150e2bc0e261_discovery-islands-263-humpback-whale-tail-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 2&quot;},{&quot;image_id&quot;:102,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50ac1308cc654b370a5e7c_discovery-islands-241-seals-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 3&quot;},{&quot;image_id&quot;:103,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50aca5e9004546065f058c_discovery-islands-180-kayaking-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 4&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>4</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/discovery-islands-kayaking-tour/index.html">Discovery Islands Kayaking Tour</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Soldeu, Andorra</span>
-</div>
-<div class="item_description">
-Included in National Geographic Canada’s 50 Places of a Lifetime, the Discovery Islands are a sea kayaking paradise, and as you will discover, one of the West Coast’s best kept... </div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="93.5"><span class="currency_symbol">&#36;</span>93.50</span></span>
-<span class="item_info_price_old"><span class="currency_amount" data-amount="110"><span class="currency_symbol">&#36;</span>110.00</span></span> </div>
-<a class="read-more-item" href="../to_book/discovery-islands-kayaking-tour/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div> </div>
-</div>
-</div>
-</div>
-<div class="babe_pager"><span aria-current="page" class="page-numbers current">1</span>
-<a class="page-numbers" href="index6146.html?paged=2">2</a>
-<a class="page-numbers" href="index8a68.html?paged=3">3</a>
-<a class="page-numbers" href="indexe377.html?paged=4">4</a>
-<a class="next page-numbers" href="index6146.html?paged=2">Next &raquo;</a></div>
-<div id="babe_search_result_refresh">
-<i class="fas fa-spinner fa-spin fa-3x"></i>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ea1161a" data-id="ea1161a" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-section elementor-inner-section elementor-element elementor-element-b552fc9 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="b552fc9" data-element_type="section">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ae2b67e" data-id="ae2b67e" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-d8bed4b elementor-widget elementor-widget-heading" data-id="d8bed4b" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Search Tours</h2> </div>
-</div>
-<div class="elementor-element elementor-element-2a39555 layout-style-2 elementor-widget elementor-widget-babe-search-form" data-id="2a39555" data-element_type="widget" data-widget_type="babe-search-form.default">
+<div class="elementor-element elementor-element-755578f layout-style-1 elementor-widget elementor-widget-babe-search-form" data-id="755578f" data-element_type="widget" data-widget_type="babe-search-form.default">
 <div class="elementor-widget-container">
 <div id="triply-search-box" class="babe-search-box">
 <form name="search_form" action="https://demo2.pavothemes.com/triply/all-tours/" method="get" id="search_form" class="babe-search-form">
 <div class="search-form-inner">
 <div class="input-group col-4">
-<div class="field-search-group "><div class="field-group-inner locations-block"><div class="icon-search left-search"><i class="triply-icon- triply-icon-map-marker-rounded"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">Title Item</h4><div class="add_input_field is-active" data-tax="ba_locations" tabindex="0">
+<div class="field-search-group "><div class="field-group-inner locations-block"><div class="icon-search left-search"><i class="triply-icon- triply-icon-map-marker-rounded"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">Destinations</h4><div class="add_input_field is-active" data-tax="ba_locations" tabindex="0">
 <div class="add_ids_title">
-<div class="add_ids_title_value">Booking Locations</div><i class="js-triply-icon triply-icon triply-icon-chevron-down"></i>
+<div class="add_ids_title_value">Where are you going?</div><i class="js-triply-icon triply-icon triply-icon-chevron-down"></i>
 <ul id="add_ids_list_ba_locations" class="add_ids_list" data-parent="0">
-<li class="term_item term_item_all" data-id="0">All Title Item</li><li class="term_item_disabled term_item_level_0" data-id="56">Africa
+<li class="term_item term_item_all" data-id="0">All Destinations</li><li class="term_item_disabled term_item_level_0" data-id="56">Africa
 <ul id="add_ids_list_ba_locations_56" class="add_ids_list_1">
 <li class="term_item term_item_level_1" data-id="57"> Morocco</li><li class="term_item term_item_level_1" data-id="58"> Tanzania</li>
 </ul>
@@ -594,11 +207,11 @@ Included in National Geographic Canada’s 50 Places of a Lifetime, the Discover
 </ul>
 <input type="hidden" class="input_select_input_value" name="add_ids_ba_locations" value="0">
 </div>
-</div></div></div></div><div class="field-search-group "><div class="field-group-inner locations-block"><div class="icon-search left-search"><i class="triply-icon- triply-icon-activity"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">Title Item</h4><div class="add_input_field is-active" data-tax="ba_types" tabindex="0">
+</div></div></div></div><div class="field-search-group "><div class="field-group-inner locations-block"><div class="icon-search left-search"><i class="triply-icon- triply-icon-activity"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">Activity</h4><div class="add_input_field is-active" data-tax="ba_types" tabindex="0">
 <div class="add_ids_title">
-<div class="add_ids_title_value">Booking Types</div><i class="js-triply-icon triply-icon triply-icon-chevron-down"></i>
+<div class="add_ids_title_value">All Activity</div><i class="js-triply-icon triply-icon triply-icon-chevron-down"></i>
 <ul id="add_ids_list_ba_types" class="add_ids_list" data-parent="0">
-<li class="term_item term_item_all" data-id="0">All Title Item</li><li class="term_item term_item_level_0" data-id="77">Beaches</li><li class="term_item term_item_level_0" data-id="78">City Tours</li><li class="term_item term_item_level_0" data-id="79">Cruises</li><li class="term_item term_item_level_0" data-id="80">Hiking</li><li class="term_item term_item_level_0" data-id="81">Historical</li><li class="term_item term_item_level_0" data-id="82">Museum Tours</li>
+<li class="term_item term_item_all" data-id="0">All Activity</li><li class="term_item term_item_level_0" data-id="77">Beaches</li><li class="term_item term_item_level_0" data-id="78">City Tours</li><li class="term_item term_item_level_0" data-id="79">Cruises</li><li class="term_item term_item_level_0" data-id="80">Hiking</li><li class="term_item term_item_level_0" data-id="81">Historical</li><li class="term_item term_item_level_0" data-id="82">Museum Tours</li>
 </ul>
 <input type="hidden" class="input_select_input_value" name="add_ids_ba_types" value="0">
 </div>
@@ -634,7 +247,7 @@ Included in National Geographic Canada’s 50 Places of a Lifetime, the Discover
 </div></div> </div>
 <div class="submit">
 <button name="submit" class="btn button btn-primary btn-search" value="1">
-<i class="triply-icon-search"></i>
+<i class="triply-icon triply-icon-search"></i>
 Search </button>
 </div>
 <input type="hidden" name="request_search_results" value="1">
@@ -650,399 +263,322 @@ Search </button>
 </div>
 </div>
 </div>
-<div class="elementor-section elementor-inner-section elementor-element elementor-element-4b0efaa elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="4b0efaa" data-element_type="section">
+<div class="elementor-section elementor-top-section elementor-element elementor-element-44cee6d elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="44cee6d" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
 <div class="elementor-container elementor-column-gap-no">
 <div class="elementor-row">
-<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-6499f90" data-id="6499f90" data-element_type="column">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-b866541" data-id="b866541" data-element_type="column">
 <div class="elementor-column-wrap elementor-element-populated">
 <div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-479a2c3 elementor-widget elementor-widget-heading" data-id="479a2c3" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-element elementor-element-aa7395a elementor-widget elementor-widget-babe-search-results" data-id="aa7395a" data-element_type="widget" data-widget_type="babe-search-results.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Filter</h2> </div>
-</div>
-<div class="elementor-element elementor-element-46fc585 elementor-widget elementor-widget-heading" data-id="46fc585" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Price</h2> </div>
-</div>
-<div class="elementor-element elementor-element-6097bb7 elementor-widget elementor-widget-babe-price-filter" data-id="6097bb7" data-element_type="widget" data-widget_type="babe-price-filter.default">
-<div class="elementor-widget-container">
-<div class="widget-babe-price-slider">
-<div class="babe_price_slider_label">
-<input type="text" id="babe_range_price" readonly data-min="91" data-max="173">
-</div>
-<div class="babe_price_slider"></div>
+<div class="babe_search_results">
+<div class="babe_search_results_filters">
+<div class="count-posts">
+<strong class="count">20</strong>&nbsp;
+Tours </div>
+<div class="filter-sort"><span>Sort by</span><div class="input_select_field input_select_field_sr_sort_by " data-name="sr_sort_by" tabindex="0">
+<div class="input_select_sort"><i class="fa fa-sort-alpha-down"></i>
+<input type="hidden" class="input_select_input_value" name="sr_sort_by" value="title_desc">
 </div>
 </div>
-</div>
-<div class="elementor-element elementor-element-e1cfe18 elementor-widget elementor-widget-heading" data-id="e1cfe18" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Destinations</h2> </div>
-</div>
-<div class="elementor-element elementor-element-4b44a7b layout-style-1 elementor-widget elementor-widget-babe-taxonomy-filter" data-id="4b44a7b" data-element_type="widget" data-widget_type="babe-taxonomy-filter.default">
-<div class="elementor-widget-container">
-<div class="triply-search-filter-terms"> <div id="filter_ba_locations" class="babe-search-filter-terms"> <div class="term_item term_item_level_0" data-id="56" data-parent-id="0">Africa</div><div class="term_item term_item_level_1 term_item_checkbox" data-id="57" data-parent-id="56"> <input type="checkbox" id="filter_ba_locations_57" name="filter_ba_locations[57]" value="57"><label for="filter_ba_locations_57">Morocco</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="58" data-parent-id="56"> <input type="checkbox" id="filter_ba_locations_58" name="filter_ba_locations[58]" value="58"><label for="filter_ba_locations_58">Tanzania</label></div><div class="term_item term_item_level_0" data-id="59" data-parent-id="0">Americas</div><div class="term_item term_item_level_1 term_item_checkbox" data-id="60" data-parent-id="59"> <input type="checkbox" id="filter_ba_locations_60" name="filter_ba_locations[60]" value="60"><label for="filter_ba_locations_60">Argentina</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="61" data-parent-id="59"> <input type="checkbox" id="filter_ba_locations_61" name="filter_ba_locations[61]" value="61"><label for="filter_ba_locations_61">Canada</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="62" data-parent-id="59"> <input type="checkbox" id="filter_ba_locations_62" name="filter_ba_locations[62]" value="62"><label for="filter_ba_locations_62">Colombia</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="63" data-parent-id="59"> <input type="checkbox" id="filter_ba_locations_63" name="filter_ba_locations[63]" value="63"><label for="filter_ba_locations_63">Costa Rica</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="64" data-parent-id="59"> <input type="checkbox" id="filter_ba_locations_64" name="filter_ba_locations[64]" value="64"><label for="filter_ba_locations_64">United States</label></div><div class="term_item term_item_level_0" data-id="65" data-parent-id="0">Asia</div><div class="term_item term_item_level_1 term_item_checkbox" data-id="66" data-parent-id="65"> <input type="checkbox" id="filter_ba_locations_66" name="filter_ba_locations[66]" value="66"><label for="filter_ba_locations_66">Cambodia</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="69" data-parent-id="65"> <input type="checkbox" id="filter_ba_locations_69" name="filter_ba_locations[69]" value="69"><label for="filter_ba_locations_69">Japan</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="67" data-parent-id="65"> <input type="checkbox" id="filter_ba_locations_67" name="filter_ba_locations[67]" value="67"><label for="filter_ba_locations_67">Nepal</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="70" data-parent-id="65"> <input type="checkbox" id="filter_ba_locations_70" name="filter_ba_locations[70]" value="70"><label for="filter_ba_locations_70">ThaiLand</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="68" data-parent-id="65"> <input type="checkbox" id="filter_ba_locations_68" name="filter_ba_locations[68]" value="68"><label for="filter_ba_locations_68">Viet Nam</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="93" data-parent-id="0"><input type="checkbox" id="filter_ba_locations_93" name="filter_ba_locations[93]" value="93"><label for="filter_ba_locations_93">Australia</label></div><div class="term_item term_item_level_0" data-id="71" data-parent-id="0">Europe</div><div class="term_item term_item_level_1 term_item_checkbox" data-id="72" data-parent-id="71"> <input type="checkbox" id="filter_ba_locations_72" name="filter_ba_locations[72]" value="72"><label for="filter_ba_locations_72">France</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="73" data-parent-id="71"> <input type="checkbox" id="filter_ba_locations_73" name="filter_ba_locations[73]" value="73"><label for="filter_ba_locations_73">Greece</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="74" data-parent-id="71"> <input type="checkbox" id="filter_ba_locations_74" name="filter_ba_locations[74]" value="74"><label for="filter_ba_locations_74">Iceland</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="75" data-parent-id="71"> <input type="checkbox" id="filter_ba_locations_75" name="filter_ba_locations[75]" value="75"><label for="filter_ba_locations_75">Italy</label></div><div class="term_item term_item_level_1 term_item_checkbox" data-id="76" data-parent-id="71"> <input type="checkbox" id="filter_ba_locations_76" name="filter_ba_locations[76]" value="76"><label for="filter_ba_locations_76">Switzerland</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="94" data-parent-id="0"><input type="checkbox" id="filter_ba_locations_94" name="filter_ba_locations[94]" value="94"><label for="filter_ba_locations_94">Sri Lanka</label></div> </div></div> </div>
-</div>
-<div class="elementor-element elementor-element-b47e3e0 elementor-widget elementor-widget-heading" data-id="b47e3e0" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Activity</h2> </div>
-</div>
-<div class="elementor-element elementor-element-9523e54 layout-style-1 elementor-widget elementor-widget-babe-taxonomy-filter" data-id="9523e54" data-element_type="widget" data-widget_type="babe-taxonomy-filter.default">
-<div class="elementor-widget-container">
-<div class="triply-search-filter-terms"> <div id="filter_ba_types" class="babe-search-filter-terms"> <div class="term_item term_item_level_0 term_item_checkbox" data-id="77" data-parent-id="0"><input type="checkbox" id="filter_ba_types_77" name="filter_ba_types[77]" value="77"><label for="filter_ba_types_77">Beaches</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="78" data-parent-id="0"><input type="checkbox" id="filter_ba_types_78" name="filter_ba_types[78]" value="78"><label for="filter_ba_types_78">City Tours</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="79" data-parent-id="0"><input type="checkbox" id="filter_ba_types_79" name="filter_ba_types[79]" value="79"><label for="filter_ba_types_79">Cruises</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="80" data-parent-id="0"><input type="checkbox" id="filter_ba_types_80" name="filter_ba_types[80]" value="80"><label for="filter_ba_types_80">Hiking</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="81" data-parent-id="0"><input type="checkbox" id="filter_ba_types_81" name="filter_ba_types[81]" value="81"><label for="filter_ba_types_81">Historical</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="82" data-parent-id="0"><input type="checkbox" id="filter_ba_types_82" name="filter_ba_types[82]" value="82"><label for="filter_ba_types_82">Museum Tours</label></div> </div></div> </div>
-</div>
-<div class="elementor-element elementor-element-a8a87e9 elementor-widget elementor-widget-heading" data-id="a8a87e9" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Attractions</h2> </div>
-</div>
-<div class="elementor-element elementor-element-881a115 layout-style-1 elementor-widget elementor-widget-babe-taxonomy-filter" data-id="881a115" data-element_type="widget" data-widget_type="babe-taxonomy-filter.default">
-<div class="elementor-widget-container">
-<div class="triply-search-filter-terms"> <div id="filter_ba_attractions" class="babe-search-filter-terms"> <div class="term_item term_item_level_0 term_item_checkbox" data-id="88" data-parent-id="0"><input type="checkbox" id="filter_ba_attractions_88" name="filter_ba_attractions[88]" value="88"><label for="filter_ba_attractions_88">Colosseum</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="89" data-parent-id="0"><input type="checkbox" id="filter_ba_attractions_89" name="filter_ba_attractions[89]" value="89"><label for="filter_ba_attractions_89">Eiffel Tower</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="91" data-parent-id="0"><input type="checkbox" id="filter_ba_attractions_91" name="filter_ba_attractions[91]" value="91"><label for="filter_ba_attractions_91">Niagara Falls</label></div><div class="term_item term_item_level_0 term_item_checkbox" data-id="90" data-parent-id="0"><input type="checkbox" id="filter_ba_attractions_90" name="filter_ba_attractions[90]" value="90"><label for="filter_ba_attractions_90">Statue of Liberty</label></div> </div></div> </div>
-</div>
-<div class="elementor-element elementor-element-01f80ab elementor-widget elementor-widget-heading" data-id="01f80ab" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Reviews</h2> </div>
-</div>
-<div class="elementor-element elementor-element-c27668c layout-style-1 elementor-widget elementor-widget-babe-rating-filter" data-id="c27668c" data-element_type="widget" data-widget_type="babe-rating-filter.default">
-<div class="elementor-widget-container">
-<div class="rating-filter-inner">
-<div class="post-total-rating-stars stars">
-<div class="input-square">
-<input id="rating-filter-5" type="radio" class="rating-filter" name="rating_value" value=" 5">
-<label for="rating-filter-5">
-<span class="rating-stars">
-<span class="star star-1" data-rating-val="1"><i class="fas fa-star"></i></span><span class="star star-2" data-rating-val="2"><i class="fas fa-star"></i></span><span class="star star-3" data-rating-val="3"><i class="fas fa-star"></i></span><span class="star star-4" data-rating-val="4"><i class="fas fa-star"></i></span><span class="star star-5" data-rating-val="5"><i class="fas fa-star"></i></span> </span>
-</label>
-</div>
-</div>
-<div class="post-total-rating-stars stars">
-<div class="input-square">
-<input id="rating-filter-4" type="radio" class="rating-filter" name="rating_value" value=" 4">
-<label for="rating-filter-4">
-<span class="rating-stars">
-<span class="star star-1" data-rating-val="1"><i class="fas fa-star"></i></span><span class="star star-2" data-rating-val="2"><i class="fas fa-star"></i></span><span class="star star-3" data-rating-val="3"><i class="fas fa-star"></i></span><span class="star star-4" data-rating-val="4"><i class="fas fa-star"></i></span><span class="star star-5" data-rating-val="5"><i class="far fa-star"></i></span> </span>
-</label>
-</div>
-</div>
-<div class="post-total-rating-stars stars">
-<div class="input-square">
-<input id="rating-filter-3" type="radio" class="rating-filter" name="rating_value" value=" 3">
-<label for="rating-filter-3">
-<span class="rating-stars">
-<span class="star star-1" data-rating-val="1"><i class="fas fa-star"></i></span><span class="star star-2" data-rating-val="2"><i class="fas fa-star"></i></span><span class="star star-3" data-rating-val="3"><i class="fas fa-star"></i></span><span class="star star-4" data-rating-val="4"><i class="far fa-star"></i></span><span class="star star-5" data-rating-val="5"><i class="far fa-star"></i></span> </span>
-</label>
-</div>
-</div>
-<div class="post-total-rating-stars stars">
-<div class="input-square">
-<input id="rating-filter-2" type="radio" class="rating-filter" name="rating_value" value=" 2">
-<label for="rating-filter-2">
-<span class="rating-stars">
-<span class="star star-1" data-rating-val="1"><i class="fas fa-star"></i></span><span class="star star-2" data-rating-val="2"><i class="fas fa-star"></i></span><span class="star star-3" data-rating-val="3"><i class="far fa-star"></i></span><span class="star star-4" data-rating-val="4"><i class="far fa-star"></i></span><span class="star star-5" data-rating-val="5"><i class="far fa-star"></i></span> </span>
-</label>
-</div>
-</div>
-<div class="post-total-rating-stars stars">
-<div class="input-square">
-<input id="rating-filter-1" type="radio" class="rating-filter" name="rating_value" value=" 1">
-<label for="rating-filter-1">
-<span class="rating-stars">
-<span class="star star-1" data-rating-val="1"><i class="fas fa-star"></i></span><span class="star star-2" data-rating-val="2"><i class="far fa-star"></i></span><span class="star star-3" data-rating-val="3"><i class="far fa-star"></i></span><span class="star star-4" data-rating-val="4"><i class="far fa-star"></i></span><span class="star star-5" data-rating-val="5"><i class="far fa-star"></i></span> </span>
-</label>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div data-elementor-type="footer" data-elementor-id="490" class="elementor elementor-490 elementor-location-footer">
-<div class="elementor-section-wrap">
-<div class="elementor-section elementor-top-section elementor-element elementor-element-1f3d631 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1f3d631" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8edfdfa" data-id="8edfdfa" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-440c3f0 elementor-widget elementor-widget-text-editor" data-id="440c3f0" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<p>Don’t wait any longer. Contact us!</p> </div>
-</div>
-</div>
-<div class="elementor-section elementor-inner-section elementor-element elementor-element-90403aa elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="90403aa" data-element_type="section">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-08ad1c6" data-id="08ad1c6" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-3332712 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3332712" data-element_type="widget" data-widget_type="icon-list.default">
-<div class="elementor-widget-container">
-<ul class="elementor-icon-list-items">
-<li class="elementor-icon-list-item">
-<a href="tel:1800%20-%20333%205578">
-<span class="elementor-icon-list-icon">
-<svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d="m17.511 16.089c0 .884-.716 1.6-1.6 1.6s-1.6-.716-1.6-1.6.716-1.6 1.6-1.6 1.6.716 1.6 1.6z" class="fill-primary" /><path d="m18.578 23.289c-1.244 1.244-3.289 1.244-4.533 0l-5.333-5.333c-1.244-1.244-1.244-3.289 0-4.533l.8-.8-6.133-6.044c-3.733 3.733-3.733 9.867 0 13.689l8.356 8.356c3.733 3.733 9.867 3.733 13.689 0l-6.044-6.044-.8.711z" class="fill-primary" /><g class="fill-secondary"><path d="m15.911 0c-2.933 0-5.778.8-8.356 2.311-.267.178-.356.444-.178.711s.444.356.711.178c7.111-4.267 16.356-2.044 20.622 5.067 2.844 4.8 2.844 10.756 0 15.556-.178.267-.089.622.178.711.089.089.178.089.267.089.178 0 .356-.089.444-.267 4.622-7.644 2.133-17.511-5.511-22.133-2.4-1.422-5.333-2.222-8.178-2.222z" /><path d="m15.911 4.267c.267 0 .533-.267.533-.533v-1.6c0-.267-.267-.533-.533-.533s-.533.267-.533.533v1.6c0 .356.178.533.533.533z" /><path d="m9.689 5.956c.267 0 .533-.267.533-.533 0-.089 0-.178-.089-.267l-.8-1.422c-.089-.267-.444-.356-.711-.178s-.356.444-.178.711l.8 1.422c.089.178.267.267.444.267z" /><path d="m28.267 22.667-1.422-.8c-.267-.178-.622-.089-.711.178-.178.267-.089.622.178.711l1.422.8c.267.178.622.089.711-.178.178-.267.089-.622-.178-.711z" /><path d="m27.733 16.089c0 .267.267.533.533.533h1.6c.267 0 .533-.267.533-.533s-.267-.533-.533-.533h-1.6c-.356 0-.533.267-.533.533z" /><path d="m27.733 8.711-1.422.8c-.267.178-.356.444-.178.711s.444.356.711.178l1.422-.8c.267-.178.356-.444.178-.711s-.444-.356-.711-.178z" /><path d="m22.044 5.956c.178 0 .356-.089.444-.267l.8-1.422c.178-.267.089-.533-.178-.711s-.622-.089-.711.178l-.8 1.422c-.178.267-.089.622.178.711.089.089.178.089.267.089z" /><path d="m13.689 16.089c0 1.156.978 2.133 2.133 2.133.978 0 1.867-.622 2.044-1.6h3.822c.267 0 .533-.267.533-.533s-.267-.533-.533-.533h-3.822c-.178-.8-.8-1.333-1.511-1.511v-.089-8c0-.267-.267-.533-.533-.533s-.533.267-.533.533v8.089.089c-.889.178-1.6.978-1.6 1.956zm2.222-1.067c.622 0 1.067.444 1.067 1.067s-.444 1.067-1.067 1.067c-.622 0-1.067-.444-1.067-1.067-.089-.533.444-1.067 1.067-1.067z" /><path d="m27.289 25.244-4.533-4.533c-.622-.622-1.689-.622-2.311 0l-2.311 2.311c-1.067 1.067-2.756 1.067-3.822 0l-5.333-5.333c-1.067-1.067-1.067-2.756 0-3.822l2.311-2.311c.622-.622.622-1.689 0-2.311l-4.533-4.533c-.622-.622-1.6-.622-2.311 0l-1.422 1.511c-4 4-4 10.4 0 14.4l8.356 8.356c4 4 10.4 4 14.4 0l1.511-1.511c.622-.622.622-1.6 0-2.222zm-22.045-19.822c.178-.178.533-.178.8 0l4.533 4.533c.089.089.178.267.178.356 0 .178-.089.267-.178.356l-1.156 1.156-5.333-5.333 1.156-1.067zm6.845 22.845-8.356-8.356c-3.378-3.378-3.556-8.889-.356-12.533l5.333 5.333-.356.356c-1.511 1.511-1.511 3.822 0 5.333l5.333 5.333c1.511 1.511 3.822 1.511 5.333 0l.356-.356 5.333 5.333c-3.644 3.111-9.156 2.933-12.622-.444zm14.489-1.511-1.156 1.156-5.333-5.333 1.156-1.156c.178-.178.533-.178.8 0l4.533 4.533c.178.178.178.533 0 .8z" /></g></svg> </span>
-<span class="elementor-icon-list-text">+(84) 1800 - 333 5578</span>
-</a>
-</li>
+<div class="input_select_field input_select_field_sr_sort_by " data-name="sr_sort_by" tabindex="0">
+<div class="input_select_title">
+<div class="input_select_wrapper">
+<input type="text" class="input_select_input" name="sr_sort_by_label" value="Title">
+<input type="hidden" class="input_select_input_value" name="sr_sort_by" value="title_asc">
+<ul class="input_select_list">
+<li class="term_item term_item_selected" data-id="title_asc" data-value="Title">Title</li><li class="term_item" data-id="price_asc" data-value="Price">Price</li><li class="term_item" data-id="rating_asc" data-value="Rating">Rating</li><li class="term_item" data-id="avdatefrom_asc" data-value="Availability date">Availability date</li>
 </ul>
+<i class="fas fa-chevron-down"></i>
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-01218b3" data-id="01218b3" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-a614651 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="a614651" data-element_type="widget" data-widget_type="icon-list.default">
-<div class="elementor-widget-container">
-<ul class="elementor-icon-list-items">
-<li class="elementor-icon-list-item">
-<a href="http://support@example.com/">
-<span class="elementor-icon-list-icon">
-<svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><g class="fill-primary"><path d="m18.933 7.467 1.689 1.511c.444.356.978.356 1.422 0l1.689-1.511 7.733-6.933h-20.267l7.733 6.933z" /><path d="m11.2.533v13.867l7.733-6.933-7.733-6.933z" /><path d="m31.467 14.4v-13.867l-7.733 6.933 7.733 6.933z" /><path d="m23.733 7.467-1.689 1.511c-.444.356-.978.356-1.422 0l-1.689-1.511-7.733 6.933h20.267l-7.733-6.933z" /></g><path d="m8.267 24.533 1.689 1.511c.444.356.978.356 1.422 0l1.689-1.511 7.733-6.933h-20.267l7.733 6.933z" fill="#bfc9e0" /><path d="m.533 17.6v13.867l7.733-6.933-7.733-6.933z" fill="#bfc9e0" /><path d="m13.067 24.533-1.689 1.511c-.444.356-.978.356-1.422 0l-1.689-1.511-7.733 6.933h20.267l-7.733-6.933z" fill="#bfc9e0" /><path d="m20.8 31.467v-13.867l-7.733 6.933 7.733 6.933z" fill="#bfc9e0" /><path d="m31.467 0h-20.267c-.267 0-.533.267-.533.533v13.867c0 .267.267.533.533.533h20.267c.267 0 .533-.267.533-.533v-13.867c0-.267-.267-.533-.533-.533zm-9.778 8.533c-.178.178-.533.178-.711 0l-8.356-7.467h17.511zm-3.556-1.066-6.4 5.778v-11.556zm.8.711 1.333 1.156c.622.533 1.511.533 2.133 0l1.333-1.156 6.311 5.689h-17.422l6.311-5.689zm5.6-.711 6.4-5.778v11.467z" class="fill-secondary" /><path d="m.533 16c.267 0 .533-.267.533-.533v-6.933c0-.267.267-.533.533-.533h6.222l-.711.711c-.178.178-.178.533 0 .711s.533.178.711 0l1.6-1.6c.178-.178.178-.533 0-.711l-1.6-1.6c-.178-.267-.533-.178-.711 0s-.178.533 0 .711l.711.711h-6.222c-.889 0-1.6.711-1.6 1.6v6.933c0 .267.267.533.533.533z" class="fill-secondary" /><path d="m31.467 16c-.267 0-.533.267-.533.533v6.933c0 .267-.267.533-.533.533h-6.222l.711-.711c.178-.178.178-.533 0-.711s-.533-.178-.711 0l-1.6 1.6c-.178.178-.178.533 0 .711l1.6 1.6c.178.178.533.178.711 0s.178-.533 0-.711l-.711-.711h6.222c.889 0 1.6-.711 1.6-1.6v-6.933c0-.267-.267-.533-.533-.533z" class="fill-secondary" /><path d="m20.8 17.067h-20.267c-.267 0-.533.267-.533.533v13.867c0 .267.267.533.533.533h20.267c.267 0 .533-.267.533-.533v-13.867c0-.267-.267-.533-.533-.533zm-9.778 8.533c-.178.178-.533.178-.711 0l-8.356-7.467h17.511zm-3.555-1.067-6.4 5.778v-11.556zm.8.711 1.333 1.156c.622.533 1.511.533 2.133 0l1.333-1.156 6.311 5.689h-17.422l6.311-5.689zm5.6-.711 6.4-5.778v11.467z" class="fill-secondary" /></svg> </span>
-<span class="elementor-icon-list-text"><span class="__cf_email__" data-cfemail="2f5c5a5f5f405d5b6f4a574e425f434a014c4042">[email&#160;protected]</span></span>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-38bbddd" data-id="38bbddd" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-169422b elementor-widget elementor-widget-text-editor" data-id="169422b" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<p>Follow us</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-f31eebe e-grid-align-left e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="f31eebe" data-element_type="widget" data-widget_type="social-icons.default">
-<div class="elementor-widget-container">
-<div class="elementor-social-icons-wrapper elementor-grid">
-<span class="elementor-grid-item">
-<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-b01496a" href="https://www.facebook.com/" target="_blank">
-<span class="elementor-screen-only">Facebook</span>
-<i class="fab fa-facebook"></i> </a>
-</span>
-<span class="elementor-grid-item">
-<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-0a6b8cf" href="https://www.youtobe.com/" target="_blank">
-<span class="elementor-screen-only">Youtube</span>
-<i class="fab fa-youtube"></i> </a>
-</span>
-<span class="elementor-grid-item">
-<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-c449f90" href="https://www.twitter.com/" target="_blank">
-<span class="elementor-screen-only">Twitter</span>
-<i class="fab fa-twitter"></i> </a>
-</span>
-<span class="elementor-grid-item">
-<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-405df7a" href="https://www.instagram.com/" target="_blank">
-<span class="elementor-screen-only">Instagram</span>
-<i class="fab fa-instagram"></i> </a>
-</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-a79a172 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="a79a172" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5d41d57" data-id="5d41d57" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-167b519 elementor-widget elementor-widget-image" data-id="167b519" data-element_type="widget" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<div class="elementor-image">
-<a href="https://demo2.pavothemes.com/triply">
-<img width="1" height="1" src="../wp-content/uploads/2020/11/logo-white.svg" class="attachment-full size-full wp-image-1414" alt loading="lazy" /> </a>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-c57d268 elementor-widget elementor-widget-text-editor" data-id="c57d268" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<p>Nisi ut aliquip ex ea commodo consequatute irure dolor in reprehenderit in voluptatevelit esse cillum dolore eu fugiat nulla  excepteur pariatur.</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-cde6e0c elementor-position-left elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="cde6e0c" data-element_type="widget" data-widget_type="icon-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-box-wrapper">
-<div class="elementor-icon-box-icon">
-<span class="elementor-icon elementor-animation-">
-<i aria-hidden="true" class="triply-icon- triply-icon-map-marker-alt"></i> </span>
-</div>
-<div class="elementor-icon-box-content">
-<h3 class="elementor-icon-box-title">
-<span>
-754 West Gartner Street </span>
-</h3>
-<p class="elementor-icon-box-description">
-Encino, CA 91316 </p>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-74793d4 elementor-mobile-align-center elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="74793d4" data-element_type="widget" data-widget_type="button.default">
-<div class="elementor-widget-container">
-<div class="elementor-button-wrapper">
-<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-<span class="elementor-button-content-wrapper">
-<span class="elementor-button-icon elementor-align-icon-right">
-<i aria-hidden="true" class="triply-icon- triply-icon-long-arrow-right"></i> </span>
-<span class="elementor-button-text">View Map</span>
-</span>
+</div> </div>
+<div class="ba-items-style-1" data-elementor-columns="3" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1">
+<div class="babe_shortcode_block sc_all_items">
+<div class="babe_shortcode_block_bg_inner">
+<div class="babe_shortcode_block_inner ">
+<div class="babe_items babe_items_1 column-item">
+<div class="babe_all_items_item_inner">
+<div class="item_img">
+<a class="item-thumb" href="../to_book/7-days-in-costa-rica-classic-self-drive/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c2e340c508523a216a4bba3_02-10-copy-820x520.jpg" alt="7 Days in Costa Rica - Classic (Self-Drive)"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="7 Days in Costa Rica &#8211; Classic (Self-Drive)" data-book-id="272">
+<span class="wishlist triply-icon-heart"></span>
 </a>
 </div>
+<div class="item_text">
+<div class="item-meta">
+<div class="item-meta-left">
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span></span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>30</span></span> </div>
+<div class="item-meta-right">
+<div class="item-meta-media">
+<a href="#" data-images="[{&quot;image_id&quot;:274,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e446385610a9322e525fa06_zdenek-machacek-EtxsgEcHnZg-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 1&quot;},{&quot;image_id&quot;:275,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e445afc5b99c9de272f18a9_ftntrek-102-9346.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 2&quot;},{&quot;image_id&quot;:276,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44646533c82610595d5850_ftntrek-ext172-3457.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 3&quot;},{&quot;image_id&quot;:277,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2e35016602754fe65ec277_03-11-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 4&quot;},{&quot;image_id&quot;:278,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44639d8cccc3c760f51893_atanas-malamov-xGhaXZtQb1s-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 5&quot;},{&quot;image_id&quot;:279,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44647eafa7d72f839dee41_ftnwalk-ext172-3457.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 6&quot;},{&quot;image_id&quot;:280,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44641cd2b9fa5b2639a2c6_etienne-delorieux-Vfl75eA2Zu0-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 7&quot;},{&quot;image_id&quot;:281,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e445b217bb0e8572899f28f_ftnwalk-154-6784.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 8&quot;},{&quot;image_id&quot;:282,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e4463cb34f5fc176b819bce_chalo-garcia-kfj6GRCBCFQ-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 9&quot;},{&quot;image_id&quot;:283,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e4463c08cccc36dc7f525a7_zdenek-machacek-XUFMiGkv-60-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 10&quot;},{&quot;image_id&quot;:284,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2e3515d604bdcdd721ed81_010_0530-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 11&quot;},{&quot;image_id&quot;:285,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e4463b58cccc3d927f52164_dana-fallentine-1rMHZ-omK9Y-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;7 Days in Costa Rica - Classic (Self-Drive) - Image 12&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>12</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
+</div>
+</div>
+<div class="item_title">
+<a href="../to_book/7-days-in-costa-rica-classic-self-drive/index.html">7 Days in Costa Rica - Classic (Self-Drive)</a>
+</div>
+<div class="item-bottom">
+<div class="item_info_price">
+<label>From </label>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="114"><span class="currency_symbol">&#36;</span>114.00</span></span>
+</div>
+<a class="read-more-item" href="../to_book/7-days-in-costa-rica-classic-self-drive/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-b078745" data-id="b078745" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-fe05c11 elementor-widget elementor-widget-heading" data-id="fe05c11" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Our Services</h2> </div>
-</div>
-<div class="elementor-element elementor-element-587ada8 elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="587ada8" data-element_type="widget" data-widget_type="icon-list.default">
-<div class="elementor-widget-container">
-<ul class="elementor-icon-list-items">
-<li class="elementor-icon-list-item">
-<a href="../to_book/index.html">
-<span class="elementor-icon-list-text">Booking</span>
+<div class="babe_items babe_items_1 column-item">
+<div class="babe_all_items_item_inner">
+<div class="item_img">
+<span class="item-label">Featured</span> <a class="item-thumb" href="../to_book/adventure-colombia/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c284b5932e9aae035a5aed9_DSC05668-copy-820x520.jpg" alt="Adventure Colombia"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Adventure Colombia" data-book-id="75">
+<span class="wishlist triply-icon-heart"></span>
 </a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="../categories/car/index.html">
-<span class="elementor-icon-list-text">RentalCar</span>
+</div>
+<div class="item_text">
+<div class="item-meta">
+<div class="item-meta-left">
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>8 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>30</span></span> </div>
+<div class="item-meta-right">
+<div class="item-meta-media">
+<a href="#" data-images="[{&quot;image_id&quot;:77,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284b8232e9aa84cea5aeda_tayrona-national-park-colombia.ngsversion.1506546030343.adapt_.1900.1-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 1&quot;},{&quot;image_id&quot;:78,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bb499ec4ae9785ef7b7_DSC05631-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 2&quot;},{&quot;image_id&quot;:79,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bcb75fcbdfa5d6e5b1d_6697602067_324b1c6fae_o-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 3&quot;},{&quot;image_id&quot;:80,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bde0d5f11821cac7be3_DSC05639-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 4&quot;},{&quot;image_id&quot;:81,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bf39d056973ac400cfa_DSC05673-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 5&quot;},{&quot;image_id&quot;:82,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c020d5f1160efac7be4_Screen-Shot-2018-08-27-at-10.08.01-AM-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 6&quot;},{&quot;image_id&quot;:83,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c100d5f117c58ac7be5_DSC05629-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 7&quot;},{&quot;image_id&quot;:84,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c2075fcbd79326e5b1e_DSC05680-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 8&quot;},{&quot;image_id&quot;:85,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c39b482f907c069efe4_7955286556_a51c5cc452_o-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
+</div>
+</div>
+<div class="item_title">
+<a href="../to_book/adventure-colombia/index.html">Adventure Colombia</a>
+</div>
+<div class="item-location">
+<i class="triply-icon-map-marker-alt"></i><span>Kathmandu, Nepal</span>
+</div>
+<div class="item-bottom">
+<div class="item_info_price">
+<label>From </label>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="100"><span class="currency_symbol">&#36;</span>100.00</span></span>
+</div>
+<a class="read-more-item" href="../to_book/adventure-colombia/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="babe_items babe_items_1 column-item">
+<div class="babe_all_items_item_inner">
+<div class="item_img">
+<span class="item-label price_discount">6% OFF</span> <a class="item-thumb" href="../to_book/best-of-argentina/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c150fbcde252d9a3b26f63c_16297416313_6217f4e8a9_k-copy-820x520.jpg" alt="Best of Argentina"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Best of Argentina" data-book-id="45">
+<span class="wishlist triply-icon-heart"></span>
 </a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="../categories/hostel/index.html">
-<span class="elementor-icon-list-text">HostelWorld</span>
+</div>
+<div class="item_text">
+<div class="item-meta">
+<div class="item-meta-left">
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>11 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>50</span></span> </div>
+<div class="item-meta-right">
+<div class="item-meta-media">
+<a href="#" data-images="[{&quot;image_id&quot;:47,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c15114665ec9ab1829e74e3_15407580523_19583a0687_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 1&quot;},{&quot;image_id&quot;:48,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1511ea4b011f504197a3f6_16316752354_3fd5acf251_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 2&quot;},{&quot;image_id&quot;:49,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1423792567d46e6f1394f3_30421950892_fb623ab31d_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 3&quot;},{&quot;image_id&quot;:50,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1420daf4422044f18188f2_31571834482_4256fb6757_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 4&quot;},{&quot;image_id&quot;:51,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1422d292da9779d1d7cf2b_30502347256_2fb2d15897_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 5&quot;},{&quot;image_id&quot;:52,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c15115565ec9ac21e9e74e4_32403715608_5bf04bcb7c_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 6&quot;},{&quot;image_id&quot;:53,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c151167aed7fc6f5acf5a98_15841162369_873e7fe835_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 7&quot;},{&quot;image_id&quot;:54,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1509aaf819975e0e064e34_16916202602_7b37127472_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 8&quot;},{&quot;image_id&quot;:55,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1420b6f442203ddd8188f0_30240197730_f560bc967b_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
+</div>
+</div>
+<div class="item_title">
+<a href="../to_book/best-of-argentina/index.html">Best of Argentina</a>
+</div>
+<div class="item-location">
+<i class="triply-icon-map-marker-alt"></i><span>Siem Reap, Cambodia</span>
+</div>
+<div class="item-bottom">
+<div class="item_info_price">
+<label>From </label>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="91.18"><span class="currency_symbol">&#36;</span>91.18</span></span>
+<span class="item_info_price_old"><span class="currency_amount" data-amount="97"><span class="currency_symbol">&#36;</span>97.00</span></span> </div>
+<a class="read-more-item" href="../to_book/best-of-argentina/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="babe_items babe_items_1 column-item">
+<div class="babe_all_items_item_inner">
+<div class="item_img">
+<a class="item-thumb" href="../to_book/buenos-aires-calafate-chalten-ushuaia/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5caf5b5a4230ad69dfa896e5_16710074567_8ed2f67f22_k-820x520.jpg" alt="Buenos Aires, Calafate, Chalten &amp; Ushuaia"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Buenos Aires, Calafate, Chalten &#038; Ushuaia" data-book-id="31">
+<span class="wishlist triply-icon-heart"></span>
 </a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="../categories/hostel/index.html">
-<span class="elementor-icon-list-text">Trivago</span>
+</div>
+<div class="item_text">
+<div class="item-meta">
+<div class="item-meta-left">
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>12 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>40</span></span> </div>
+<div class="item-meta-right">
+<div class="item-meta-media">
+<a href="#" data-images="[{&quot;image_id&quot;:33,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c4c80ec1fec800b2bf05772_29907871814_daa2960290_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 1&quot;},{&quot;image_id&quot;:34,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2ae84c8360bf3ad4becd9c_30240197730_f560bc967b_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 2&quot;},{&quot;image_id&quot;:35,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c4b5cf89c5e26b83fa7f315_30502347256_2fb2d15897_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 3&quot;},{&quot;image_id&quot;:36,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1b9dae4b0b2e80ccf9c55c_31555162091_27a8463c24_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 4&quot;},{&quot;image_id&quot;:37,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1b9dbf984faa6a30f9a51d_31571834482_4256fb6757_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 5&quot;},{&quot;image_id&quot;:38,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c60253b2279344176d4bbe3_6927488126_bc0e79532b_o-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 6&quot;},{&quot;image_id&quot;:39,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5caf5bc5b5fe8466ed1283a3_6927510390_42a638d9fe_o-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 7&quot;},{&quot;image_id&quot;:40,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c602554e2f3d15960bab681_dennis-fidalgo-222461-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 8&quot;},{&quot;image_id&quot;:41,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6024a2472d4d5c5d0c57e9_dennis-fidalgo-533478-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 9&quot;},{&quot;image_id&quot;:42,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c9389b6ea92245f8ca1b297_16916202602_7b37127472_k.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 10&quot;},{&quot;image_id&quot;:43,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5caf5bfcb5fe84985212a051_16944221892_c6d2bade54_k.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 11&quot;},{&quot;image_id&quot;:44,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c59cb57bfe4bfebc2dc5e30_16297416313_6217f4e8a9_k-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 12&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>12</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
+</div>
+</div>
+<div class="item_title">
+<a href="../to_book/buenos-aires-calafate-chalten-ushuaia/index.html">Buenos Aires, Calafate, Chalten & Ushuaia</a>
+</div>
+<div class="item-location">
+<i class="triply-icon-map-marker-alt"></i><span>Honolulu, USA</span>
+</div>
+<div class="item-bottom">
+<div class="item_info_price">
+<label>From </label>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="94"><span class="currency_symbol">&#36;</span>94.00</span></span>
+</div>
+<a class="read-more-item" href="../to_book/buenos-aires-calafate-chalten-ushuaia/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="babe_items babe_items_1 column-item">
+<div class="babe_all_items_item_inner">
+<div class="item_img">
+<span class="item-label price_discount">5% OFF</span> <a class="item-thumb" href="../to_book/cano-cristales-river-trip/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c486ea739c52128a578315e_DSC04947-copy-820x520.jpg" alt="Caño Cristales River Trip"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Caño Cristales River Trip" data-book-id="64">
+<span class="wishlist triply-icon-heart"></span>
 </a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="../categories/hotel/index.html">
-<span class="elementor-icon-list-text">TripAdvisor</span>
+</div>
+<div class="item_text">
+<div class="item-meta">
+<div class="item-meta-left">
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>4 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>50</span></span> </div>
+<div class="item-meta-right">
+<div class="item-meta-media">
+<a href="#" data-images="[{&quot;image_id&quot;:66,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c48735739c52149617831f9_DSC04931-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 1&quot;},{&quot;image_id&quot;:67,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486fb7ffe01243a830dee3_DSC04942-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 2&quot;},{&quot;image_id&quot;:68,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486fd0ffe0127baf30defd_DSC04972-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 3&quot;},{&quot;image_id&quot;:69,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486e8171e5c96425eb2164_cc5.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 4&quot;},{&quot;image_id&quot;:70,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486fde39c52198d2783174_DSC04989-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 5&quot;},{&quot;image_id&quot;:71,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c48753a6643ac423cba22d2_cano_cristales_la_macarena.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 6&quot;},{&quot;image_id&quot;:72,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c48704a079e2abe81530715_DSC04935-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 7&quot;},{&quot;image_id&quot;:73,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486e7270c16e87069fbb70_cano-cristales-fluss-in-Kolumbien.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 8&quot;},{&quot;image_id&quot;:74,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c4875597c042e6e499061e8_cc4.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
+</div>
+</div>
+<div class="item_title">
+<a href="../to_book/cano-cristales-river-trip/index.html">Caño Cristales River Trip</a>
+</div>
+<div class="item-location">
+<i class="triply-icon-map-marker-alt"></i><span>Chukhung, Nepal</span>
+</div>
+<div class="item-bottom">
+<div class="item_info_price">
+<label>From </label>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="131.1"><span class="currency_symbol">&#36;</span>131.10</span></span>
+<span class="item_info_price_old"><span class="currency_amount" data-amount="138"><span class="currency_symbol">&#36;</span>138.00</span></span> </div>
+<a class="read-more-item" href="../to_book/cano-cristales-river-trip/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="babe_items babe_items_1 column-item">
+<div class="babe_all_items_item_inner">
+<div class="item_img">
+<span class="item-label price_discount">15% OFF</span> <a class="item-thumb" href="../to_book/discovery-islands-kayaking-tour/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c50ac0708cc654bf60a5e7b_discovery-islands-176-kayaking-copy-820x520.jpg" alt="Discovery Islands Kayaking Tour"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Discovery Islands Kayaking Tour" data-book-id="98">
+<span class="wishlist triply-icon-heart"></span>
 </a>
-</li>
-</ul>
+</div>
+<div class="item_text">
+<div class="item-meta">
+<div class="item-meta-left">
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>6 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>60</span></span> </div>
+<div class="item-meta-right">
+<div class="item-meta-media">
+<a href="#" data-images="[{&quot;image_id&quot;:100,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50ac8151a9d8597fd92515_discovery-islands-193-tent-and-campfire-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 1&quot;},{&quot;image_id&quot;:101,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50ac1e692a150e2bc0e261_discovery-islands-263-humpback-whale-tail-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 2&quot;},{&quot;image_id&quot;:102,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50ac1308cc654b370a5e7c_discovery-islands-241-seals-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 3&quot;},{&quot;image_id&quot;:103,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50aca5e9004546065f058c_discovery-islands-180-kayaking-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 4&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>4</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
+</div>
+</div>
+<div class="item_title">
+<a href="../to_book/discovery-islands-kayaking-tour/index.html">Discovery Islands Kayaking Tour</a>
+</div>
+<div class="item-location">
+<i class="triply-icon-map-marker-alt"></i><span>Soldeu, Andorra</span>
+</div>
+<div class="item-bottom">
+<div class="item_info_price">
+<label>From </label>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="93.5"><span class="currency_symbol">&#36;</span>93.50</span></span>
+<span class="item_info_price_old"><span class="currency_amount" data-amount="110"><span class="currency_symbol">&#36;</span>110.00</span></span> </div>
+<a class="read-more-item" href="../to_book/discovery-islands-kayaking-tour/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-615b567" data-id="615b567" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-adc26a4 elementor-widget elementor-widget-heading" data-id="adc26a4" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Explore</h2> </div>
-</div>
-<div class="elementor-element elementor-element-fca3346 elementor-mobile-align-center elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="fca3346" data-element_type="widget" data-widget_type="icon-list.default">
-<div class="elementor-widget-container">
-<ul class="elementor-icon-list-items">
-<li class="elementor-icon-list-item">
-<a href="../categories/one-time-event/index.html">
-<span class="elementor-icon-list-text">Madrid Tour</span>
+<div class="babe_items babe_items_1 column-item">
+<div class="babe_all_items_item_inner">
+<div class="item_img">
+<a class="item-thumb" href="../to_book/essence-of-vietnam-south-to-north/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c2f7613445ea987b8b776eb_ammie-ngo-690967-unsplash-copy-820x520.jpg" alt="Essence of Vietnam South to North"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Essence of Vietnam South to North" data-book-id="145">
+<span class="wishlist triply-icon-heart"></span>
 </a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="../categories/tour/index.html">
-<span class="elementor-icon-list-text">Stockholm City</span>
+</div>
+<div class="item_text">
+<div class="item-meta">
+<div class="item-meta-left">
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>7 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>60</span></span> </div>
+<div class="item-meta-right">
+<div class="item-meta-media">
+<a href="#" data-images="[{&quot;image_id&quot;:147,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f75fbbb7e05fa1a613d91_rene-deanda-413146-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 1&quot;},{&quot;image_id&quot;:148,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f7605445ea903bcb776e9_Screen-Shot-2019-01-04-at-7.57.02-AM-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 2&quot;},{&quot;image_id&quot;:149,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f79f77080642d78b19327_warren-wong-223130-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 3&quot;},{&quot;image_id&quot;:150,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f7a01d223e2d7b6dc4710_steve-douglas-365661-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 4&quot;},{&quot;image_id&quot;:151,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f7a14732b587a89493a22_doan-tuan-171794-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 5&quot;},{&quot;image_id&quot;:152,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f7a20d74ffe63b820d3ce_anne-lin-572127-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 6&quot;},{&quot;image_id&quot;:153,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f7a34d223e25141dc4713_Screen-Shot-2019-01-04-at-7.57.46-AM-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 7&quot;},{&quot;image_id&quot;:154,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f7a42732b58a3ed493a24_chuttersnap-123020-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 8&quot;},{&quot;image_id&quot;:155,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f7a512dee675fe1aa67b5_jack-young-320522-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 9&quot;},{&quot;image_id&quot;:156,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2f7a6482b22193d0ecd94c_revolt-367078-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Essence of Vietnam South to North - 7 Days - Image 10&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>10</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
+</div>
+</div>
+<div class="item_title">
+<a href="../to_book/essence-of-vietnam-south-to-north/index.html">Essence of Vietnam South to North</a>
+</div>
+<div class="item-location">
+<i class="triply-icon-map-marker-alt"></i><span>Belize City, Belize</span>
+</div>
+<div class="item-bottom">
+<div class="item_info_price">
+<label>From </label>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="122"><span class="currency_symbol">&#36;</span>122.00</span></span>
+</div>
+<a class="read-more-item" href="../to_book/essence-of-vietnam-south-to-north/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="babe_items babe_items_1 column-item">
+<div class="babe_all_items_item_inner">
+<div class="item_img">
+<a class="item-thumb" href="../to_book/everest-basecamp-trek/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c0bb93decf82662f8c25550_24397973526_f5bba47bcd_k-820x520.jpg" alt="Everest Basecamp Trek"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Everest Basecamp Trek" data-book-id="157">
+<span class="wishlist triply-icon-heart"></span>
 </a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="../categories/one-time-event/index.html">
-<span class="elementor-icon-list-text">Roma City</span>
+</div>
+<div class="item_text">
+<div class="item-meta">
+<div class="item-meta-left">
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>12 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>60</span></span> </div>
+<div class="item-meta-right">
+<div class="item-meta-media">
+<a href="#" data-images="[{&quot;image_id&quot;:159,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c52104f3b61d6191a03c5e1_martin-jernberg-206957-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 1&quot;},{&quot;image_id&quot;:160,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c0bb976939761affc0c9326__DSC2363-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 2&quot;},{&quot;image_id&quot;:161,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c52105d7545892c17961c09_sebastian-pena-lambarri-1222512-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 3&quot;},{&quot;image_id&quot;:162,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c0bb98c9bb57bbf3398e56d_EVEREST-1-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 4&quot;},{&quot;image_id&quot;:163,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c52102a7f621928e8ab3792_sebastian-pena-lambarri-1222513-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 5&quot;},{&quot;image_id&quot;:164,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c0bb99e9bb57bee3598e56e_Lukla-Airport-1-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 6&quot;},{&quot;image_id&quot;:165,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c0bb2c2e62bda3e1126cee7_3-1-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 7&quot;},{&quot;image_id&quot;:166,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c52107678d6f5686a32e94e_sebastian-pena-lambarri-1222516-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 8&quot;},{&quot;image_id&quot;:167,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c52108470cb8353aa107f10_sebastian-pena-lambarri-1222536-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 9&quot;},{&quot;image_id&quot;:168,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c5210383b61d6a48503c5d9_ted-bryan-yu-624814-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 10&quot;},{&quot;image_id&quot;:169,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c52109f72660dc622fe9963_sebastian-pena-lambarri-1222538-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 11&quot;},{&quot;image_id&quot;:170,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c5210ae72660d7e8cfe996d_sebastian-pena-lambarri-1222517-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 12&quot;},{&quot;image_id&quot;:171,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c5210b9a4d5f5e2ae51556f_sebastian-pena-lambarri-1222515-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 13&quot;},{&quot;image_id&quot;:172,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c5210cb72660d00e6fe9970_sebastian-pena-lambarri-1222509-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 14&quot;},{&quot;image_id&quot;:173,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c5210dd9e05e128e0743709_ananya-bilimale-616635-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 15&quot;},{&quot;image_id&quot;:174,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c5210ecf1a564430ec2577e_martin-jernberg-199797-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Everest Basecamp Trek - 14 Days - Image 16&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>16</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
+</div>
+</div>
+<div class="item_title">
+<a href="../to_book/everest-basecamp-trek/index.html">Everest Basecamp Trek</a>
+</div>
+<div class="item-location">
+<i class="triply-icon-map-marker-alt"></i><span>Dakar, Senegal</span>
+</div>
+<div class="item-bottom">
+<div class="item_info_price">
+<label>From </label>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="173"><span class="currency_symbol">&#36;</span>173.00</span></span>
+</div>
+<a class="read-more-item" href="../to_book/everest-basecamp-trek/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
+</div>
+</div>
+</div>
+</div>
+<div class="babe_items babe_items_1 column-item">
+<div class="babe_all_items_item_inner">
+<div class="item_img">
+<a class="item-thumb" href="../to_book/experience-greece-athens-crete-santorini-10-days/index.html"><img decoding="async" src="../wp-content/uploads/2020/11/5c6dcc9c21e558abe9f050bb_tom-grimbert-661520-unsplash-820x520.jpg" alt="Experience Greece: Athens, Crete &amp; Santorini- 10 Days"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Experience Greece: Athens, Crete &#038; Santorini- 10 Days" data-book-id="232">
+<span class="wishlist triply-icon-heart"></span>
 </a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="../categories/tour/index.html">
-<span class="elementor-icon-list-text">Shanghai City</span>
-</a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="../categories/one-time-event/index.html">
-<span class="elementor-icon-list-text">Tokyo</span>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4da2fe6" data-id="4da2fe6" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-b3c86b6 elementor-widget elementor-widget-heading" data-id="b3c86b6" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Get Updates & More</h2> </div>
 </div>
-<div class="elementor-element elementor-element-c4a1cfc elementor-widget elementor-widget-text-editor" data-id="c4a1cfc" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<p>Subscribe to the free newsletter and stay up to date</p> </div>
+<div class="item_text">
+<div class="item-meta">
+<div class="item-meta-left">
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>10 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>40</span></span> </div>
+<div class="item-meta-right">
+<div class="item-meta-media">
+<a href="#" data-images="[{&quot;image_id&quot;:234,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcb863278fd79b63593f2_krzysztof-kowalik-732095-unsplash.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 1&quot;},{&quot;image_id&quot;:235,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dccd7f12fb24acaa11dee_Screen-Shot-2019-02-20-at-2.35.45-PM.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 2&quot;},{&quot;image_id&quot;:236,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dccfdfadf0997f40deac6_balos3.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 3&quot;},{&quot;image_id&quot;:237,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcd0d9375934ca0aafb31_DSC01641.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 4&quot;},{&quot;image_id&quot;:238,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcd1dfadf0905840deac7_IMG_0164.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 5&quot;},{&quot;image_id&quot;:239,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcd2e57fc473097dca23d_loutro1.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 6&quot;},{&quot;image_id&quot;:240,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcbfd7f3e74e4cbb2b6b4_7417358324_e665a9d2a4_o.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 7&quot;},{&quot;image_id&quot;:241,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcd3d8ae8414fab59ea53_katsika.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 8&quot;},{&quot;image_id&quot;:242,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcd5f8bbbee3f29549a44_P1010654.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 9&quot;},{&quot;image_id&quot;:243,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcd4d70fe14489d906e5f_loutro3.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 10&quot;},{&quot;image_id&quot;:244,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcd754758e4041d6080e0_xania2.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 11&quot;},{&quot;image_id&quot;:245,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcd9b57fc4750c9dca244_DSC03801.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 12&quot;},{&quot;image_id&quot;:246,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcc507f3e741dd8b2b6bc_GOPR8844.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 13&quot;},{&quot;image_id&quot;:247,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcdb13577963cf81173e6_GOPR8923.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 14&quot;},{&quot;image_id&quot;:248,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcdc68ae84182ff59ea59_tom-grimbert-659320-unsplash.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 15&quot;},{&quot;image_id&quot;:249,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcdde9375931710aafb3a_Athens-Acropolis.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 16&quot;},{&quot;image_id&quot;:250,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6d618f431c71fef0747d53_arthur-yeti-407026-unsplash.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 17&quot;},{&quot;image_id&quot;:251,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dce1113b6e74abd928cdf_cristina-gottardi-617328-unsplash.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 18&quot;},{&quot;image_id&quot;:252,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dce2e13b6e78508928ce6_tom-grimbert-703392-unsplash.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 19&quot;},{&quot;image_id&quot;:253,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6dcdec13b6e712ee928cd9_p.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 20&quot;},{&quot;image_id&quot;:254,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6d6168b8c3b0cc795b789e_puk-patrick-345722-unsplash.jpg&quot;,&quot;description&quot;:&quot;Experience Greece: Athens, Crete &amp; Santorini- 10 Days - Image 21&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>21</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
 </div>
 </div>
-<div class="elementor-element elementor-element-fff09f5 elementor-button-align-stretch elementor-widget elementor-widget-form" data-id="fff09f5" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width_tablet&quot;:&quot;40&quot;,&quot;button_width_mobile&quot;:&quot;40&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
-<div class="elementor-widget-container">
-<form class="elementor-form" method="post" name="New Form">
-<input type="hidden" name="post_id" value="490" />
-<input type="hidden" name="form_id" value="fff09f5" />
-<input type="hidden" name="referer_title" value="Tours List View" />
-<input type="hidden" name="queried_id" value="6632" />
-<div class="elementor-form-fields-wrapper elementor-labels-above">
-<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-md-60 elementor-sm-60 elementor-field-required">
-<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your email" required="required" aria-required="true">
+<div class="item_title">
+<a href="../to_book/experience-greece-athens-crete-santorini-10-days/index.html">Experience Greece: Athens, Crete & Santorini- 10 Days</a>
 </div>
-<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons elementor-md-40 elementor-sm-40">
-<button type="submit" class="elementor-button elementor-size-sm">
-<span>
-<span class="elementor-align-icon-right elementor-button-icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-long-arrow-right"></i> </span>
-<span class="elementor-button-text">Subscribe</span>
-</span>
-</button>
+<div class="item-location">
+<i class="triply-icon-map-marker-alt"></i><span>Mahé, Seychelles</span>
 </div>
+<div class="item-bottom">
+<div class="item_info_price">
+<label>From </label>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="117"><span class="currency_symbol">&#36;</span>117.00</span></span>
 </div>
-</form>
+<a class="read-more-item" href="../to_book/experience-greece-athens-crete-santorini-10-days/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
 </div>
 </div>
 </div>
@@ -1051,58 +587,17 @@ Encino, CA 91316 </p>
 </div>
 </div>
 </div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-f0fc65f elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="f0fc65f" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b0112f8" data-id="b0112f8" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-7a1ac5c elementor-widget elementor-widget-text-editor" data-id="7a1ac5c" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<div>Copyright © 2022 <a href="../index.html">Triply</a>. All Rights Reserved.</div> </div>
+<div class="babe_pager"><span aria-current="page" class="page-numbers current">1</span>
+<a class="page-numbers" href="index6146.html?paged=2">2</a>
+<a class="page-numbers" href="index8a68.html?paged=3">3</a>
+<a class="next page-numbers" href="index6146.html?paged=2">Next &raquo;</a></div>
+<div id="babe_search_result_refresh">
+<i class="fas fa-spinner fa-spin fa-3x"></i>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1cb766f" data-id="1cb766f" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-e886530 elementor-icon-list--layout-inline elementor-align-right elementor-mobile-align-center elementor-tablet-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e886530" data-element_type="widget" data-widget_type="icon-list.default">
-<div class="elementor-widget-container">
-<ul class="elementor-icon-list-items elementor-inline-items">
-<li class="elementor-icon-list-item elementor-inline-item">
-<a href="../index.html">
-<span class="elementor-icon-list-text">Privacy </span>
-</a>
-</li>
-<li class="elementor-icon-list-item elementor-inline-item">
-<a href="../home-2/index.html">
-<span class="elementor-icon-list-text"> Policy </span>
-</a>
-</li>
-<li class="elementor-icon-list-item elementor-inline-item">
-<a href="../about-us/index.html">
-<span class="elementor-icon-list-text">About Us </span>
-</a>
-</li>
-<li class="elementor-icon-list-item elementor-inline-item">
-<a href="#">
-<span class="elementor-icon-list-text">Support </span>
-</a>
-</li>
-<li class="elementor-icon-list-item elementor-inline-item">
-<a href="../faq/index.html">
-<span class="elementor-icon-list-text"> FAQ </span>
-</a>
-</li>
-<li class="elementor-icon-list-item elementor-inline-item">
-<a href="../blog/index.html">
-<span class="elementor-icon-list-text"> Blog</span>
-</a>
-</li>
-</ul>
 </div>
 </div>
 </div>
@@ -1112,342 +607,8 @@ Encino, CA 91316 </p>
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="account-wrap mfp-hide" id="triply-login-form">
-<div class="my_account_page_content_wrapper">
-<div id="login_form">
-<h3>Login</h3>
-<form name="babe_login" id="babe_login" action="https://demo2.pavothemes.com/triply/my-account/?action=login" method="post">
-<div class="login_username">
-<label for="login_username">Username or email</label>
-<input type="text" name="login_username" id="login_username" class="input" value size="20" required="required">
-</div>
-<div class="login_pw">
-<label for="login_pw">Password</label>
-<input type="password" name="login_pw" id="login_pw" class="input" value size="20" required="required">
-</div>
-<div class="login_submit">
-<input type="submit" name="login_submit" id="login_submit" class="button button-primary" value="Sign in">
-</div>
-<div id="forgot_url">
-<a href="../my-account/indexc2b6.html?action=lostpassword">Forgot password?</a>
-</div>
-</form>
-</div> <div class="login_registration">
-<h3>Do not have an account?</h3>
-<div class="registration_link">
-<a class="btn-register js-btn-register-popup" href="#triply-register-form">Register</a>
-</div>
-</div>
-</div>
-</div>
-<div class="account-wrap mfp-hide" id="triply-register-form">
-<div class="my_account_page_content_wrapper">
-<div id="signup_form" class="triply-form-popup login_reg_content">
-<h3 class="triply-login-title">Sign Up</h3>
-<form name="registration_form" id="registration_form" action="https://demo2.pavothemes.com/triply/my-account/?action=registration" method="post">
-<div class="new-username">
-<label for="new_username">Username *</label>
-<input type="text" name="new_username" id="new_username" class="input" value size="20" required="required">
-<div class="new-username-check-msg">This username already exists*</div>
-</div>
-<div class="new-first-name">
-<label for="new_first_name">First name</label>
-<input type="text" name="new_first_name" id="new_first_name" class="input" value size="20" required="required">
-</div>
-<div class="new-last-name">
-<label for="new_last_name">Last name</label>
-<input type="text" name="new_last_name" id="new_last_name" class="input" value size="20" required="required">
-</div>
-<div class="new-email">
-<label for="new_email">Your email *</label>
-<input type="text" name="new_email" id="new_email" class="input" value size="20" required="required">
-<div class="new-email-check-msg">This email already exists</div>
-</div>
-<div class="new-email">
-<label for="new_email_confirm">Confirm email *</label>
-<input type="text" name="new_email_confirm" id="new_email_confirm" class="input" value size="20" required="required">
-</div>
-<div class="new-submit">
-<input type="submit" name="new-submit" id="new-submit" class="button button-primary" value="Sign up">
-<div class="form-spinner"><i class="fas fa-spinner fa-spin"></i></div>
-</div>
-</form>
-<div class="login_registration">
-<h3>Already have an account?</h3>
-<div class="registration_link">
-<a class="btn-login js-btn-login-popup" href="#triply-login-form">Login</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="triply-mobile-nav">
-<a href="#" class="mobile-nav-close"><i class="triply-icon-times"></i></a>
-<nav class="mobile-navigation" aria-label="Mobile Navigation">
-<div class="handheld-navigation"><ul id="menu-handheld-menu" class="menu"><li id="menu-item-7070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-7070"><a href="../index.html">Home</a>
-<ul class="sub-menu">
-<li id="menu-item-7069" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-7069"><a href="../index.html">Home 1</a></li>
-<li id="menu-item-7066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7066"><a href="../home-2/index.html">Home 2</a></li>
-<li id="menu-item-7068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7068"><a href="../home-3/index.html">Home 3</a></li>
-<li id="menu-item-7067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7067"><a href="../home-4/index.html">Home 4</a></li>
-<li id="menu-item-9886" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9886"><a href="../home-5/index.html">Home 5</a></li>
-<li id="menu-item-9885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9885"><a href="../home-6/index.html">Home 6</a></li>
-<li id="menu-item-9884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9884"><a href="../home-7/index.html">Home 7</a></li>
-<li id="menu-item-9883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9883"><a href="../home-8/index.html">Home 8</a></li>
-</ul>
-</li>
-<li id="menu-item-7071" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-7071"><a href="../tours-list-top-search/index.html">Tours</a>
-<ul class="sub-menu">
-<li id="menu-item-7062" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6632 current_page_item menu-item-7062"><a href="index.html" aria-current="page">Tour List &#8211; List View</a></li>
-<li id="menu-item-7063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7063"><a href="../tours-list-top-search/index.html">Tour List &#8211; Top Search</a></li>
-<li id="menu-item-7064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7064"><a href="../tours-list-sidebar/index.html">Tour List &#8211; Sidebar Filter</a></li>
-<li id="menu-item-7072" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7072"><a href="../to_book/waterfalls-geysers-and-glacier/index.html">Tour Single &#8211; Layout 1</a></li>
-<li id="menu-item-7073" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7073"><a href="../to_book/discovery-islands-kayaking-tour/index.html">Tour Single &#8211; Layout 2</a></li>
-<li id="menu-item-7074" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7074"><a href="../to_book/best-of-argentina/index.html">Tour Single &#8211; Layout 3</a></li>
-</ul>
-</li>
-<li id="menu-item-7060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7060"><a href="../destination-list/index.html">Destination</a>
-<ul class="sub-menu">
-<li id="menu-item-7065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7065"><a href="../destination-list/index.html">Destination List</a></li>
-<li id="menu-item-7061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7061"><a href="../destination-list-2/index.html">Destination List 2</a></li>
-<li id="menu-item-7085" class="menu-item menu-item-type-taxonomy menu-item-object-ba_locations menu-item-7085"><a href="../ba_locations/americas/index.html">Destination Detail</a></li>
-</ul>
-</li>
-<li id="menu-item-7078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7078"><a href="../blog/index.html">Blog</a>
-<ul class="sub-menu">
-<li id="menu-item-7075" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7075"><a href="../blog/index.html">Blog &#8211; Listview</a></li>
-<li id="menu-item-7076" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7076"><a href="../blog/indexb995.html?blog_style=grid">Blog &#8211; Gridview</a></li>
-<li id="menu-item-7077" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7077"><a href="../pack-wisely-before-traveling-2/index.html">Blog &#8211; Single Post</a></li>
-</ul>
-</li>
-<li id="menu-item-7079" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7079"><a href="#">Page</a>
-<ul class="sub-menu">
-<li id="menu-item-7080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7080"><a href="../about-us/index.html">About Us</a></li>
-<li id="menu-item-7081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7081"><a href="../icons/index.html">Icons</a></li>
-<li id="menu-item-7082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7082"><a href="../faq/index.html">Faq</a></li>
-<li id="menu-item-7083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7083"><a href="../404.html">404</a></li>
-</ul>
-</li>
-<li id="menu-item-7084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084"><a href="../contact/index.html">Contact</a></li>
-<li id="menu-item-7086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7086"><a href="../my-account/index.html">My Account</a></li>
-</ul></div> </nav>
-</div>
-<div class="triply-overlay"></div>
-<a href="#" class="scrollup"><i class="triply-icon-angle-up"></i></a>
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-			window.RS_MODULES = window.RS_MODULES || {};
-			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
-			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
-			window.RS_MODULES.defered = true;
-			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
-			window.RS_MODULES.type = 'compiled';
-		</script>
-
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-<div class="pswp__bg"></div>
-
-<div class="pswp__scroll-wrap">
-
-<div class="pswp__container">
-<div class="pswp__item"></div>
-<div class="pswp__item"></div>
-<div class="pswp__item"></div>
-</div>
-
-<div class="pswp__ui pswp__ui--hidden">
-<div class="pswp__top-bar">
-
-<div class="pswp__counter"></div>
-<a class="pswp__button pswp__button--close" title="Close (Esc)"></a>
-<a class="pswp__button pswp__button--share" title="Share"></a>
-<a class="pswp__button pswp__button--fs" title="Toggle fullscreen"></a>
-<a class="pswp__button pswp__button--zoom" title="Zoom in/out"></a>
-
-
-<div class="pswp__preloader">
-<div class="pswp__preloader__icn">
-<div class="pswp__preloader__cut">
-<div class="pswp__preloader__donut"></div>
-</div>
-</div>
-</div>
-</div>
-<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-<div class="pswp__share-tooltip"></div>
-</div>
-<a class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-</a>
-<a class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-</a>
-<div class="pswp__caption">
-<div class="pswp__caption__center"></div>
-</div>
-</div>
-</div>
-</div>
-<div data-elementor-type="popup" data-elementor-id="1209" class="elementor elementor-1209 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;slideInLeft&quot;,&quot;exit_animation&quot;:&quot;slideInLeft&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}">
-<div class="elementor-section-wrap">
-<div class="elementor-section elementor-top-section elementor-element elementor-element-00d23d9 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="00d23d9" data-element_type="section">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-fa82b26" data-id="fa82b26" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-5ed5f74 elementor-widget elementor-widget-triply-nav-menu" data-id="5ed5f74" data-element_type="widget" data-widget_type="triply-nav-menu.default">
-<div class="elementor-widget-container">
-<div class="elementor-nav-menu-wrapper">
-<div class="triply-canvas-nav">
-<nav class="mobile-navigation" aria-label="Mobile Navigation">
-<div class="handheld-navigation"><ul id="menu-handheld-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-7070"><a href="../index.html">Home</a>
-<ul class="sub-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-7069"><a href="../index.html">Home 1</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7066"><a href="../home-2/index.html">Home 2</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7068"><a href="../home-3/index.html">Home 3</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7067"><a href="../home-4/index.html">Home 4</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9886"><a href="../home-5/index.html">Home 5</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9885"><a href="../home-6/index.html">Home 6</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9884"><a href="../home-7/index.html">Home 7</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9883"><a href="../home-8/index.html">Home 8</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-7071"><a href="../tours-list-top-search/index.html">Tours</a>
-<ul class="sub-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-6632 current_page_item menu-item-7062"><a href="index.html" aria-current="page">Tour List &#8211; List View</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7063"><a href="../tours-list-top-search/index.html">Tour List &#8211; Top Search</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7064"><a href="../tours-list-sidebar/index.html">Tour List &#8211; Sidebar Filter</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7072"><a href="../to_book/waterfalls-geysers-and-glacier/index.html">Tour Single &#8211; Layout 1</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7073"><a href="../to_book/discovery-islands-kayaking-tour/index.html">Tour Single &#8211; Layout 2</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7074"><a href="../to_book/best-of-argentina/index.html">Tour Single &#8211; Layout 3</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7060"><a href="../destination-list/index.html">Destination</a>
-<ul class="sub-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7065"><a href="../destination-list/index.html">Destination List</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7061"><a href="../destination-list-2/index.html">Destination List 2</a></li>
-<li class="menu-item menu-item-type-taxonomy menu-item-object-ba_locations menu-item-7085"><a href="../ba_locations/americas/index.html">Destination Detail</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7078"><a href="../blog/index.html">Blog</a>
-<ul class="sub-menu">
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7075"><a href="../blog/index.html">Blog &#8211; Listview</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7076"><a href="../blog/indexb995.html?blog_style=grid">Blog &#8211; Gridview</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7077"><a href="../pack-wisely-before-traveling-2/index.html">Blog &#8211; Single Post</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7079"><a href="#">Page</a>
-<ul class="sub-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7080"><a href="../about-us/index.html">About Us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7081"><a href="../icons/index.html">Icons</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7082"><a href="../faq/index.html">Faq</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7083"><a href="../404.html">404</a></li>
-</ul>
-</li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084"><a href="../contact/index.html">Contact</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7086"><a href="../my-account/index.html">My Account</a></li>
-</ul></div> </nav>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div data-elementor-type="popup" data-elementor-id="1589" class="elementor elementor-1589 elementor-location-popup" data-elementor-settings="{&quot;entrance_animation&quot;:&quot;fadeInRight&quot;,&quot;exit_animation&quot;:&quot;fadeInRight&quot;,&quot;entrance_animation_duration&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]},&quot;a11y_navigation&quot;:&quot;yes&quot;,&quot;triggers&quot;:[],&quot;timing&quot;:[]}">
-<div class="elementor-section-wrap">
-<div class="elementor-section elementor-top-section elementor-element elementor-element-6b92144 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="6b92144" data-element_type="section">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0bda5c7" data-id="0bda5c7" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-bd78281 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="bd78281" data-element_type="widget" data-widget_type="theme-site-logo.default">
-<div class="elementor-widget-container">
-<div class="elementor-image">
-<a href="https://demo2.pavothemes.com/triply">
-<img width="1" height="1" src="../wp-content/uploads/2020/11/logo.svg" class="attachment-full size-full wp-image-371" alt loading="lazy" /> </a>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-abea76a elementor-widget elementor-widget-text-editor" data-id="abea76a" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-aea0fac elementor-widget elementor-widget-heading" data-id="aea0fac" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Address
-</h2> </div>
-</div>
-<div class="elementor-element elementor-element-60d5a94 elementor-widget elementor-widget-text-editor" data-id="60d5a94" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-184 Mayfield St. Hopewell<br>Junction, NY 12533 </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-59eac6e elementor-widget elementor-widget-heading" data-id="59eac6e" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Phone
-</h2> </div>
-</div>
-<div class="elementor-element elementor-element-dc1f561 elementor-widget elementor-widget-text-editor" data-id="dc1f561" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<p><a href="844-1755-44411.html">+ 844 1755 &#8211; 444 11</a></p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-46ae3c7 elementor-widget elementor-widget-heading" data-id="46ae3c7" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Email</h2> </div>
-</div>
-<div class="elementor-element elementor-element-28d333b elementor-widget elementor-widget-text-editor" data-id="28d333b" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<p><a href="https://demo2.pavothemes.com/cdn-cgi/l/email-protection#197a76776d787a6d597c61787469757c377a7674"><span class="__cf_email__" data-cfemail="35565a5b4154564175504d54584559501b565a58">[email&#160;protected]</span></a></p> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-dd0007d e-grid-align-left elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="dd0007d" data-element_type="widget" data-widget_type="social-icons.default">
-<div class="elementor-widget-container">
-<div class="elementor-social-icons-wrapper elementor-grid">
-<span class="elementor-grid-item">
-<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook elementor-repeater-item-303fdf6" href="https://facebook.com/" target="_blank">
-<span class="elementor-screen-only">Facebook</span>
-<i class="fab fa-facebook"></i> </a>
-</span>
-<span class="elementor-grid-item">
-<a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-repeater-item-670f76c" href="http://youtobe.com/" target="_blank">
-<span class="elementor-screen-only">Youtube</span>
-<i class="fab fa-youtube"></i> </a>
-</span>
-<span class="elementor-grid-item">
-<a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-30c653b" href="https://twitter.com/" target="_blank">
-<span class="elementor-screen-only">Twitter</span>
-<i class="fab fa-twitter"></i> </a>
-</span>
-<span class="elementor-grid-item">
-<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-repeater-item-fb3ae22" href="https://www.instagram.com/" target="_blank">
-<span class="elementor-screen-only">Instagram</span>
-<i class="fab fa-instagram"></i> </a>
-</span>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+<?php include 'footer.php';?>
 <link rel="stylesheet" id="e-animations-css" href="../wp-content/plugins/elementor/assets/lib/animations/animations.minfb6f.css?ver=3.12.1" type="text/css" media="all" />
 <link rel="stylesheet" id="rs-plugin-settings-css" href="../wp-content/plugins/revslider/public/assets/css/rs69f6d.css?ver=6.5.31" type="text/css" media="all" />
 <style id="rs-plugin-settings-inline-css" type="text/css">
@@ -1507,27 +668,14 @@ var triplyAjax = {"ajaxurl":"https:\/\/demo2.pavothemes.com\/triply\/wp-admin\/a
 <script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/share-link/share-link.minfb6f.js?ver=3.12.1" id="share-link-js"></script>
 <script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/dialog/dialog.mind227.js?ver=4.9.0" id="elementor-dialog-js"></script>
 <script type="text/javascript" id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.12.1","is_static":false,"experimentalFeatures":{"a11y_improvements":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"notes":true,"loop":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/demo2.pavothemes.com\/triply\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"stretched_section_container":"body","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":6632,"title":"Tours%20List%20View%20%E2%80%93%20Triply","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.12.1","is_static":false,"experimentalFeatures":{"a11y_improvements":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"notes":true,"loop":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/demo2.pavothemes.com\/triply\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"stretched_section_container":"body","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":6630,"title":"Tours%20List%20Top%20Search%20%E2%80%93%20Triply","excerpt":"","featuredImage":false}};
 </script>
 <script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend.minfb6f.js?ver=3.12.1" id="elementor-frontend-js"></script>
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/elementor/login95b8.js?ver=2.3.2" id="triply-elementor-login-js"></script>
+<script type="text/javascript" src="../wp-content/themes/triply/assets/js/booking/search-form95b8.js?ver=2.3.2" id="triply-ba-search-form.js-js"></script>
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/booking/ba-all-items95b8.js?ver=2.3.2" id="triply-elementor-ba-all-items-js"></script>
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/vendor/slick.min95b8.js?ver=2.3.2" id="slick-js"></script>
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/booking/ba-items95b8.js?ver=2.3.2" id="triply-ba-items-js"></script>
-<script type="text/javascript" src="../wp-content/themes/triply/assets/js/booking/search-form95b8.js?ver=2.3.2" id="triply-ba-search-form.js-js"></script>
-<script type="text/javascript" src="../wp-includes/js/jquery/jquery.ui.touch-punchc682.js?ver=0.2.2" id="jquery-touch-punch-js"></script>
-<script type="text/javascript" id="babe-price-slider-js-extra">
-/* <![CDATA[ */
-var babe_price_slider = {"currency_symbol":"$","currency_pos":"left","min_price":"0","max_price":""};
-var babe_price_slider = {"currency_symbol":"$","currency_pos":"left","min_price":"0","max_price":""};
-var babe_price_slider = {"currency_symbol":"$","currency_pos":"left","min_price":"0","max_price":""};
-var babe_price_slider = {"currency_symbol":"$","currency_pos":"left","min_price":"0","max_price":""};
-var babe_price_slider = {"currency_symbol":"$","currency_pos":"left","min_price":"91","max_price":"173"};
-/* ]]> */
-</script>
-<script type="text/javascript" src="../wp-content/plugins/ba-book-everything/js/babe-price-slider5152.js?ver=1.0" id="babe-price-slider-js"></script>
-<script type="text/javascript" src="../wp-content/themes/triply/assets/js/booking/taxonomy-filter95b8.js?ver=2.3.2" id="triply-ba-taxonomy-filter.js-js"></script>
-<script type="text/javascript" src="../wp-content/themes/triply/assets/js/booking/rating-filter95b8.js?ver=2.3.2" id="triply-ba-rating-filter.js-js"></script>
 <script type="text/javascript" src="../wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min695d.js?ver=3.12.0" id="elementor-pro-webpack-runtime-js"></script>
 <script type="text/javascript" src="../wp-includes/js/dist/vendor/wp-polyfill-inert.min0226.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
 <script type="text/javascript" src="../wp-includes/js/dist/vendor/regenerator-runtime.min8fa4.js?ver=0.13.11" id="regenerator-runtime-js"></script>
@@ -1547,5 +695,5 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/demo2.pavothemes.com\/tri
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/elementor-frontend95b8.js?ver=2.3.2" id="triply-elementor-frontend-js"></script>
 </body>
 
-<!-- Mirrored from demo2.pavothemes.com/triply/tours-list-view/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:56:23 GMT -->
+<!-- Mirrored from demo2.pavothemes.com/triply/tours-list-top-search/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:56:09 GMT -->
 </html>
