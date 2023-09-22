@@ -5,7 +5,7 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Triply &#8211; Just another WordPress site</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Triply</title>
 <meta name="robots" content="max-image-preview:large" />
 <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 <link rel="dns-prefetch" href="http://s.w.org/">
@@ -459,7 +459,7 @@ Join us! Our members can access savings of up to 50% and earn Trip Coins while b
 <div class="elementor-element elementor-element-dc7de06 elementor-align-justify elementor-widget__width-initial elementor-widget-mobile__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="dc7de06" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-left&quot;}" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
-<a href="my-account/index.html" class="elementor-button-link elementor-button elementor-size-md" role="button">
+<a href="#triply-login-form" class="elementor-button-link elementor-button elementor-size-md popup js-btn-register-popup" role="button">
 <span class="elementor-button-content-wrapper">
 <span class="elementor-button-icon elementor-align-icon-right">
 <i aria-hidden="true" class="triply-icon- triply-icon-long-arrow-right"></i> </span>
@@ -472,7 +472,7 @@ Join us! Our members can access savings of up to 50% and earn Trip Coins while b
 <div class="elementor-element elementor-element-082237a elementor-align-justify elementor-widget__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="082237a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-right&quot;}" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
-<a href="my-account/index.html" class="elementor-button-link elementor-button elementor-size-md" role="button">
+<a href="#triply-register-form" class="elementor-button-link elementor-button elementor-size-md popup js-btn-register-popup" role="button">
 <span class="elementor-button-content-wrapper">
 <span class="elementor-button-icon elementor-align-icon-right">
 <i aria-hidden="true" class="triply-icon- triply-icon-long-arrow-right"></i> </span>

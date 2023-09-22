@@ -668,42 +668,42 @@ confirm_password.onkeyup = validatePassword;
 <div class="elementor-element elementor-element-bd78281 elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="bd78281" data-element_type="widget" data-widget_type="theme-site-logo.default">
 <div class="elementor-widget-container">
 <div class="elementor-image">
-<a href="https://demo2.pavothemes.com/triply">
-<img width="1" height="1" src="wp-content/uploads/2020/11/logo.svg" class="attachment-full size-full wp-image-371" alt loading="lazy" /> </a>
+<a href="index.php">
+<img width="1" height="1" src="wp-content/uploads/2020/11/logo-white.svg" class="attachment-full size-full wp-image-371" alt loading="lazy" /> </a>
 </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-abea76a elementor-widget elementor-widget-text-editor" data-id="abea76a" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p> </div>
+<p style="color:white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-aea0fac elementor-widget elementor-widget-heading" data-id="aea0fac" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Address
+<h2 class="elementor-heading-title elementor-size-default" style="color:white;text-decoration:underline">Address
 </h2> </div>
 </div>
 <div class="elementor-element elementor-element-60d5a94 elementor-widget elementor-widget-text-editor" data-id="60d5a94" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-184 Mayfield St. Hopewell<br>Junction, NY 12533 </div>
+<p style="color:white">184 Mayfield St. Hopewell<br>Junction, NY 12533 </p></div>
 </div>
 </div>
 <div class="elementor-element elementor-element-59eac6e elementor-widget elementor-widget-heading" data-id="59eac6e" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Phone
+<h2 class="elementor-heading-title elementor-size-default" style="color:white;text-decoration:underline">Phone
 </h2> </div>
 </div>
 <div class="elementor-element elementor-element-dc1f561 elementor-widget elementor-widget-text-editor" data-id="dc1f561" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p><a href="844-1755-44411.html">+ 844 1755 &#8211; 444 11</a></p> </div>
+<p style="color:white"><!-- <a href="844-1755-44411.html"> -->+ 844 1755 &#8211; 444 11<!-- </a> --></p> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-46ae3c7 elementor-widget elementor-widget-heading" data-id="46ae3c7" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Email</h2> </div>
+<h2 class="elementor-heading-title elementor-size-default" style="color:white;text-decoration:underline">Email</h2> </div>
 </div>
 <div class="elementor-element elementor-element-28d333b elementor-widget elementor-widget-text-editor" data-id="28d333b" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
