@@ -42,7 +42,7 @@
 <li id="menu-item-8247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8247"><a href="home-8/index.html">Home 08</a></li>
 </ul> -->
 </li>
-<li id="menu-item-433" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-433"><a href="tours-list-top-search/index.html">Tours</a>
+<li id="menu-item-433" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-433"><a href="tours-list-top-search/index.php">Tours</a>
 <!-- <ul class="sub-menu">
 <li id="menu-item-6636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6636"><a href="tours-list-top-search/index.html">Tour List &#8211; Top Search</a></li>
 <li id="menu-item-6637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6637"><a href="tours-list-sidebar/index.html">Tour List &#8211; Sidebar Filter</a></li>
@@ -52,14 +52,14 @@
 <li id="menu-item-7192" class="menu-item menu-item-type-post_type menu-item-object-to_book menu-item-7192"><a href="to_book/best-of-argentina/index.html">Tour Single &#8211; Layout 3</a></li>
 </ul> -->
 </li>
-<li id="menu-item-7088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7088"><a href="destination-list-2/index.html">Destination</a>
+<li id="menu-item-7088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7088"><a href="destination-list/index.php">Destination</a>
 <!-- <ul class="sub-menu">
 <li id="menu-item-3201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3201"><a href="destination-list/index.html">Destination List 1</a></li>
 <li id="menu-item-3202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3202"><a href="destination-list-2/index.html">Destination List 2</a></li>
 <li id="menu-item-6973" class="menu-item menu-item-type-taxonomy menu-item-object-ba_locations menu-item-6973"><a href="ba_locations/americas/index.html">Destination Detail</a></li>
 </ul> -->
 </li>
-<li id="menu-item-969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-969"><a href="blog/index.html">Blog</a>
+<li id="menu-item-969" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-969"><a href="blog/index.php">Blog</a>
 <!-- <ul class="sub-menu">
 <li id="menu-item-971" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-971"><a href="blog/index.html">Blog &#8211; Listview</a></li>
 <li id="menu-item-972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-972"><a href="blog/indexb995.html?blog_style=grid">Blog &#8211; Gridview</a></li>
@@ -74,7 +74,7 @@
 <!-- <li id="menu-item-959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-959"><a href="404.html">404</a></li> -->
 </ul>
 </li>
-<li id="menu-item-970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"><a href="contact/index.html">Contact</a></li>
+<li id="menu-item-970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"><a href="contact/index.php">Contact</a></li>
 </ul></div> </nav>
 </div>
 </div>
