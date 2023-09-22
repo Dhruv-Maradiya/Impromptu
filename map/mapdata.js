@@ -69,10 +69,10 @@ var simplemaps_countrymap_mapdata={
     location_image_url: ""
   },
   state_specific: {
-    "1": {
+    "2": {
       name: "Andaman And Nicobar"
     },
-    "2": {
+    "1": {
       name: "Andhra Pradesh"
     },
     "3": {
@@ -104,7 +104,7 @@ var simplemaps_countrymap_mapdata={
     },
     "12": {
       name: "Gujarat",
-      url: document.write("<form action="state.php" method="post"><input type="text" name="email_user" id="email_user"></form>")
+      url: "./state.php?name=Gujarat"
     },
     "13": {
       name: "Haryana"

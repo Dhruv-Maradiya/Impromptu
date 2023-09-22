@@ -497,7 +497,7 @@ Join us! Our members can access savings of up to 50% and earn Trip Coins while b
 <div class="elementor-element elementor-element-81dcc28 animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="81dcc28" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-What’s new </div>
+What's new </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-5fe0b32 animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="5fe0b32" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
