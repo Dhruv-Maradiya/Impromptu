@@ -1,3 +1,4 @@
+<?php error_reporting(E_ALL ^ E_WARNING); ?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -183,18 +184,18 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-a70db89 elementor-hidden-phone animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="a70db89" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-right&quot;}" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-Natural beauty </div>
+Connect to the Roots </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-91bd637 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-text-editor" data-id="91bd637" data-element_type="widget" data-settings="{&quot;_animation_mobile&quot;:&quot;opal-move-up&quot;}" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-Natural beauty </div>
+Connect to the Roots </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-cbcda7d elementor-widget__width-initial elementor-widget-tablet__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="cbcda7d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-right&quot;,&quot;_animation_mobile&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Discover the most engaging places</h2> </div>
+<h2 class="elementor-heading-title elementor-size-default">Discover India's hidden jewels.</h2> </div>
 </div>
 <div class="elementor-element elementor-element-f429362 elementor-mobile-align-center animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="f429362" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;,&quot;_animation_mobile&quot;:&quot;opal-move-up&quot;}" data-widget_type="button.default">
 <div class="elementor-widget-container">
@@ -230,80 +231,6 @@ Natural beauty </div>
 <div class="elementor-element elementor-element-58412ac layout-style-1 elementor-widget elementor-widget-babe-search-form" data-id="58412ac" data-element_type="widget" data-widget_type="babe-search-form.default">
 <div class="elementor-widget-container">
 <div id="triply-search-box" class="babe-search-box">
-<form name="search_form" action="https://demo2.pavothemes.com/triply/all-tours/" method="get" id="search_form" class="babe-search-form">
-<div class="search-form-inner">
-<div class="input-group col-4">
-<div class="field-search-group "><div class="field-group-inner locations-block"><div class="icon-search left-search"><i class="triply-icon- triply-icon-map-marker-rounded"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">Destinations</h4><div class="add_input_field is-active" data-tax="ba_locations" tabindex="0">
-<div class="add_ids_title">
-<div class="add_ids_title_value">Where are you going?</div><i class="js-triply-icon triply-icon triply-icon-chevron-down"></i>
-<ul id="add_ids_list_ba_locations" class="add_ids_list" data-parent="0">
-<li class="term_item term_item_all" data-id="0">All Destinations</li><li class="term_item_disabled term_item_level_0" data-id="56">Africa
-<ul id="add_ids_list_ba_locations_56" class="add_ids_list_1">
-<li class="term_item term_item_level_1" data-id="57"> Morocco</li><li class="term_item term_item_level_1" data-id="58"> Tanzania</li>
-</ul>
-</li><li class="term_item_disabled term_item_level_0" data-id="59">Americas
-<ul id="add_ids_list_ba_locations_59" class="add_ids_list_1">
-<li class="term_item term_item_level_1" data-id="60"> Argentina</li><li class="term_item term_item_level_1" data-id="61"> Canada</li><li class="term_item term_item_level_1" data-id="62"> Colombia</li><li class="term_item term_item_level_1" data-id="63"> Costa Rica</li><li class="term_item term_item_level_1" data-id="64"> United States</li>
-</ul>
-</li><li class="term_item_disabled term_item_level_0" data-id="65">Asia
-<ul id="add_ids_list_ba_locations_65" class="add_ids_list_1">
-<li class="term_item term_item_level_1" data-id="66"> Cambodia</li><li class="term_item term_item_level_1" data-id="69"> Japan</li><li class="term_item term_item_level_1" data-id="67"> Nepal</li><li class="term_item term_item_level_1" data-id="70"> ThaiLand</li><li class="term_item term_item_level_1" data-id="68"> Viet Nam</li>
-</ul>
-</li><li class="term_item term_item_level_0" data-id="93">Australia</li><li class="term_item_disabled term_item_level_0" data-id="71">Europe
-<ul id="add_ids_list_ba_locations_71" class="add_ids_list_1">
-<li class="term_item term_item_level_1" data-id="72"> France</li><li class="term_item term_item_level_1" data-id="73"> Greece</li><li class="term_item term_item_level_1" data-id="74"> Iceland</li><li class="term_item term_item_level_1" data-id="75"> Italy</li><li class="term_item term_item_level_1" data-id="76"> Switzerland</li>
-</ul>
-</li><li class="term_item term_item_level_0" data-id="94">Sri Lanka</li>
-</ul>
-<input type="hidden" class="input_select_input_value" name="add_ids_ba_locations" value="0">
-</div>
-</div></div></div></div><div class="field-search-group "><div class="field-group-inner locations-block"><div class="icon-search left-search"><i class="triply-icon- triply-icon-activity"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">Activity</h4><div class="add_input_field is-active" data-tax="ba_types" tabindex="0">
-<div class="add_ids_title">
-<div class="add_ids_title_value">All Activity</div><i class="js-triply-icon triply-icon triply-icon-chevron-down"></i>
-<ul id="add_ids_list_ba_types" class="add_ids_list" data-parent="0">
-<li class="term_item term_item_all" data-id="0">All Activity</li><li class="term_item term_item_level_0" data-id="77">Beaches</li><li class="term_item term_item_level_0" data-id="78">City Tours</li><li class="term_item term_item_level_0" data-id="79">Cruises</li><li class="term_item term_item_level_0" data-id="80">Hiking</li><li class="term_item term_item_level_0" data-id="81">Historical</li><li class="term_item term_item_level_0" data-id="82">Museum Tours</li>
-</ul>
-<input type="hidden" class="input_select_input_value" name="add_ids_ba_types" value="0">
-</div>
-</div></div></div></div><div class="field-search-group"><div class="field-group-inner date-block"><div class="icon-search left-search"><i class="triply-icon-calendar-days"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">When</h4><div class="search_date_wrapper"><span class="search-date search_date_wrapper_date_from" data-title="Date from">
-<label class="triply-date-from" for="date_from"></label><input type="text" class="search_date" id="date_from" name="date_from" value placeholder="Date from">
-</span></div></div></div></div><div class="field-search-group"><div class="field-group-inner"><div class="guest-block search_guests_field is-active"><div class="icon-search left-search"><i class="triply-icon-user-2"></i></div><div class="field-search right-search"><h4 class="field-title">Guests</h4><span class="search_guests_title_value search_guests_title">0</span>
-<div class="search_guests_select_wrapper close_by_apply_btn">
-<div class="input_select_field input_select_field_guests" data-name="guests[2]">
-<span class="select_guests_value">0</span>
-<span class="select_guests_title">Adult</span>
-<span class="search_guests_plus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-plus"></i></span>
-<span class="search_guests_minus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-minus"></i></span>
-<input type="hidden" class="select_guests_input_value" name="guests[2]" value="0">
-</div> <div class="input_select_field input_select_field_guests" data-name="guests[3]">
-<span class="select_guests_value">0</span>
-<span class="select_guests_title">Youth</span>
-<span class="search_guests_plus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-plus"></i></span>
-<span class="search_guests_minus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-minus"></i></span>
-<input type="hidden" class="select_guests_input_value" name="guests[3]" value="0">
-</div> <div class="input_select_field input_select_field_guests" data-name="guests[4]">
-<span class="select_guests_value">0</span>
-<span class="select_guests_title">Children</span>
-<span class="search_guests_plus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-plus"></i></span>
-<span class="search_guests_minus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-minus"></i></span>
-<input type="hidden" class="select_guests_input_value" name="guests[4]" value="0">
-</div>
-<div class="search_guests_apply">
-<button class="btn button btn-primary search_apply_btn">Apply</button>
-</div>
-</div>
-</div>
-</div>
-</div></div> </div>
-<div class="submit">
-<button name="submit" class="btn button btn-primary btn-search" value="1">
-<i class="triply-icon triply-icon-search"></i>
-Search </button>
-</div>
-<input type="hidden" name="request_search_results" value="1">
-<input type="hidden" name="search_results_sort_by" value="price_asc">
-</div>
-</form>
 </div>
 </div>
 </div>
@@ -313,108 +240,23 @@ Search </button>
 </div>
 </div>
 </div>
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <div id="map"></div>
 <br>
 <br>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-ca3859b elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ca3859b" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+ <div class="elementor-section elementor-top-section elementor-element elementor-element-ca3859b elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ca3859b" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
 <div class="elementor-container elementor-column-gap-no">
 <div class="elementor-row">
 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0986ab4" data-id="0986ab4" data-element_type="column">
 <div class="elementor-column-wrap elementor-element-populated">
 <div class="elementor-widget-wrap">
 <div class="elementor-element elementor-element-ced249f animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="ced249f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-Don’t miss </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-f30a1fb animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="f30a1fb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Special Offers</h2> </div>
-</div>
-<div class="elementor-section elementor-inner-section elementor-element elementor-element-345ffb1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="345ffb1" data-element_type="section">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9590474 animated-fast elementor-invisible" data-id="9590474" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-right&quot;}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-8266e82 elementor-cta--skin-cover elementor-cta--valign-top elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="8266e82" data-element_type="widget" data-widget_type="call-to-action.default">
-<div class="elementor-widget-container">
-<div class="elementor-cta">
-<div class="elementor-cta__bg-wrapper">
-<div class="elementor-cta__bg elementor-bg" style="background-image: url(wp-content/uploads/2020/11/h1_banner-1.jpg);"></div>
-<div class="elementor-cta__bg-overlay"></div>
-</div>
-<div class="elementor-cta__content">
-<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">Weekly <br> Flash Deals</h2>
-<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
-Up to 30% off </div>
-<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
-<a class="elementor-cta__button elementor-button elementor-size-sm" href="to_book/index.html" target="_blank">
-View Deals &nbsp; <i class="triply-icon- triply-icon-long-arrow-right" style="     margin-bottom: 2px; "></i> </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-445b290 animated-fast elementor-invisible" data-id="445b290" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-up&quot;}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-605e827 elementor-cta--skin-cover elementor-cta--valign-top elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="605e827" data-element_type="widget" data-widget_type="call-to-action.default">
-<div class="elementor-widget-container">
-<div class="elementor-cta">
-<div class="elementor-cta__bg-wrapper">
-<div class="elementor-cta__bg elementor-bg" style="background-image: url(wp-content/uploads/2020/12/h1_banner-2.jpg);"></div>
-<div class="elementor-cta__bg-overlay"></div>
-</div>
-<div class="elementor-cta__content">
-<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">Summer <br> Escapes</h2>
-<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
-Plan your next trip </div>
-<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
-<a class="elementor-cta__button elementor-button elementor-size-sm" href="to_book/index.html" target="_blank">
-Learn More &nbsp; <i class="triply-icon- triply-icon-long-arrow-right" style="     margin-bottom: 2px; "></i> </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-a705218 animated-fast elementor-invisible" data-id="a705218" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-left&quot;}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-843bcd5 elementor-cta--skin-cover elementor-cta--valign-top elementor-bg-transform elementor-bg-transform-zoom-in elementor-widget elementor-widget-call-to-action" data-id="843bcd5" data-element_type="widget" data-widget_type="call-to-action.default">
-<div class="elementor-widget-container">
-<div class="elementor-cta">
-<div class="elementor-cta__bg-wrapper">
-<div class="elementor-cta__bg elementor-bg" style="background-image: url(wp-content/uploads/2020/12/h1_banner-3.jpg);"></div>
-<div class="elementor-cta__bg-overlay"></div>
-</div>
-<div class="elementor-cta__content">
-<h2 class="elementor-cta__title elementor-cta__content-item elementor-content-item">Exclusive <br> Deals</h2>
-<div class="elementor-cta__description elementor-cta__content-item elementor-content-item">
-Want to save up to 50% </div>
-<div class="elementor-cta__button-wrapper elementor-cta__content-item elementor-content-item ">
-<a class="elementor-cta__button elementor-button elementor-size-sm" href="to_book/index.html" target="_blank">
-Subscribe Us &nbsp; <i class="triply-icon- triply-icon-long-arrow-right" style="     margin-bottom: 2px; "></i> </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+
 </div>
 </div>
 </div>
@@ -446,7 +288,7 @@ Subscribe Us &nbsp; <i class="triply-icon- triply-icon-long-arrow-right" style="
 <div class="elementor-element elementor-element-7bd4578 elementor-widget__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="7bd4578" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-left&quot;}" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-Join us! Our members can access savings of up to 50% and earn Trip Coins while booking. </div>
+Join us! Explore the never explored with us. </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-28e5667 elementor-widget elementor-widget-spacer" data-id="28e5667" data-element_type="widget" data-widget_type="spacer.default">
@@ -481,279 +323,6 @@ Join us! Our members can access savings of up to 50% and earn Trip Coins while b
 </a>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-4b4e022 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4b4e022" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d3104c8" data-id="d3104c8" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-81dcc28 animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="81dcc28" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-What's new </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-5fe0b32 animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="5fe0b32" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Popular Tours </h2> </div>
-</div>
-<div class="elementor-element elementor-element-8c1b143 arrow-style-1 elementor-widget elementor-widget-babe-all-items" data-id="8c1b143" data-element_type="widget" data-widget_type="babe-all-items.default">
-<div class="elementor-widget-container">
-<div class="ba-items-style-3" data-elementor-columns="3" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1">
-<div class="babe_shortcode_block sc_all_items ">
-<div class="babe_shortcode_block_bg_inner">
-<div class="babe_shortcode_block_inner">
-<div class="babe_items babe_items_1 babe_items_3 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<a class="item-thumb" href="to_book/buenos-aires-calafate-chalten-ushuaia/index.html"><img decoding="async" src="wp-content/uploads/2020/11/5caf5b5a4230ad69dfa896e5_16710074567_8ed2f67f22_k-820x520.jpg" alt="Buenos Aires, Calafate, Chalten &amp; Ushuaia"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Buenos Aires, Calafate, Chalten &#038; Ushuaia" data-book-id="31">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>12 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>40</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:33,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c4c80ec1fec800b2bf05772_29907871814_daa2960290_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 1&quot;},{&quot;image_id&quot;:34,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2ae84c8360bf3ad4becd9c_30240197730_f560bc967b_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 2&quot;},{&quot;image_id&quot;:35,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c4b5cf89c5e26b83fa7f315_30502347256_2fb2d15897_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 3&quot;},{&quot;image_id&quot;:36,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1b9dae4b0b2e80ccf9c55c_31555162091_27a8463c24_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 4&quot;},{&quot;image_id&quot;:37,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1b9dbf984faa6a30f9a51d_31571834482_4256fb6757_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 5&quot;},{&quot;image_id&quot;:38,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c60253b2279344176d4bbe3_6927488126_bc0e79532b_o-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 6&quot;},{&quot;image_id&quot;:39,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5caf5bc5b5fe8466ed1283a3_6927510390_42a638d9fe_o-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 7&quot;},{&quot;image_id&quot;:40,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c602554e2f3d15960bab681_dennis-fidalgo-222461-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 8&quot;},{&quot;image_id&quot;:41,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c6024a2472d4d5c5d0c57e9_dennis-fidalgo-533478-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 9&quot;},{&quot;image_id&quot;:42,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c9389b6ea92245f8ca1b297_16916202602_7b37127472_k.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 10&quot;},{&quot;image_id&quot;:43,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5caf5bfcb5fe84985212a051_16944221892_c6d2bade54_k.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 11&quot;},{&quot;image_id&quot;:44,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c59cb57bfe4bfebc2dc5e30_16297416313_6217f4e8a9_k-copy.jpg&quot;,&quot;description&quot;:&quot;Buenos Aires, Calafate, Chalten &amp; Ushuaia - 12 Days - Image 12&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>12</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="to_book/buenos-aires-calafate-chalten-ushuaia/index.html">Buenos Aires, Calafate, Chalten & Ushuaia</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Honolulu, USA</span>
-</div>
-<div class="item_description">
-Tour Argentina´s glaciers, hike Chalten, Patagonia´s mountain trails and kayak Tierra del Fuego National Park. From Buenos Aires´ tango shows and eclectic neighborhoods to the surreal, southern city of Ushuaia,... </div>
-<div class="item-icons">
-<div class="triply_preview_term_icon" title="Museum Tickets">
-<i class="triply-icon-ticket-alt"></i>
-<span>Museum Tickets</span>
-</div>
-<div class="triply_preview_term_icon" title="Sightseeing Tours">
-<i class="triply-icon-camera-alt"></i>
-<span>Sightseeing Tours</span>
-</div>
-<div class="triply_preview_term_icon" title="Social Dinner">
-<i class="triply-icon-utensils-alt"></i>
-<span>Social Dinner</span>
-</div>
-</div> <div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="94"><span class="currency_symbol">&#36;</span>94.00</span></span>
-</div>
-<a class="read-more-item" href="to_book/buenos-aires-calafate-chalten-ushuaia/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div>
-<div class="babe_items babe_items_1 babe_items_3 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<span class="item-label price_discount">6% OFF</span> <a class="item-thumb" href="to_book/best-of-argentina/index.html"><img decoding="async" src="wp-content/uploads/2020/11/5c150fbcde252d9a3b26f63c_16297416313_6217f4e8a9_k-copy-820x520.jpg" alt="Best of Argentina"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Best of Argentina" data-book-id="45">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>11 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>50</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:47,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c15114665ec9ab1829e74e3_15407580523_19583a0687_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 1&quot;},{&quot;image_id&quot;:48,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1511ea4b011f504197a3f6_16316752354_3fd5acf251_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 2&quot;},{&quot;image_id&quot;:49,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1423792567d46e6f1394f3_30421950892_fb623ab31d_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 3&quot;},{&quot;image_id&quot;:50,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1420daf4422044f18188f2_31571834482_4256fb6757_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 4&quot;},{&quot;image_id&quot;:51,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1422d292da9779d1d7cf2b_30502347256_2fb2d15897_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 5&quot;},{&quot;image_id&quot;:52,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c15115565ec9ac21e9e74e4_32403715608_5bf04bcb7c_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 6&quot;},{&quot;image_id&quot;:53,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c151167aed7fc6f5acf5a98_15841162369_873e7fe835_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 7&quot;},{&quot;image_id&quot;:54,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1509aaf819975e0e064e34_16916202602_7b37127472_k-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 8&quot;},{&quot;image_id&quot;:55,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1420b6f442203ddd8188f0_30240197730_f560bc967b_k-1-copy.jpg&quot;,&quot;description&quot;:&quot;Best of Argentina - 11 Days - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="to_book/best-of-argentina/index.html">Best of Argentina</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Siem Reap, Cambodia</span>
-</div>
-<div class="item_description">
-Included in National Geographic Canada’s 50 Places of a Lifetime, the Discovery Islands are a sea kayaking paradise, and as you will discover, one of the West Coast’s best kept... </div>
-<div class="item-icons">
-<div class="triply_preview_term_icon" title="Museum Tickets">
-<i class="triply-icon-ticket-alt"></i>
-<span>Museum Tickets</span>
-</div>
-<div class="triply_preview_term_icon" title="Sightseeing Tours">
-<i class="triply-icon-camera-alt"></i>
-<span>Sightseeing Tours</span>
-</div>
-<div class="triply_preview_term_icon" title="Social Dinner">
-<i class="triply-icon-utensils-alt"></i>
-<span>Social Dinner</span>
-</div>
-</div> <div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="91.18"><span class="currency_symbol">&#36;</span>91.18</span></span>
-<span class="item_info_price_old"><span class="currency_amount" data-amount="97"><span class="currency_symbol">&#36;</span>97.00</span></span> </div>
-<a class="read-more-item" href="to_book/best-of-argentina/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div>
-<div class="babe_items babe_items_1 babe_items_3 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<a class="item-thumb" href="to_book/serrania-de-la-macarena-jungle-tour/index.html"><img decoding="async" src="wp-content/uploads/2020/11/5c2766fa0d5f11811eac7734_DSC05310-copy-820x520.jpg" alt="Serranía de la Macarena, Jungle Tour"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Serranía de la Macarena, Jungle Tour" data-book-id="56">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>5 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>60</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:58,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c27682d99ec4a71e35ef212_DSC05010-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 1&quot;},{&quot;image_id&quot;:59,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c27684358439170e20ab6fa_DSC05028-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 2&quot;},{&quot;image_id&quot;:60,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2768572de86359eecc8a3f_DSC05081-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 3&quot;},{&quot;image_id&quot;:61,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1ba1a62fa9323147fc1083_DSC05213-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 4&quot;},{&quot;image_id&quot;:62,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2767072de8630badcc8a35_DSC05357-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 5&quot;},{&quot;image_id&quot;:63,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2768b72de8635ac2cc8a40_DSC05279-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 6&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>6</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="to_book/serrania-de-la-macarena-jungle-tour/index.html">Serranía de la Macarena, Jungle Tour</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Anchorage, USA</span>
-</div>
-<div class="item_description">
-La Macarena National Park 'Serranía de la Macarena' encompasses the ecologically unique meeting point for the flora and fauna of the Amazon, Orinoco and Andes regions.
-On this 4 day Amazon... </div>
-<div class="item-icons">
-<div class="triply_preview_term_icon" title="Museum Tickets">
-<i class="triply-icon-ticket-alt"></i>
-<span>Museum Tickets</span>
-</div>
-<div class="triply_preview_term_icon" title="Sightseeing Tours">
-<i class="triply-icon-camera-alt"></i>
-<span>Sightseeing Tours</span>
-</div>
-<div class="triply_preview_term_icon" title="Social Dinner">
-<i class="triply-icon-utensils-alt"></i>
-<span>Social Dinner</span>
-</div>
-</div> <div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="151"><span class="currency_symbol">&#36;</span>151.00</span></span>
-</div>
-<a class="read-more-item" href="to_book/serrania-de-la-macarena-jungle-tour/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div>
-<div class="babe_items babe_items_1 babe_items_3 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<span class="item-label price_discount">5% OFF</span> <a class="item-thumb" href="to_book/cano-cristales-river-trip/index.html"><img decoding="async" src="wp-content/uploads/2020/11/5c486ea739c52128a578315e_DSC04947-copy-820x520.jpg" alt="Caño Cristales River Trip"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Caño Cristales River Trip" data-book-id="64">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>4 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>50</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:66,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c48735739c52149617831f9_DSC04931-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 1&quot;},{&quot;image_id&quot;:67,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486fb7ffe01243a830dee3_DSC04942-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 2&quot;},{&quot;image_id&quot;:68,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486fd0ffe0127baf30defd_DSC04972-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 3&quot;},{&quot;image_id&quot;:69,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486e8171e5c96425eb2164_cc5.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 4&quot;},{&quot;image_id&quot;:70,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486fde39c52198d2783174_DSC04989-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 5&quot;},{&quot;image_id&quot;:71,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c48753a6643ac423cba22d2_cano_cristales_la_macarena.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 6&quot;},{&quot;image_id&quot;:72,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c48704a079e2abe81530715_DSC04935-copy.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 7&quot;},{&quot;image_id&quot;:73,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c486e7270c16e87069fbb70_cano-cristales-fluss-in-Kolumbien.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 8&quot;},{&quot;image_id&quot;:74,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c4875597c042e6e499061e8_cc4.jpg&quot;,&quot;description&quot;:&quot;Ca\u00f1o Cristales River Trip - 4 Days - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="to_book/cano-cristales-river-trip/index.html">Caño Cristales River Trip</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Chukhung, Nepal</span>
-</div>
-<div class="item_description">
-Caño Cristales Tour, (aka the most beautiful river in the world) is an exceptional and surprising natural beauty. Its unique ecosystem is very fragile and now belongs to the Sierra... </div>
-<div class="item-icons">
-<div class="triply_preview_term_icon" title="Museum Tickets">
-<i class="triply-icon-ticket-alt"></i>
-<span>Museum Tickets</span>
-</div>
-<div class="triply_preview_term_icon" title="Sightseeing Tours">
-<i class="triply-icon-camera-alt"></i>
-<span>Sightseeing Tours</span>
-</div>
-<div class="triply_preview_term_icon" title="Social Dinner">
-<i class="triply-icon-utensils-alt"></i>
-<span>Social Dinner</span>
-</div>
-<div class="triply_preview_term_icon" title="Wine Tasting">
-<i class="triply-icon-wine-glass-alt"></i>
-<span>Wine Tasting</span>
-</div>
-</div> <div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="131.1"><span class="currency_symbol">&#36;</span>131.10</span></span>
-<span class="item_info_price_old"><span class="currency_amount" data-amount="138"><span class="currency_symbol">&#36;</span>138.00</span></span> </div>
-<a class="read-more-item" href="to_book/cano-cristales-river-trip/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div>
-<div class="babe_items babe_items_1 babe_items_3 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<span class="item-label">Featured</span> <a class="item-thumb" href="to_book/adventure-colombia/index.html"><img decoding="async" src="wp-content/uploads/2020/11/5c284b5932e9aae035a5aed9_DSC05668-copy-820x520.jpg" alt="Adventure Colombia"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Adventure Colombia" data-book-id="75">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>8 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>30</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:77,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284b8232e9aa84cea5aeda_tayrona-national-park-colombia.ngsversion.1506546030343.adapt_.1900.1-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 1&quot;},{&quot;image_id&quot;:78,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bb499ec4ae9785ef7b7_DSC05631-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 2&quot;},{&quot;image_id&quot;:79,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bcb75fcbdfa5d6e5b1d_6697602067_324b1c6fae_o-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 3&quot;},{&quot;image_id&quot;:80,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bde0d5f11821cac7be3_DSC05639-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 4&quot;},{&quot;image_id&quot;:81,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284bf39d056973ac400cfa_DSC05673-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 5&quot;},{&quot;image_id&quot;:82,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c020d5f1160efac7be4_Screen-Shot-2018-08-27-at-10.08.01-AM-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 6&quot;},{&quot;image_id&quot;:83,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c100d5f117c58ac7be5_DSC05629-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 7&quot;},{&quot;image_id&quot;:84,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c2075fcbd79326e5b1e_DSC05680-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 8&quot;},{&quot;image_id&quot;:85,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c284c39b482f907c069efe4_7955286556_a51c5cc452_o-copy.jpg&quot;,&quot;description&quot;:&quot;Adventure Colombia - 8 Days - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="to_book/adventure-colombia/index.html">Adventure Colombia</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Kathmandu, Nepal</span>
-</div>
-<div class="item_description">
-This northern Colombian adventure hits many of the highlights. Enjoy blissful tropical beaches, rainforest, Sierra Nevada mountains reaching 5,700m (18,701 ft) of altitude, coral islands and the wonderful colonial city... </div>
-<div class="item-icons">
-<div class="triply_preview_term_icon" title="Museum Tickets">
-<i class="triply-icon-ticket-alt"></i>
-<span>Museum Tickets</span>
-</div>
-<div class="triply_preview_term_icon" title="Sightseeing Tours">
-<i class="triply-icon-camera-alt"></i>
-<span>Sightseeing Tours</span>
-</div>
-<div class="triply_preview_term_icon" title="Social Dinner">
-<i class="triply-icon-utensils-alt"></i>
-<span>Social Dinner</span>
-</div>
-</div> <div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="100"><span class="currency_symbol">&#36;</span>100.00</span></span>
-</div>
-<a class="read-more-item" href="to_book/adventure-colombia/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div> </div>
 </div>
 </div>
 </div>
@@ -1046,154 +615,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 </div>
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-de4540c elementor-section-full_width elementor-section-stretched elementor-section-height-default elementor-section-height-default" data-id="de4540c" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-d5c5d97" data-id="d5c5d97" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;background_motion_fx_scale_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_scale_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:2,&quot;sizes&quot;:[]},&quot;background_motion_fx_scale_direction&quot;:&quot;out-in&quot;,&quot;background_motion_fx_scale_range&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:20,&quot;end&quot;:80}}}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-9586d7f elementor-widget elementor-widget-spacer" data-id="9586d7f" data-element_type="widget" data-widget_type="spacer.default">
-<div class="elementor-widget-container">
-<div class="elementor-spacer">
-<div class="elementor-spacer-inner"></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-b7a7089" data-id="b7a7089" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;]}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-a88da52 elementor-widget elementor-widget-text-editor" data-id="a88da52" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-Latest deal </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-936899d elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="936899d" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Save an Extra $500 on Cyprus Holidays</h2> </div>
-</div>
-<div class="elementor-element elementor-element-b0019f5 elementor-widget elementor-widget-text-editor" data-id="b0019f5" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-It’s limited seating! Hurry up </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-f11d73c animated-fast elementor-countdown--label-block elementor-invisible elementor-widget elementor-widget-countdown" data-id="f11d73c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="countdown.default">
-<div class="elementor-widget-container">
-<div class="elementor-countdown-wrapper" data-date="1697719920">
-<div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-days"></span> <span class="elementor-countdown-label">Days</span></div><div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-hours"></span> <span class="elementor-countdown-label">Hours</span></div><div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-minutes"></span> <span class="elementor-countdown-label">Minutes</span></div><div class="elementor-countdown-item"><span class="elementor-countdown-digits elementor-countdown-seconds"></span> <span class="elementor-countdown-label">Seconds</span></div> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-0f143cb elementor-widget-divider--view-line elementor-invisible elementor-widget elementor-widget-divider" data-id="0f143cb" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-scale-up&quot;}" data-widget_type="divider.default">
-<div class="elementor-widget-container">
-<div class="elementor-divider">
-<span class="elementor-divider-separator">
-</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-d4a107a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d4a107a" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-ba3c3f9" data-id="ba3c3f9" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-76391a3 elementor-widget elementor-widget-text-editor" data-id="76391a3" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-Testimonials </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-5d80312 elementor-widget elementor-widget-heading" data-id="5d80312" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Customer Reviews</h2> </div>
-</div>
-<div class="elementor-element elementor-element-9fbee96 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-image" data-id="9fbee96" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;swing&quot;}" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<div class="elementor-image">
-<img decoding="async" width="180" height="129" src="wp-content/uploads/2020/11/h1_quote-1.png" class="attachment-full size-full wp-image-2016" alt loading="lazy" /> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-5e52ca4 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-triply-testimonials" data-id="5e52ca4" data-element_type="widget" data-widget_type="triply-testimonials.default">
-<div class="elementor-widget-container">
-<div class="elementor-testimonial-item-wrapper testimonial-triply-style-1">
-<div class="row triply-carousel" data-settings="{&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplayHoverPause&quot;:true,&quot;autoplay&quot;:true,&quot;autoplaySpeed&quot;:5000,&quot;items&quot;:&quot;1&quot;,&quot;items_laptop&quot;:&quot;1&quot;,&quot;items_tablet_extra&quot;:&quot;1&quot;,&quot;items_tablet&quot;:&quot;&quot;,&quot;items_mobile_extra&quot;:&quot;&quot;,&quot;items_mobile&quot;:&quot;&quot;,&quot;loop&quot;:true,&quot;breakpoint_laptop&quot;:1366,&quot;breakpoint_tablet_extra&quot;:1200,&quot;breakpoint_tablet&quot;:1024,&quot;breakpoint_mobile_extra&quot;:880,&quot;breakpoint_mobile&quot;:767}">
-<div class="column-item elementor-testimonial-item">
-<div class="testimonial-content">
-<div class="content">
-“This was an amazing trip! There were so many highlights... our outstanding, kind, patient, amazing leader Gustavo!! What an absolute saint. He was so organized and insightful!” </div>
-<div class="details ">
-<div class="image-wrap">
-<div class="icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-quote-2"></i> </div>
-<div class="image">
-<img width="93" height="138" src="wp-content/uploads/2020/11/h3-img-box-1.png" class="attachment-full size-full wp-image-2117" alt decoding="async" loading="lazy" /> </div>
-</div>
-<div class="name-wrap">
-<div class="elementor-testimonial-rating"><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i></div> <div class="name">Melisa Joan H.</div> <div class="job"> New York, USA</div>
-</div>
-</div>
-</div>
-</div>
-<div class="column-item elementor-testimonial-item">
-<div class="testimonial-content">
-<div class="content">
-"Needless to say we are extremely satisfied with the results. Booking tour was the best investment I ever made. Nice work on your booking tour. Booking tour impressed." </div>
-<div class="details ">
-<div class="image-wrap">
-<div class="icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-quote-2"></i> </div>
-<div class="image">
-<img width="164" height="164" src="wp-content/uploads/2020/11/about_image-4-2.jpg" class="attachment-full size-full wp-image-2730" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-4-2.jpg 164w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-4-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-4-2-100x100.jpg 100w" sizes="(max-width: 164px) 100vw, 164px" /> </div>
-</div>
-<div class="name-wrap">
-<div class="elementor-testimonial-rating"><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i></div> <div class="name">Roselin D.</div> <div class="job"> New York, USA</div>
-</div>
-</div>
-</div>
-</div>
-<div class="column-item elementor-testimonial-item">
-<div class="testimonial-content">
-<div class="content">
-"Great job, I will definitely be ordering again! After using booking tour my business skyrocketed! Man, this thing is getting better and better as I learn more about it. " </div>
-<div class="details ">
-<div class="image-wrap">
-<div class="icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-quote-2"></i> </div>
-<div class="image">
-<img width="164" height="164" src="wp-content/uploads/2020/11/about_image-5-2.jpg" class="attachment-full size-full wp-image-2731" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-5-2.jpg 164w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-5-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-5-2-100x100.jpg 100w" sizes="(max-width: 164px) 100vw, 164px" /> </div>
-</div>
-<div class="name-wrap">
-<div class="elementor-testimonial-rating"><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i></div> <div class="name">Cleveland A.</div> <div class="job"> New York, USA</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-f52480c elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-hidden-phone elementor-invisible elementor-widget elementor-widget-image" data-id="f52480c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;swing&quot;}" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<div class="elementor-image">
-<img decoding="async" width="180" height="129" src="wp-content/uploads/2020/11/h1_quote-2.png" class="attachment-full size-full wp-image-2017" alt loading="lazy" /> </div>
 </div>
 </div>
 </div>
