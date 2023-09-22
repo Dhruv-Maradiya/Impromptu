@@ -406,14 +406,14 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </li>
 <li>
-<div class="recent-posts-thumbnail">
+<!--<div class="recent-posts-thumbnail">
 <a href="../separated-they-live-in-bookmarksgrove-2/index.html">
 <img width="100" height="100" src="../wp-content/uploads/2020/11/blog-3-100x100.jpg" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-3-100x100.jpg 100w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-3-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-3-500x500.jpg 500w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-3-768x768.jpg 768w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
-</div>
-<div class="recent-posts-info">
+</div>-->
+<!--<div class="recent-posts-info">
 <a class="post-title" href="../separated-they-live-in-bookmarksgrove-2/index.html"><span>Separated they live in Bookmarksgrove</span></a>
 <span class="post-date">9 Nov, 2020</span>
-</div>
+</div>-->
 </li>
 </ul>
 </div><div id="tag_cloud-2" class="widget widget_tag_cloud"><span class="gamma widget-title">Popular Tag</span><div class="tagcloud"><a href="../tag/bread/index.html" class="tag-cloud-link tag-link-52 tag-link-position-1" style="font-size: 8pt;" aria-label="bread (1 item)">bread</a>
