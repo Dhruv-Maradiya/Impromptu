@@ -669,7 +669,7 @@ confirm_password.onkeyup = validatePassword;
 <div class="elementor-widget-container">
 <div class="elementor-image">
 <a href="index.php">
-<img width="1" height="1" src="wp-content/uploads/2020/11/logo-white.svg" class="attachment-full size-full wp-image-371" alt loading="lazy" /> </a>
+<img width="1" height="1" src="../wp-content/uploads/2020/11/logo-white.svg" class="attachment-full size-full wp-image-371" alt loading="lazy" /> </a>
 </div>
 </div>
 </div>

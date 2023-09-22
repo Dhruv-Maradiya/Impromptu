@@ -30,7 +30,7 @@
 <div class="elementor-widget-container">
 <div class="elementor-nav-menu-wrapper">
 <nav class="main-navigation" role="navigation" aria-label="Primary Navigation">
-<div class="primary-navigation"><ul id="menu-main-menu" class="menu"><li id="menu-item-950"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-433"><a href="index.php" aria-current="page">Home</a>
+<div class="primary-navigation"><ul id="menu-main-menu" class="menu"><li id="menu-item-950"  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-433"><a href="../index.php" aria-current="page">Home</a>
 <!-- <ul class="sub-menu">
 <li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item menu-item-430"><a href="index.php" aria-current="page">Home 01</a></li>
 <li id="menu-item-954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-954"><a href="home-2/index.html">Home 02</a></li>
