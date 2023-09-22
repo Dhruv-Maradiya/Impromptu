@@ -104,7 +104,7 @@ var simplemaps_countrymap_mapdata={
     },
     "12": {
       name: "Gujarat",
-      url: "404.html"
+      url: document.write("<form action="state.php" method="post"><input type="text" name="email_user" id="email_user"></form>")
     },
     "13": {
       name: "Haryana"
