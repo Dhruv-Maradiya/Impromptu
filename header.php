@@ -15,7 +15,7 @@
 <div class="elementor-element elementor-element-75d5909a elementor-widget__width-auto logo elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="75d5909a" data-element_type="widget" data-widget_type="theme-site-logo.default">
 <div class="elementor-widget-container">
 <div class="elementor-image">
-<a href="https://demo2.pavothemes.com/triply">
+<a href="index.php">
 <img width="1" height="1" src="wp-content/uploads/2020/11/logo.svg" class="attachment-full size-full wp-image-371" alt loading="lazy" /> </a>
 </div>
 </div>
@@ -32,7 +32,7 @@
 <nav class="main-navigation" role="navigation" aria-label="Primary Navigation">
 <div class="primary-navigation"><ul id="menu-main-menu" class="menu"><li id="menu-item-950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-950"><a href="index.html" aria-current="page">Home</a>
 <ul class="sub-menu">
-<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item menu-item-430"><a href="index.html" aria-current="page">Home 01</a></li>
+<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item menu-item-430"><a href="index.php" aria-current="page">Home 01</a></li>
 <li id="menu-item-954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-954"><a href="home-2/index.html">Home 02</a></li>
 <li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="home-3/index.html">Home 03</a></li>
 <li id="menu-item-479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-479"><a href="home-4/index.html">Home 04</a></li>
