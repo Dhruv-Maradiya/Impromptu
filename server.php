@@ -113,7 +113,7 @@ if (array_key_exists("new-submit", $_POST)) {
                   
                 //Redirecting user to home page after successfully logged in 
                 //header("Location: login.php");  
-                echo "<script> alert('Sign Up Successful.');
+                echo "<script>
               location='index.php';  
          
               </script>";
@@ -173,10 +173,15 @@ if (array_key_exists("login_submit", $_POST)) {
             $queryx = "SELECT * FROM user WHERE name='$email_user'";
             $resultx = mysqli_query($linkdb, $queryx);
             $rowx = mysqli_fetch_array($resultx);
+
+            $pass = $row['password'];
+
+            if($pass == null) {
+              $pass = $rowx['password'];
+            }
          
             if (isset($row) || isset($rowx)) {
-                 
-                if (password_verify($password, $row['password']) || password_verify($password, $rowx['password'])) 
+                if (password_verify($password, $pass)) 
                 {
 
                     //session variables to keep user logged in
@@ -189,8 +194,8 @@ if (array_key_exists("login_submit", $_POST)) {
                     // }
                      
                    // header("Location: ../recyclo_after/recyclocart.nicepage.io/Home.html"); //*Change header
-                   echo "<script> alert('Login Successful.');
-                   location='';  
+                   echo "<script>
+                   location='index.php';  
               
                    </script>";
                    

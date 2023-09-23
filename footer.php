@@ -118,7 +118,7 @@ error_reporting(E_ALL ^ E_WARNING);
 <div class="elementor-element elementor-element-167b519 elementor-widget elementor-widget-image" data-id="167b519" data-element_type="widget" data-widget_type="image.default">
 <div class="elementor-widget-container">
 <div class="elementor-image">
-<a href="https://demo2.pavothemes.com/triply">
+<a href="index.php">
 <img width="1" height="1" src="wp-content/uploads/2020/11/logo-white.svg" class="attachment-full size-full wp-image-1414" alt loading="lazy" /> </a>
 </div>
 </div>
