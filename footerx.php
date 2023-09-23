@@ -8,6 +8,10 @@ include('server.php');
 // }
 // else
 ?>
+<head>
+
+<link rel="dns-prefetch" href="http://maps.googleapis.com/" />
+</head>
 <div data-elementor-type="footer" data-elementor-id="490" class="elementor elementor-490 elementor-location-footer">
 <div class="elementor-section-wrap">
 <div class="elementor-section elementor-top-section elementor-element elementor-element-1f3d631 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1f3d631" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
@@ -127,7 +131,7 @@ include('server.php');
 <div class="elementor-element elementor-element-c57d268 elementor-widget elementor-widget-text-editor" data-id="c57d268" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p>Nisi ut aliquip ex ea commodo consequatute irure dolor in reprehenderit in voluptatevelit esse cillum dolore eu fugiat nulla  excepteur pariatur.</p> </div>
+<p>Welcome to Triply, where your travel dreams come to life! Uncover hidden gems, book seamlessly, and embark on unforgettable journeys—all in one place. Triply: Where Travel Meets Discovery!</p> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-cde6e0c elementor-position-left elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="cde6e0c" data-element_type="widget" data-widget_type="icon-box.default">
@@ -140,10 +144,10 @@ include('server.php');
 <div class="elementor-icon-box-content">
 <h3 class="elementor-icon-box-title">
 <span>
-754 West Gartner Street </span>
+Pandit Deendayal Energy </span>
 </h3>
 <p class="elementor-icon-box-description">
-Encino, CA 91316 </p>
+University, Gandhinagar - 382007 </p>
 </div>
 </div>
 </div>
@@ -151,7 +155,7 @@ Encino, CA 91316 </p>
 <div class="elementor-element elementor-element-74793d4 elementor-mobile-align-center elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="74793d4" data-element_type="widget" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
-<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+<a href="../contact/index.php#map" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 <span class="elementor-button-content-wrapper">
 <span class="elementor-button-icon elementor-align-icon-right">
 <i aria-hidden="true" class="triply-icon- triply-icon-long-arrow-right"></i> </span>
@@ -268,7 +272,7 @@ Encino, CA 91316 </p>
 <input type="hidden" name="queried_id" value="352" />
 <div class="elementor-form-fields-wrapper elementor-labels-above">
 <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-md-60 elementor-sm-60 elementor-field-required">
-<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your email" required="required" aria-required="true">
+<input size="1" type="email" pattern=".+@gmail\.com" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your email" required="required" aria-required="true">
 </div>
 <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons elementor-md-40 elementor-sm-40">
 <button type="submit" class="elementor-button elementor-size-sm">

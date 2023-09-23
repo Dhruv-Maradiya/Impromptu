@@ -15,7 +15,7 @@
 <div class="elementor-element elementor-element-75d5909a elementor-widget__width-auto logo elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="75d5909a" data-element_type="widget" data-widget_type="theme-site-logo.default">
 <div class="elementor-widget-container">
 <div class="elementor-image">
-<a href="index.php">
+<a href="../index.php">
 <img width="1" height="1" src="../wp-content/uploads/2020/11/logo.svg" class="attachment-full size-full wp-image-371" alt loading="lazy" /> </a>
 </div>
 </div>
