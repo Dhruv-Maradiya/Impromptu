@@ -68,7 +68,7 @@
 </li>
 <li id="menu-item-432" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-432"><a href="#">Page</a>
 <ul class="sub-menu">
-<li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958"><a href="../about-us/index.html">About Us</a></li>
+<li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958"><a href="../about-us/index.php">About Us</a></li>
 <!-- <li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="icons/index.html">Icons</a></li> -->
 <li id="menu-item-4136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4136"><a href="../faq/index.html">FAQ</a></li>
 <!-- <li id="menu-item-959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-959"><a href="404.html">404</a></li> -->

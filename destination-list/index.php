@@ -226,7 +226,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-1ebd871 elementor-widget elementor-widget-taxonomy-item" data-id="1ebd871" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="../ba_locations/iceland/index.html">
+<a class="title-location" href="../state/index.php">
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/12x.png" alt="Gujarat">
 </div>
