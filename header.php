@@ -42,7 +42,7 @@
 <li id="menu-item-8247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8247"><a href="home-8/index.html">Home 08</a></li>
 </ul> -->
 </li>
-<li id="menu-item-433" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-433"><a href="tours-list-top-search/index.php">Tours</a>
+<li id="menu-item-433" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-433"><a href="tours-list/index.php">Tours</a>
 <!-- <ul class="sub-menu">
 <li id="menu-item-6636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6636"><a href="tours-list-top-search/index.html">Tour List &#8211; Top Search</a></li>
 <li id="menu-item-6637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6637"><a href="tours-list-sidebar/index.html">Tour List &#8211; Sidebar Filter</a></li>
@@ -68,9 +68,9 @@
 </li>
 <li id="menu-item-432" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-432"><a href="#">Page</a>
 <ul class="sub-menu">
-<li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958"><a href="about-us/index.html">About Us</a></li>
+<li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958"><a href="about-us/index.php">About Us</a></li>
 <!-- <li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="icons/index.html">Icons</a></li> -->
-<li id="menu-item-4136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4136"><a href="faq/index.html">FAQ</a></li>
+<li id="menu-item-4136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4136"><a href="faq/index.php">FAQ</a></li>
 <!-- <li id="menu-item-959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-959"><a href="404.html">404</a></li> -->
 </ul>
 </li>
