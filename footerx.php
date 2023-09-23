@@ -1,6 +1,7 @@
 <?php
-include('server.php'); 
 error_reporting(E_ALL ^ E_WARNING);
+include('server.php'); 
+
 // if(isset($_SESSION['id']))
 // {
 //     header("location: Home.php");
@@ -371,7 +372,7 @@ Encino, CA 91316 </p>
 <a href="my-account/indexc2b6.html?action=lostpassword">Forgot password?</a>
 </div>
 </form> -->
-<form action="server.php" method="post">
+<form action="../server.php" method="post">
 <div class="login_username">
 <label for="login_username" style="color:black;">Username or email</label>
 <input type="text" name="email_user" id="email_user" value size="20" required="required">
@@ -432,7 +433,8 @@ Encino, CA 91316 </p>
 <div class="form-spinner"><i class="fas fa-spinner fa-spin"></i></div>
 </div>
 </form> -->
-<form action="server.php" method="post">
+
+<form action="../server.php" method="post">
 <div class="new-username">
 <label for="new_username" style="color:black;">Username</label>
 <input type="text" name="new_username" id="new_username" value size="20" required="required">
