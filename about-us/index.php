@@ -271,7 +271,7 @@ Process Easy</h2> </div>
 Best Travel Agent </a>
 </h3>
 <p class="elementor-icon-box-description">
-The generated Lorem Ipsum is therefore always free from repetition available </p>
+Our travel agency is dedicated to providing you with top-notch service, personalized itineraries, and unbeatable deals. </p>
 </div>
 </div>
 </div>
@@ -286,10 +286,10 @@ The generated Lorem Ipsum is therefore always free from repetition available </p
 <div class="elementor-icon-box-content">
 <h3 class="elementor-icon-box-title">
 <a href="#">
-Beautiful Places </a>
+Hidden Gems </a>
 </h3>
 <p class="elementor-icon-box-description">
-The generated Lorem Ipsum is therefore always free from repetition </p>
+We assist you in discovering and exploring the hidden gems. </p>
 </div>
 </div>
 </div>
@@ -313,7 +313,7 @@ The generated Lorem Ipsum is therefore always free from repetition </p>
 Trust & Safety </a>
 </h3>
 <p class="elementor-icon-box-description">
-There are many variations of passages of Lorem Ipsum available you available </p>
+When it comes to trust and safety in travel, we've got your back. Your safety is our priority! </p>
 </div>
 </div>
 </div>
@@ -331,7 +331,7 @@ There are many variations of passages of Lorem Ipsum available you available </p
 Passionate Travel </a>
 </h3>
 <p class="elementor-icon-box-description">
-There are many variations of passages of Lorem Ipsum available </p>
+From exploring ancient ruins to immersing ourselves in vibrant cultures, we'll create memories that will last a lifetime. </p>
 </div>
 </div>
 </div>
@@ -355,8 +355,7 @@ There are many variations of passages of Lorem Ipsum available </p>
 Best Price Guarantee </a>
 </h3>
 <p class="elementor-icon-box-description">
-All the Lorem Ipsum generators on the
-Internet need </p>
+We guarantee the best prices for your travel needs! Our travel agency works tirelessly to find you the most competitive rates on packages.</p>
 </div>
 </div>
 </div>
@@ -374,7 +373,7 @@ Internet need </p>
 Fast Booking </a>
 </h3>
 <p class="elementor-icon-box-description">
-If you are going to use a passage of Lorem Ipsum, you need </p>
+Booking made easy! With our fast booking service, you can secure your dream vacation in just a few clicks. </p>
 </div>
 </div>
 </div>
@@ -534,17 +533,17 @@ Happy customers </div>
 <div>Our team</div> </div>
 </div>-->
 </div>
-<div class="elementor-element elementor-element-baba6a0 animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="baba6a0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
+<!--<div class="elementor-element elementor-element-baba6a0 animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="baba6a0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
 <div class="elementor-widget-container">
 <h2 class="elementor-heading-title elementor-size-default">Meet The Team</h2> </div>
+</div>-->
 </div>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-4c0e699 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4c0e699" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
+<!--<div class="elementor-section elementor-top-section elementor-element elementor-element-4c0e699 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4c0e699" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
 <div class="elementor-container elementor-column-gap-no">
 <div class="elementor-row">
 <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-ab8f7bb" data-id="ab8f7bb" data-element_type="column">
@@ -717,7 +716,7 @@ Happy customers </div>
 </div>
 </div>
 </div>
-</div>
+</div>-->
 <div class="elementor-section elementor-top-section elementor-element elementor-element-5ec7d07 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ec7d07" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
 <div class="elementor-container elementor-column-gap-no">
 <div class="elementor-row">
