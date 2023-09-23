@@ -218,7 +218,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-widget-container">
 <div class="elementor-image">
 <a class="term-link" href="index.html">
-<img width="410" height="410" src="../wp-content/uploads/2022/09/12.jpeg" class="attachment-triply-item size-triply-item wp-image-10881" alt decoding="async" loading="lazy" srcset="" sizes="(max-width: 410px) 100vw, 410px" /> </a>
+<img width="410" height="410" src="12.jpeg" class="attachment-triply-item size-triply-item wp-image-10881" alt decoding="async" loading="lazy" srcset="" sizes="(max-width: 410px) 100vw, 410px" /> </a>
 </div>
 </div>
 </div>
