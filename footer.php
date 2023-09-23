@@ -483,8 +483,8 @@ confirm_password.onkeyup = validatePassword;
 <div class="triply-mobile-nav">
 <a href="#" class="mobile-nav-close"><i class="triply-icon-times"></i></a>
 <nav class="mobile-navigation" aria-label="Mobile Navigation">
-<div class="handheld-navigation"><ul id="menu-handheld-menu" class="menu"><li id="menu-item-7070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-7070"><a href="index.html" aria-current="page">Home</a>
-<ul class="sub-menu">
+<div class="handheld-navigation"><ul id="menu-handheld-menu" class="menu"><li id="menu-item-7070" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-7070"><a href="index.php" aria-current="page">Home</a>
+<!-- <ul class="sub-menu">
 <li id="menu-item-7069" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item menu-item-7069"><a href="index.html" aria-current="page">Home 1</a></li>
 <li id="menu-item-7066" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7066"><a href="home-2/index.html">Home 2</a></li>
 <li id="menu-item-7068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7068"><a href="home-3/index.html">Home 3</a></li>
@@ -493,41 +493,41 @@ confirm_password.onkeyup = validatePassword;
 <li id="menu-item-9885" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9885"><a href="home-6/index.html">Home 6</a></li>
 <li id="menu-item-9884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9884"><a href="home-7/index.html">Home 7</a></li>
 <li id="menu-item-9883" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9883"><a href="home-8/index.html">Home 8</a></li>
-</ul>
+</ul> -->
 </li>
-<li id="menu-item-7071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7071"><a href="tours-list-top-search/index.html">Tours</a>
-<ul class="sub-menu">
+<li id="menu-item-7071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7071"><a href="tours-list/index.php">Tours</a>
+<!-- <ul class="sub-menu">
 <li id="menu-item-7062" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7062"><a href="tours-list-view/index.html">Tour List &#8211; List View</a></li>
 <li id="menu-item-7063" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7063"><a href="tours-list-top-search/index.html">Tour List &#8211; Top Search</a></li>
 <li id="menu-item-7064" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7064"><a href="tours-list-sidebar/index.html">Tour List &#8211; Sidebar Filter</a></li>
 <li id="menu-item-7072" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7072"><a href="to_book/waterfalls-geysers-and-glacier/index.html">Tour Single &#8211; Layout 1</a></li>
 <li id="menu-item-7073" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7073"><a href="to_book/discovery-islands-kayaking-tour/index.html">Tour Single &#8211; Layout 2</a></li>
 <li id="menu-item-7074" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7074"><a href="to_book/best-of-argentina/index.html">Tour Single &#8211; Layout 3</a></li>
-</ul>
+</ul> -->
 </li>
-<li id="menu-item-7060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7060"><a href="destination-list/index.html">Destination</a>
-<ul class="sub-menu">
+<li id="menu-item-7060" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7060"><a href="destination-list/index.php">Destination</a>
+<!-- <ul class="sub-menu">
 <li id="menu-item-7065" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7065"><a href="destination-list/index.html">Destination List</a></li>
 <li id="menu-item-7061" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7061"><a href="destination-list-2/index.html">Destination List 2</a></li>
 <li id="menu-item-7085" class="menu-item menu-item-type-taxonomy menu-item-object-ba_locations menu-item-7085"><a href="ba_locations/americas/index.html">Destination Detail</a></li>
-</ul>
+</ul> -->
 </li>
-<li id="menu-item-7078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7078"><a href="blog/index.html">Blog</a>
-<ul class="sub-menu">
+<li id="menu-item-7078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7078"><a href="blog/index.php">Blog</a>
+<!-- <ul class="sub-menu">
 <li id="menu-item-7075" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7075"><a href="blog/index.html">Blog &#8211; Listview</a></li>
 <li id="menu-item-7076" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7076"><a href="blog/indexb995.html?blog_style=grid">Blog &#8211; Gridview</a></li>
 <li id="menu-item-7077" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7077"><a href="pack-wisely-before-traveling-2/index.html">Blog &#8211; Single Post</a></li>
-</ul>
+</ul> -->
 </li>
 <li id="menu-item-7079" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7079"><a href="#">Page</a>
 <ul class="sub-menu">
-<li id="menu-item-7080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7080"><a href="about-us/index.html">About Us</a></li>
-<li id="menu-item-7081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7081"><a href="icons/index.html">Icons</a></li>
-<li id="menu-item-7082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7082"><a href="faq/index.html">Faq</a></li>
-<li id="menu-item-7083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7083"><a href="404.html">404</a></li>
+<li id="menu-item-7080" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7080"><a href="about-us/index.php">About Us</a></li>
+<!-- <li id="menu-item-7081" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7081"><a href="icons/index.html">Icons</a></li> -->
+<li id="menu-item-7082" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7082"><a href="faq/index.php">Faq</a></li>
+<!-- <li id="menu-item-7083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7083"><a href="404.html">404</a></li> -->
 </ul>
 </li>
-<li id="menu-item-7084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084"><a href="contact/index.html">Contact</a></li>
+<li id="menu-item-7084" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084"><a href="contact/index.php">Contact</a></li>
 <li id="menu-item-7086" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7086"><a href="my-account/index.html">My Account</a></li>
 </ul></div> </nav>
 </div>
@@ -598,8 +598,8 @@ confirm_password.onkeyup = validatePassword;
 <div class="elementor-nav-menu-wrapper">
 <div class="triply-canvas-nav">
 <nav class="mobile-navigation" aria-label="Mobile Navigation">
-<div class="handheld-navigation"><ul id="menu-handheld-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-7070"><a href="index.html" aria-current="page">Home</a>
-<ul class="sub-menu">
+<div class="handheld-navigation"><ul id="menu-handheld-menu-1" class="menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-7070"><a href="index.php" aria-current="page">Home</a>
+<!-- <ul class="sub-menu">
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-352 current_page_item menu-item-7069"><a href="index.html" aria-current="page">Home 1</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7066"><a href="home-2/index.html">Home 2</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7068"><a href="home-3/index.html">Home 3</a></li>
@@ -608,41 +608,41 @@ confirm_password.onkeyup = validatePassword;
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9885"><a href="home-6/index.html">Home 6</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9884"><a href="home-7/index.html">Home 7</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9883"><a href="home-8/index.html">Home 8</a></li>
-</ul>
+</ul> -->
 </li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7071"><a href="tours-list-top-search/index.html">Tours</a>
-<ul class="sub-menu">
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7071"><a href="tours-list/index.php">Tours</a>
+<!-- <ul class="sub-menu">
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7062"><a href="tours-list-view/index.html">Tour List &#8211; List View</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7063"><a href="tours-list-top-search/index.html">Tour List &#8211; Top Search</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7064"><a href="tours-list-sidebar/index.html">Tour List &#8211; Sidebar Filter</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7072"><a href="to_book/waterfalls-geysers-and-glacier/index.html">Tour Single &#8211; Layout 1</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7073"><a href="to_book/discovery-islands-kayaking-tour/index.html">Tour Single &#8211; Layout 2</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7074"><a href="to_book/best-of-argentina/index.html">Tour Single &#8211; Layout 3</a></li>
-</ul>
+</ul> -->
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7060"><a href="destination-list/index.html">Destination</a>
-<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7060"><a href="destination-list/index.php">Destination</a>
+<!-- <ul class="sub-menu">
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7065"><a href="destination-list/index.html">Destination List</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7061"><a href="destination-list-2/index.html">Destination List 2</a></li>
 <li class="menu-item menu-item-type-taxonomy menu-item-object-ba_locations menu-item-7085"><a href="ba_locations/americas/index.html">Destination Detail</a></li>
-</ul>
+</ul> -->
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7078"><a href="blog/index.html">Blog</a>
-<ul class="sub-menu">
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7078"><a href="blog/index.php">Blog</a>
+<!-- <ul class="sub-menu">
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7075"><a href="blog/index.html">Blog &#8211; Listview</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7076"><a href="blog/indexb995.html?blog_style=grid">Blog &#8211; Gridview</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7077"><a href="pack-wisely-before-traveling-2/index.html">Blog &#8211; Single Post</a></li>
-</ul>
+</ul> -->
 </li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7079"><a href="#">Page</a>
 <ul class="sub-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7080"><a href="about-us/index.html">About Us</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7081"><a href="icons/index.html">Icons</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7082"><a href="faq/index.html">Faq</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7083"><a href="404.html">404</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7080"><a href="about-us/index.php">About Us</a></li>
+<!-- <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7081"><a href="icons/index.html">Icons</a></li> -->
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7082"><a href="faq/index.php">Faq</a></li>
+<!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7083"><a href="404.html">404</a></li> -->
 </ul>
 </li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084"><a href="contact/index.html">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7084"><a href="contact/index.php">Contact</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7086"><a href="my-account/index.html">My Account</a></li>
 </ul></div> </nav>
 </div>
