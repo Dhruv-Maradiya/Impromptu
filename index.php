@@ -415,7 +415,7 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <div class="elementor-widget-container">
 <div class="row triply-carousel-visibility triply-carousel-items" data-carousel="{&quot;navigation&quot;:&quot;arrows&quot;,&quot;autoplayHoverPause&quot;:true,&quot;autoplay&quot;:false,&quot;autoplaySpeed&quot;:null,&quot;items&quot;:&quot;3&quot;,&quot;items_laptop&quot;:&quot;3&quot;,&quot;items_tablet_extra&quot;:&quot;3&quot;,&quot;items_tablet&quot;:&quot;2&quot;,&quot;items_mobile_extra&quot;:&quot;2&quot;,&quot;items_mobile&quot;:&quot;1&quot;,&quot;loop&quot;:false,&quot;breakpoint_laptop&quot;:1366,&quot;breakpoint_tablet_extra&quot;:1200,&quot;breakpoint_tablet&quot;:1024,&quot;breakpoint_mobile_extra&quot;:880,&quot;breakpoint_mobile&quot;:767}"> <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" href="ba_locations/iceland/index.html">
+<a class="title-location" href="state/index.php">
 <div class="thumbnail-location">
 <img decoding="async" src="images/12.jpeg" alt="Gujarat">
 </div>
