@@ -5,7 +5,7 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Destination List 2 &#8211; Triply</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Destination List &#8211; Triply</title>
 <meta name="robots" content="max-image-preview:large" />
 <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 <link rel="dns-prefetch" href="http://s.w.org/">
