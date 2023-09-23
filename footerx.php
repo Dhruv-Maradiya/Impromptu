@@ -8,6 +8,10 @@ include('server.php');
 // }
 // else
 ?>
+<head>
+
+<link rel="dns-prefetch" href="http://maps.googleapis.com/" />
+</head>
 <div data-elementor-type="footer" data-elementor-id="490" class="elementor elementor-490 elementor-location-footer">
 <div class="elementor-section-wrap">
 <div class="elementor-section elementor-top-section elementor-element elementor-element-1f3d631 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1f3d631" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
@@ -35,7 +39,7 @@ include('server.php');
 <a href="tel:1800%20-%20333%205578">
 <span class="elementor-icon-list-icon">
 <svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d="m17.511 16.089c0 .884-.716 1.6-1.6 1.6s-1.6-.716-1.6-1.6.716-1.6 1.6-1.6 1.6.716 1.6 1.6z" class="fill-primary" /><path d="m18.578 23.289c-1.244 1.244-3.289 1.244-4.533 0l-5.333-5.333c-1.244-1.244-1.244-3.289 0-4.533l.8-.8-6.133-6.044c-3.733 3.733-3.733 9.867 0 13.689l8.356 8.356c3.733 3.733 9.867 3.733 13.689 0l-6.044-6.044-.8.711z" class="fill-primary" /><g class="fill-secondary"><path d="m15.911 0c-2.933 0-5.778.8-8.356 2.311-.267.178-.356.444-.178.711s.444.356.711.178c7.111-4.267 16.356-2.044 20.622 5.067 2.844 4.8 2.844 10.756 0 15.556-.178.267-.089.622.178.711.089.089.178.089.267.089.178 0 .356-.089.444-.267 4.622-7.644 2.133-17.511-5.511-22.133-2.4-1.422-5.333-2.222-8.178-2.222z" /><path d="m15.911 4.267c.267 0 .533-.267.533-.533v-1.6c0-.267-.267-.533-.533-.533s-.533.267-.533.533v1.6c0 .356.178.533.533.533z" /><path d="m9.689 5.956c.267 0 .533-.267.533-.533 0-.089 0-.178-.089-.267l-.8-1.422c-.089-.267-.444-.356-.711-.178s-.356.444-.178.711l.8 1.422c.089.178.267.267.444.267z" /><path d="m28.267 22.667-1.422-.8c-.267-.178-.622-.089-.711.178-.178.267-.089.622.178.711l1.422.8c.267.178.622.089.711-.178.178-.267.089-.622-.178-.711z" /><path d="m27.733 16.089c0 .267.267.533.533.533h1.6c.267 0 .533-.267.533-.533s-.267-.533-.533-.533h-1.6c-.356 0-.533.267-.533.533z" /><path d="m27.733 8.711-1.422.8c-.267.178-.356.444-.178.711s.444.356.711.178l1.422-.8c.267-.178.356-.444.178-.711s-.444-.356-.711-.178z" /><path d="m22.044 5.956c.178 0 .356-.089.444-.267l.8-1.422c.178-.267.089-.533-.178-.711s-.622-.089-.711.178l-.8 1.422c-.178.267-.089.622.178.711.089.089.178.089.267.089z" /><path d="m13.689 16.089c0 1.156.978 2.133 2.133 2.133.978 0 1.867-.622 2.044-1.6h3.822c.267 0 .533-.267.533-.533s-.267-.533-.533-.533h-3.822c-.178-.8-.8-1.333-1.511-1.511v-.089-8c0-.267-.267-.533-.533-.533s-.533.267-.533.533v8.089.089c-.889.178-1.6.978-1.6 1.956zm2.222-1.067c.622 0 1.067.444 1.067 1.067s-.444 1.067-1.067 1.067c-.622 0-1.067-.444-1.067-1.067-.089-.533.444-1.067 1.067-1.067z" /><path d="m27.289 25.244-4.533-4.533c-.622-.622-1.689-.622-2.311 0l-2.311 2.311c-1.067 1.067-2.756 1.067-3.822 0l-5.333-5.333c-1.067-1.067-1.067-2.756 0-3.822l2.311-2.311c.622-.622.622-1.689 0-2.311l-4.533-4.533c-.622-.622-1.6-.622-2.311 0l-1.422 1.511c-4 4-4 10.4 0 14.4l8.356 8.356c4 4 10.4 4 14.4 0l1.511-1.511c.622-.622.622-1.6 0-2.222zm-22.045-19.822c.178-.178.533-.178.8 0l4.533 4.533c.089.089.178.267.178.356 0 .178-.089.267-.178.356l-1.156 1.156-5.333-5.333 1.156-1.067zm6.845 22.845-8.356-8.356c-3.378-3.378-3.556-8.889-.356-12.533l5.333 5.333-.356.356c-1.511 1.511-1.511 3.822 0 5.333l5.333 5.333c1.511 1.511 3.822 1.511 5.333 0l.356-.356 5.333 5.333c-3.644 3.111-9.156 2.933-12.622-.444zm14.489-1.511-1.156 1.156-5.333-5.333 1.156-1.156c.178-.178.533-.178.8 0l4.533 4.533c.178.178.178.533 0 .8z" /></g></svg> </span>
-<span class="elementor-icon-list-text">+(84) 1800 - 333 5578</span>
+<span class="elementor-icon-list-text">(+91) 6351494173</span>
 </a>
 </li>
 </ul>
@@ -51,10 +55,10 @@ include('server.php');
 <div class="elementor-widget-container">
 <ul class="elementor-icon-list-items">
 <li class="elementor-icon-list-item">
-<a href="http://support@example.com/">
+<a href=mailto:"impromptu1809@gmail.com">
 <span class="elementor-icon-list-icon">
 <svg height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><g class="fill-primary"><path d="m18.933 7.467 1.689 1.511c.444.356.978.356 1.422 0l1.689-1.511 7.733-6.933h-20.267l7.733 6.933z" /><path d="m11.2.533v13.867l7.733-6.933-7.733-6.933z" /><path d="m31.467 14.4v-13.867l-7.733 6.933 7.733 6.933z" /><path d="m23.733 7.467-1.689 1.511c-.444.356-.978.356-1.422 0l-1.689-1.511-7.733 6.933h20.267l-7.733-6.933z" /></g><path d="m8.267 24.533 1.689 1.511c.444.356.978.356 1.422 0l1.689-1.511 7.733-6.933h-20.267l7.733 6.933z" fill="#bfc9e0" /><path d="m.533 17.6v13.867l7.733-6.933-7.733-6.933z" fill="#bfc9e0" /><path d="m13.067 24.533-1.689 1.511c-.444.356-.978.356-1.422 0l-1.689-1.511-7.733 6.933h20.267l-7.733-6.933z" fill="#bfc9e0" /><path d="m20.8 31.467v-13.867l-7.733 6.933 7.733 6.933z" fill="#bfc9e0" /><path d="m31.467 0h-20.267c-.267 0-.533.267-.533.533v13.867c0 .267.267.533.533.533h20.267c.267 0 .533-.267.533-.533v-13.867c0-.267-.267-.533-.533-.533zm-9.778 8.533c-.178.178-.533.178-.711 0l-8.356-7.467h17.511zm-3.556-1.066-6.4 5.778v-11.556zm.8.711 1.333 1.156c.622.533 1.511.533 2.133 0l1.333-1.156 6.311 5.689h-17.422l6.311-5.689zm5.6-.711 6.4-5.778v11.467z" class="fill-secondary" /><path d="m.533 16c.267 0 .533-.267.533-.533v-6.933c0-.267.267-.533.533-.533h6.222l-.711.711c-.178.178-.178.533 0 .711s.533.178.711 0l1.6-1.6c.178-.178.178-.533 0-.711l-1.6-1.6c-.178-.267-.533-.178-.711 0s-.178.533 0 .711l.711.711h-6.222c-.889 0-1.6.711-1.6 1.6v6.933c0 .267.267.533.533.533z" class="fill-secondary" /><path d="m31.467 16c-.267 0-.533.267-.533.533v6.933c0 .267-.267.533-.533.533h-6.222l.711-.711c.178-.178.178-.533 0-.711s-.533-.178-.711 0l-1.6 1.6c-.178.178-.178.533 0 .711l1.6 1.6c.178.178.533.178.711 0s.178-.533 0-.711l-.711-.711h6.222c.889 0 1.6-.711 1.6-1.6v-6.933c0-.267-.267-.533-.533-.533z" class="fill-secondary" /><path d="m20.8 17.067h-20.267c-.267 0-.533.267-.533.533v13.867c0 .267.267.533.533.533h20.267c.267 0 .533-.267.533-.533v-13.867c0-.267-.267-.533-.533-.533zm-9.778 8.533c-.178.178-.533.178-.711 0l-8.356-7.467h17.511zm-3.555-1.067-6.4 5.778v-11.556zm.8.711 1.333 1.156c.622.533 1.511.533 2.133 0l1.333-1.156 6.311 5.689h-17.422l6.311-5.689zm5.6-.711 6.4-5.778v11.467z" class="fill-secondary" /></svg> </span>
-<span class="elementor-icon-list-text"><span class="__cf_email__" data-cfemail="6b181e1b1b04191f2b0e130a061b070e45080406">[email&#160;protected]</span></span>
+<span class="elementor-icon-list-text"><span class="__cf_email__" data-cfemail="6b181e1b1b04191f2b0e130a061b070e45080406">impromptu1809@gmail.com</span></span>
 </a>
 </li>
 </ul>
@@ -127,7 +131,7 @@ include('server.php');
 <div class="elementor-element elementor-element-c57d268 elementor-widget elementor-widget-text-editor" data-id="c57d268" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p>Nisi ut aliquip ex ea commodo consequatute irure dolor in reprehenderit in voluptatevelit esse cillum dolore eu fugiat nulla  excepteur pariatur.</p> </div>
+<p>Welcome to Triply, where your travel dreams come to life! Uncover hidden gems, book seamlessly, and embark on unforgettable journeys—all in one place. Triply: Where Travel Meets Discovery!</p> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-cde6e0c elementor-position-left elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-view-default elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="cde6e0c" data-element_type="widget" data-widget_type="icon-box.default">
@@ -140,10 +144,10 @@ include('server.php');
 <div class="elementor-icon-box-content">
 <h3 class="elementor-icon-box-title">
 <span>
-754 West Gartner Street </span>
+Pandit Deendayal Energy </span>
 </h3>
 <p class="elementor-icon-box-description">
-Encino, CA 91316 </p>
+University, Gandhinagar - 382007 </p>
 </div>
 </div>
 </div>
@@ -151,7 +155,7 @@ Encino, CA 91316 </p>
 <div class="elementor-element elementor-element-74793d4 elementor-mobile-align-center elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit elementor-widget elementor-widget-button" data-id="74793d4" data-element_type="widget" data-widget_type="button.default">
 <div class="elementor-widget-container">
 <div class="elementor-button-wrapper">
-<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+<a href="../contact/index.php#map" class="elementor-button-link elementor-button elementor-size-sm" role="button">
 <span class="elementor-button-content-wrapper">
 <span class="elementor-button-icon elementor-align-icon-right">
 <i aria-hidden="true" class="triply-icon- triply-icon-long-arrow-right"></i> </span>
@@ -268,7 +272,7 @@ Encino, CA 91316 </p>
 <input type="hidden" name="queried_id" value="352" />
 <div class="elementor-form-fields-wrapper elementor-labels-above">
 <div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-md-60 elementor-sm-60 elementor-field-required">
-<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your email" required="required" aria-required="true">
+<input size="1" type="email" pattern=".+@gmail\.com" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your email" required="required" aria-required="true">
 </div>
 <div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons elementor-md-40 elementor-sm-40">
 <button type="submit" class="elementor-button elementor-size-sm">
@@ -298,7 +302,7 @@ Encino, CA 91316 </p>
 <div class="elementor-element elementor-element-7a1ac5c elementor-widget elementor-widget-text-editor" data-id="7a1ac5c" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<div>Copyright © 2022 <a href="index.html">Triply</a>. All Rights Reserved.</div> </div>
+<div>Copyright © 2023 <a href="index.html">Triply</a>. All Rights Reserved.</div> </div>
 </div>
 </div>
 </div>

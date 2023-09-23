@@ -1,9 +1,31 @@
+<?php 
+	include '../linkDB.php';
+    $stateId = $_REQUEST['id'];
+
+    if (!isset($stateId)) {
+        $stateId = 12;
+    }
+
+    // Fetch state from database using mysql query
+    $sql = "SELECT * FROM state WHERE id = $stateId";
+
+    $result = mysqli_query($linkdb, $sql);
+
+    if (mysqli_num_rows($result) > 0) {
+        $row = mysqli_fetch_assoc($result);
+    }
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
 <!-- Mirrored from demo2.pavothemes.com/triply/ba_locations/iceland/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 13:04:29 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
+	<title>
+		<?php
+			echo $row["name"]
+		?>
+	</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Iceland &#8211; Triply</title>
 <meta name="robots" content="max-image-preview:large" />
@@ -153,7 +175,11 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div class="elementor-element elementor-element-3c6b8263 elementor-widget elementor-widget-theme-page-title elementor-page-title elementor-widget-heading" data-id="3c6b8263" data-element_type="widget" data-widget_type="theme-page-title.default">
 <div class="elementor-widget-container">
-<h1 class="elementor-heading-title elementor-size-default">Gujarat</h1> </div>
+<h1 class="elementor-heading-title elementor-size-default">
+	<?php
+		echo $row["name"]
+	?>
+</h1> </div>
 </div>
 </div>
 </div>
@@ -180,7 +206,11 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-9ea18f5 elementor-widget elementor-widget-text-editor" data-id="9ea18f5" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p>Gujarat, located in western India, is a vibrant state known for its rich history, diverse culture, and stunning landscapes.From the majestic Rann of Kutch to the ancient temples of Somnath, Gujarat offers a blend of natural beauty and architectural wonders. The state is also famous for its lip-smacking cuisine, including dhokla and theplas.So, get ready to immerse yourself in the colors, flavors, and warmth of Gujarat</p>
+<p>
+	<?php
+		echo $row["overview"]
+	?>
+</p>
 </div>
 </div>
 </div>
@@ -188,7 +218,9 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-widget-container">
 <div class="elementor-widget-inner"> <div class="taxonomy-info-item">
 <div class="item-label">State</div>
-<div class="item-content">Gujarat</div>
+<div class="item-content"><?php
+		echo $row["name"]
+	?></div>
 </div>
 <!-- <div class="taxonomy-info-item">
 <div class="item-label">Visa Requirements</div>
@@ -196,15 +228,26 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div> -->
 <div class="taxonomy-info-item">
 <div class="item-label">Languages spoken</div>
-<div class="item-content">Gujarati</div>
+<div class="item-content"><?php
+		echo $row["languageSpoken"]
+	?>
+	</div>
 </div>
 <div class="taxonomy-info-item">
 <div class="item-label">Currency used</div>
-<div class="item-content">Indian rupee (INR)</div>
+<div class="item-content">
+	<?php
+		echo $row["currencyUsed"]
+	?>
+</div>
 </div>
 <div class="taxonomy-info-item">
 <div class="item-label">Area (km2)</div>
-<div class="item-content">196,000 km²</div>
+<div class="item-content">
+	<?php 
+		echo $row["areaInSqkm"]
+		?>
+km²</div>
 </div>
 </div> </div>
 </div>
@@ -218,7 +261,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-widget-container">
 <div class="elementor-image">
 <a class="term-link" href="index.html">
-<img width="410" height="410" src="../wp-content/uploads/2022/09/12.jpeg" class="attachment-triply-item size-triply-item wp-image-10881" alt decoding="async" loading="lazy" srcset="" sizes="(max-width: 410px) 100vw, 410px" /> </a>
+<img width="410" height="410" src="12.jpeg" class="attachment-triply-item size-triply-item wp-image-10881" alt decoding="async" loading="lazy" srcset="" sizes="(max-width: 410px) 100vw, 410px" /> </a>
 </div>
 </div>
 </div>
