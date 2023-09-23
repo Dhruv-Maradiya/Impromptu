@@ -195,7 +195,7 @@ Connect to the Roots </div>
 </div>
 <div class="elementor-element elementor-element-cbcda7d elementor-widget__width-initial elementor-widget-tablet__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="cbcda7d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-right&quot;,&quot;_animation_mobile&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Discover India's hidden jewels.</h2> </div>
+<h2 class="elementor-heading-title elementor-size-default"style="color:#8a4c11">Discover India's hidden jewels.</h2> </div>
 </div>
 <div class="elementor-element elementor-element-f429362 elementor-mobile-align-center animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="f429362" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;,&quot;_animation_mobile&quot;:&quot;opal-move-up&quot;}" data-widget_type="button.default">
 <div class="elementor-widget-container">
@@ -213,7 +213,7 @@ Connect to the Roots </div>
 <div class="elementor-element elementor-element-fb67f8f elementor-widget__width-initial elementor-absolute animated-fast elementor-invisible elementor-widget elementor-widget-image" data-id="fb67f8f" data-element_type="widget" data-settings="{&quot;_position&quot;:&quot;absolute&quot;,&quot;_animation&quot;:&quot;opal-move-left&quot;}" data-widget_type="image.default">
 <div class="elementor-widget-container">
 <div class="elementor-image">
-<img decoding="async" width="1275" height="800" src="wp-content/uploads/2020/11/h1_bg-1.jpg" class="attachment-full size-full wp-image-1011" alt loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/h1_bg-1.jpg 1275w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/h1_bg-1-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/h1_bg-1-1024x643.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/h1_bg-1-768x482.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/h1_bg-1-717x450.jpg 717w" sizes="(max-width: 1275px) 100vw, 1275px" /> </div>
+<img decoding="async" width="1275" height="800"  src="images/home_wall_x.png" class="attachment-full size-full wp-image-1011" alt loading="lazy"  sizes="(max-width: 1275px) 100vw, 1275px" /> </div>
 </div>
 </div>
 </div>
@@ -415,12 +415,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 <div class="elementor-widget-container">
 <div class="row triply-carousel-visibility triply-carousel-items" data-carousel="{&quot;navigation&quot;:&quot;arrows&quot;,&quot;autoplayHoverPause&quot;:true,&quot;autoplay&quot;:false,&quot;autoplaySpeed&quot;:null,&quot;items&quot;:&quot;3&quot;,&quot;items_laptop&quot;:&quot;3&quot;,&quot;items_tablet_extra&quot;:&quot;3&quot;,&quot;items_tablet&quot;:&quot;2&quot;,&quot;items_mobile_extra&quot;:&quot;2&quot;,&quot;items_mobile&quot;:&quot;1&quot;,&quot;loop&quot;:false,&quot;breakpoint_laptop&quot;:1366,&quot;breakpoint_tablet_extra&quot;:1200,&quot;breakpoint_tablet&quot;:1024,&quot;breakpoint_mobile_extra&quot;:880,&quot;breakpoint_mobile&quot;:767}"> <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" href="ba_locations/africa/index.html">
+<a class="title-location" href="ba_locations/iceland/index.html">
 <div class="thumbnail-location">
-<img decoding="async" src="wp-content/uploads/2020/11/destination-07.jpg" alt="Africa">
+<img decoding="async" src="images/12.jpeg" alt="Gujarat">
 </div>
 <div class="content-location">
-<span class="location-name">Africa</span>
+<span class="location-name">Gujarat</span>
 <span class="location-count">1&nbsp;Tour</span>
 </div>
 </a>
@@ -428,12 +428,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" href="ba_locations/americas/index.html">
+<a class="title-location" >  <!-- ba_locations/americas/index.html -->
 <div class="thumbnail-location">
-<img decoding="async" src="wp-content/uploads/2020/11/Destination_image-1.jpg" alt="Americas">
+<img decoding="async" src="images/36.jpeg" alt="Jammu And Kashmir">
 </div>
 <div class="content-location">
-<span class="location-name">Americas</span>
+<span class="location-name">Jammu And <br> Kashmir</span>
 <span class="location-count">1&nbsp;Tour</span>
 </div>
 </a>
@@ -441,12 +441,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" href="ba_locations/argentina/index.html">
+<a class="title-location" > <!-- ba_locations/argentina/index.html -->
 <div class="thumbnail-location">
-<img decoding="async" src="wp-content/uploads/2022/09/destination-10.jpg" alt="Argentina">
+<img decoding="async" src="images/mp.jpeg" alt="West Bengal">
 </div>
 <div class="content-location">
-<span class="location-name">Argentina</span>
+<span class="location-name">West Bengal</span>
 <span class="location-count">2&nbsp;Tours</span>
 </div>
 </a>
@@ -454,12 +454,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" href="ba_locations/asia/index.html">
+<a class="title-location" > <!-- ba_locations/asia/index.html -->
 <div class="thumbnail-location">
-<img decoding="async" src="wp-content/uploads/2020/11/destination-02.jpg" alt="Asia">
+<img decoding="async" src="images/4.jpeg" alt="Assam">
 </div>
 <div class="content-location">
-<span class="location-name">Asia</span>
+<span class="location-name">Assam</span>
 <span class="location-count">1&nbsp;Tour</span>
 </div>
 </a>
@@ -467,12 +467,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" href="ba_locations/australia/index.html">
+<a class="title-location"> <!-- ba_locations/australia/index.html -->
 <div class="thumbnail-location">
-<img decoding="async" src="wp-content/uploads/2022/09/destination-11.jpg" alt="Australia">
+<img decoding="async" src="images/34.jpeg" alt="Uttarakhand">
 </div>
 <div class="content-location">
-<span class="location-name">Australia</span>
+<span class="location-name">Uttarakhand</span>
 <span class="location-count">1&nbsp;Tour</span>
 </div>
 </a>
@@ -480,12 +480,12 @@ Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliqu
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" href="ba_locations/cambodia/index.html">
+<a class="title-location" ><!-- ba_locations/cambodia/index.html -->
 <div class="thumbnail-location">
-<img decoding="async" src="wp-content/uploads/2020/11/destination-07.jpg" alt="Cambodia">
+<img decoding="async" src="images/30.jpeg" alt="Sikkim">
 </div>
 <div class="content-location">
-<span class="location-name">Cambodia</span>
+<span class="location-name">Sikkim</span>
 <span class="location-count">3&nbsp;Tours</span>
 </div>
 </a>

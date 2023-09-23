@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<!-- Mirrored from demo2.pavothemes.com/triply/about-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:57:44 GMT -->
+<!-- Mirrored from demo2.pavothemes.com/triply/faq/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:57:53 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>About Us &#8211; Triply</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Faq &#8211; Triply</title>
 <meta name="robots" content="max-image-preview:large" />
 <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 <link rel="dns-prefetch" href="http://s.w.org/">
@@ -65,7 +65,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <link rel="stylesheet" id="font-awesome-5-all-css" href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/all.minfb6f.css?ver=3.12.1" type="text/css" media="all" />
 <link rel="stylesheet" id="font-awesome-4-shim-css" href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.minfb6f.css?ver=3.12.1" type="text/css" media="all" />
 <link rel="stylesheet" id="elementor-global-css" href="../wp-content/uploads/elementor/css/global541d.css?ver=1685604290" type="text/css" media="all" />
-<link rel="stylesheet" id="elementor-post-614-css" href="../wp-content/uploads/elementor/css/post-614dfe0.css?ver=1685607506" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-post-1005-css" href="../wp-content/uploads/elementor/css/post-100587d3.css?ver=1685618586" type="text/css" media="all" />
 <link rel="stylesheet" id="babe-admin-elementor-style-css" href="../wp-content/plugins/ba-book-everything/css/admin/babe-admin-elementor3781.css?ver=6.2.2" type="text/css" media="all" />
 <link rel="stylesheet" id="elementor-post-1589-css" href="../wp-content/uploads/elementor/css/post-1589541d.css?ver=1685604290" type="text/css" media="all" />
 <link rel="stylesheet" id="elementor-post-1209-css" href="../wp-content/uploads/elementor/css/post-1209541d.css?ver=1685604290" type="text/css" media="all" />
@@ -74,18 +74,19 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <link rel="stylesheet" id="triply-elementor-css" href="../wp-content/themes/triply/assets/css/base/elementor95b8.css?ver=2.3.2" type="text/css" media="all" />
 <link rel="stylesheet" id="triply-child-style-css" href="../wp-content/themes/demo-child/style8a54.css?ver=1.0.0" type="text/css" media="all" />
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min52d5.css?ver=5.15.3" type="text/css" media="all" />
+<link rel="stylesheet" id="elementor-icons-fa-regular-css" href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min52d5.css?ver=5.15.3" type="text/css" media="all" />
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min52d5.css?ver=5.15.3" type="text/css" media="all" />
 <script type="text/javascript" src="../wp-includes/js/jquery/jquery.min5aed.js?ver=3.6.4" id="jquery-core-js"></script>
 <script type="text/javascript" src="../wp-includes/js/jquery/jquery-migrate.min6b00.js?ver=3.4.0" id="jquery-migrate-js"></script>
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/frontend/wishlist95b8.js?ver=2.3.2" id="triply-wishlist-js"></script>
 <script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.minfb6f.js?ver=3.12.1" id="font-awesome-4-shim-js"></script>
-<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/614.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
+<link rel="https://api.w.org/" href="../wp-json/index.html" /><link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/1005.json" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="../xmlrpc0db0.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../wp-includes/wlwmanifest.xml" />
 <meta name="generator" content="WordPress 6.2.2" />
 <link rel="canonical" href="index.html" />
-<link rel="shortlink" href="../index08c1.html?p=614" />
-<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embed5fd5.json?url=https%3A%2F%2Fdemo2.pavothemes.com%2Ftriply%2Fabout-us%2F" />
-<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embed6528?url=https%3A%2F%2Fdemo2.pavothemes.com%2Ftriply%2Fabout-us%2F&amp;format=xml" />
+<link rel="shortlink" href="../index7eba.html?p=1005" />
+<link rel="alternate" type="application/json+oembed" href="../wp-json/oembed/1.0/embedbb01.json?url=https%3A%2F%2Fdemo2.pavothemes.com%2Ftriply%2Ffaq%2F" />
+<link rel="alternate" type="text/xml+oembed" href="../wp-json/oembed/1.0/embedf2c4?url=https%3A%2F%2Fdemo2.pavothemes.com%2Ftriply%2Ffaq%2F&amp;format=xml" />
 <meta name="generator" content="Elementor 3.12.1; features: a11y_improvements; settings: css_print_method-external, google_font-enabled, font_display-auto">
 <meta name="generator" content="Powered by Slider Revolution 6.5.31 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
 <script>function setREVStartSize(e){
@@ -138,7 +139,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 			//});
 		  };</script>
 </head>
-<body class="page-template-default page page-id-614 wp-custom-logo wp-embed-responsive no-wc-breadcrumb theme-triply elementor-default elementor-template-full-width elementor-kit-12 elementor-page elementor-page-614">
+<body class="page-template page-template-elementor_header_footer page page-id-1005 wp-custom-logo wp-embed-responsive no-wc-breadcrumb theme-triply elementor-default elementor-template-full-width elementor-kit-12 elementor-page elementor-page-1005">
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg> <div id="page" class="hfeed site">
 <div data-elementor-type="header" data-elementor-id="406" class="elementor elementor-406 elementor-location-header">
 <div class="elementor-section-wrap">
@@ -156,7 +157,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div class="elementor-element elementor-element-3c6b8263 elementor-widget elementor-widget-theme-page-title elementor-page-title elementor-widget-heading" data-id="3c6b8263" data-element_type="widget" data-widget_type="theme-page-title.default">
 <div class="elementor-widget-container">
-<h1 class="elementor-heading-title elementor-size-default">About Us</h1> </div>
+<h1 class="elementor-heading-title elementor-size-default">Faq</h1> </div>
 </div>
 </div>
 </div>
@@ -168,170 +169,184 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div id="content" class="site-content" tabindex="-1">
 <div class="col-full">
-<div data-elementor-type="wp-page" data-elementor-id="614" class="elementor elementor-614">
+<div data-elementor-type="wp-page" data-elementor-id="1005" class="elementor elementor-1005">
 <div class="elementor-inner">
 <div class="elementor-section-wrap">
-<div class="elementor-section elementor-top-section elementor-element elementor-element-0a9a6f3 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0a9a6f3" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-section elementor-top-section elementor-element elementor-element-12b7704 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="12b7704" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
 <div class="elementor-container elementor-column-gap-no">
 <div class="elementor-row">
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-8ac8314 elementor-hidden-phone" data-id="8ac8314" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bd24b47" data-id="bd24b47" data-element_type="column">
 <div class="elementor-column-wrap elementor-element-populated">
 <div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-636f8b6 elementor-widget elementor-widget-spacer" data-id="636f8b6" data-element_type="widget" data-widget_type="spacer.default">
+<div class="elementor-element elementor-element-0fd8c09 elementor-widget elementor-widget-heading" data-id="0fd8c09" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<div class="elementor-spacer">
-<div class="elementor-spacer-inner"></div>
+<h2 class="elementor-heading-title elementor-size-default">Find Answers</h2> </div>
 </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-0c250bd elementor-widget__width-auto elementor-absolute elementor-widget elementor-widget-image" data-id="0c250bd" data-element_type="widget" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_direction&quot;:&quot;negative&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:0.5,&quot;sizes&quot;:[]},&quot;_position&quot;:&quot;absolute&quot;,&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}}}" data-widget_type="image.default">
+<div class="elementor-element elementor-element-11ce8bc elementor-widget elementor-widget-text-editor" data-id="11ce8bc" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
-<div class="elementor-image">
-<img decoding="async" width="370" height="155" src="../wp-content/uploads/2020/11/about_image-2.png" class="attachment-full size-full wp-image-724" alt loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-2.png 370w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-2-300x126.png 300w" sizes="(max-width: 370px) 100vw, 370px" /> </div>
+<div class="elementor-text-editor elementor-clearfix">
+<p>Lorem ipsum dolor sit amet, consectetur adipiicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
 </div>
 </div>
 </div>
 </div>
 </div>
-<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-208b2bf" data-id="208b2bf" data-element_type="column">
+<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ff966aa" data-id="ff966aa" data-element_type="column">
 <div class="elementor-column-wrap elementor-element-populated">
 <div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-1ae440c animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="1ae440c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="text-editor.default">
+<div class="elementor-element elementor-element-e786413 elementor-widget elementor-widget-heading" data-id="e786413" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<div>About</div> </div>
+<h2 class="elementor-heading-title elementor-size-default">Payment</h2> </div>
 </div>
-</div>
-<div class="elementor-element elementor-element-c67547a elementor-widget__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="c67547a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
+<div class="elementor-element elementor-element-6351e7b style-theme-yes elementor-widget elementor-widget-accordion" data-id="6351e7b" data-element_type="widget" data-widget_type="accordion.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">We Help You
-Planning Your
-Journey</h2> </div>
-</div>
-<div class="elementor-element elementor-element-a123a2f elementor-widget__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="a123a2f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<div>Welcome to our travel website! We're a group of travel enthusiasts who believe that the world is meant to be explored. Our mission is to inspire and empower you to embark on unforgettable journeys, discover new cultures, and create lifelong memories. Whether you're a seasoned globetrotter or a first-time traveler, we've got you covered with travel guides, tips, and curated itineraries. So, pack your bags and let's start exploring together! </div>
-<div style="height: 10px;"></div>
-<div></div> </div>
-</div>
-</div>
-<!--<div class="elementor-element elementor-element-221219a elementor-mobile-align-center animated-fast elementor-invisible elementor-widget elementor-widget-button" data-id="221219a" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="button.default">
-<div class="elementor-widget-container">
-<div class="elementor-button-wrapper">
-<a href="#" class="elementor-button-link elementor-button elementor-size-sm" role="button">
-<span class="elementor-button-content-wrapper">
-<span class="elementor-button-icon elementor-align-icon-right">
-<i aria-hidden="true" class="triply-icon- triply-icon-long-arrow-right"></i> </span>
-<span class="elementor-button-text">Learn More</span>
+<div class="elementor-accordion" role="tablist">
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-1041" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1041" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
 </span>
-</a>
+<a class="elementor-accordion-title" href>Are there any extra fees that I will have to pay on top of the listed price?</a>
+</div>
+<div id="elementor-tab-content-1041" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1041"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+</div>
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-1042" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-1042" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>Should I print a receipt to show the tour guide?</a>
+</div>
+<div id="elementor-tab-content-1042" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1042"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+</div>
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-1043" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-1043" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>How much does it cost to do a private tour?</a>
+</div>
+<div id="elementor-tab-content-1043" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1043"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div>
+</div>
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-1044" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-1044" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>What do I need to bring?</a>
+</div>
+<div id="elementor-tab-content-1044" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1044">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
 </div>
 </div>
-</div>-->
 </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-bb4666f elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="bb4666f" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9e21387" data-id="9e21387" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-69a7e83 animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="69a7e83" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="text-editor.default">
+<div class="elementor-element elementor-element-e305e54 elementor-widget elementor-widget-heading" data-id="e305e54" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<div>Why us</div> </div>
+<h2 class="elementor-heading-title elementor-size-default">Reservation</h2> </div>
 </div>
-</div>
-<div class="elementor-element elementor-element-b8cc704 elementor-widget__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="b8cc704" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
+<div class="elementor-element elementor-element-46f431d style-theme-yes elementor-widget elementor-widget-accordion" data-id="46f431d" data-element_type="widget" data-widget_type="accordion.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">We Make All The
-Process Easy</h2> </div>
+<div class="elementor-accordion" role="tablist">
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-7441" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-7441" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>Are there any extra fees that I will have to pay on top of the listed price?</a>
 </div>
-<div class="elementor-section elementor-inner-section elementor-element elementor-element-c659ab9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c659ab9" data-element_type="section">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b9dd08f animated-fast elementor-invisible" data-id="b9dd08f" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-up&quot;,&quot;animation_delay&quot;:250}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-2677ccf elementor-position-left elementor-view-stacked elementor-widget-mobile__width-initial elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="2677ccf" data-element_type="widget" data-widget_type="icon-box.default">
+<div id="elementor-tab-content-7441" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-7441"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+</div>
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-7442" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-7442" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>Should I print a receipt to show the tour guide?</a>
+</div>
+<div id="elementor-tab-content-7442" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-7442">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+</div>
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-7443" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-7443" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>How much does it cost to do a private tour?</a>
+</div>
+<div id="elementor-tab-content-7443" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-7443">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+</div>
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-7444" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-7444" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>What do I need to bring?</a>
+</div>
+<div id="elementor-tab-content-7444" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-7444">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-8942d70 elementor-widget elementor-widget-heading" data-id="8942d70" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<div class="elementor-icon-box-wrapper">
-<div class="elementor-icon-box-icon">
-<a class="elementor-icon elementor-animation-" href="#">
-<i aria-hidden="true" class="triply-icon- triply-icon-best-travel"></i> </a>
+<h2 class="elementor-heading-title elementor-size-default">Weather</h2> </div>
 </div>
-<div class="elementor-icon-box-content">
-<h3 class="elementor-icon-box-title">
-<a href="#">
-Best Travel Agent </a>
-</h3>
-<p class="elementor-icon-box-description">
-The generated Lorem Ipsum is therefore always free from repetition available </p>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-51b1b87 elementor-position-left elementor-view-stacked elementor-widget-mobile__width-initial elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="51b1b87" data-element_type="widget" data-widget_type="icon-box.default">
+<div class="elementor-element elementor-element-7e98683 style-theme-yes elementor-widget elementor-widget-accordion" data-id="7e98683" data-element_type="widget" data-widget_type="accordion.default">
 <div class="elementor-widget-container">
-<div class="elementor-icon-box-wrapper">
-<div class="elementor-icon-box-icon">
-<a class="elementor-icon elementor-animation-" href="#">
-<i aria-hidden="true" class="triply-icon- triply-icon-places"></i> </a>
+<div class="elementor-accordion" role="tablist">
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-1321" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1321" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>Are there any extra fees that I will have to pay on top of the listed price?</a>
 </div>
-<div class="elementor-icon-box-content">
-<h3 class="elementor-icon-box-title">
-<a href="#">
-Beautiful Places </a>
-</h3>
-<p class="elementor-icon-box-description">
-The generated Lorem Ipsum is therefore always free from repetition </p>
+<div id="elementor-tab-content-1321" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1321"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
 </div>
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-1322" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-1322" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>Should I print a receipt to show the tour guide?</a>
 </div>
+<div id="elementor-tab-content-1322" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1322">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
 </div>
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-1323" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-1323" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>How much does it cost to do a private tour?</a>
 </div>
+<div id="elementor-tab-content-1323" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1323">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
 </div>
+<div class="elementor-accordion-item">
+<div id="elementor-tab-title-1324" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-1324" aria-expanded="false">
+<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
+<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
+<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
+</span>
+<a class="elementor-accordion-title" href>What do I need to bring?</a>
 </div>
+<div id="elementor-tab-content-1324" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1324">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
 </div>
-<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6258897 animated-fast elementor-invisible" data-id="6258897" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-up&quot;,&quot;animation_delay&quot;:350}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-fee6783 elementor-position-left elementor-view-stacked elementor-widget-mobile__width-initial elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="fee6783" data-element_type="widget" data-widget_type="icon-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-box-wrapper">
-<div class="elementor-icon-box-icon">
-<a class="elementor-icon elementor-animation-" href="#">
-<i aria-hidden="true" class="triply-icon- triply-icon-safety"></i> </a>
 </div>
-<div class="elementor-icon-box-content">
-<h3 class="elementor-icon-box-title">
-<a href="#">
-Trust & Safety </a>
-</h3>
-<p class="elementor-icon-box-description">
-There are many variations of passages of Lorem Ipsum available you available </p>
 </div>
 </div>
 </div>
 </div>
-<div class="elementor-element elementor-element-ee5d6e9 elementor-position-left elementor-view-stacked elementor-widget-mobile__width-initial elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="ee5d6e9" data-element_type="widget" data-widget_type="icon-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-box-wrapper">
-<div class="elementor-icon-box-icon">
-<a class="elementor-icon elementor-animation-" href="#">
-<i aria-hidden="true" class="triply-icon- triply-icon-passionate-travel"></i> </a>
 </div>
-<div class="elementor-icon-box-content">
-<h3 class="elementor-icon-box-title">
-<a href="#">
-Passionate Travel </a>
-</h3>
-<p class="elementor-icon-box-description">
-There are many variations of passages of Lorem Ipsum available </p>
 </div>
 </div>
 </div>
@@ -339,484 +354,8 @@ There are many variations of passages of Lorem Ipsum available </p>
 </div>
 </div>
 </div>
-<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e0cf493 animated-fast elementor-invisible" data-id="e0cf493" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-up&quot;,&quot;animation_delay&quot;:450}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-91e272d elementor-position-left elementor-view-stacked elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="91e272d" data-element_type="widget" data-widget_type="icon-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-box-wrapper">
-<div class="elementor-icon-box-icon">
-<a class="elementor-icon elementor-animation-" href="#">
-<i aria-hidden="true" class="triply-icon- triply-icon-best-price"></i> </a>
 </div>
-<div class="elementor-icon-box-content">
-<h3 class="elementor-icon-box-title">
-<a href="#">
-Best Price Guarantee </a>
-</h3>
-<p class="elementor-icon-box-description">
-All the Lorem Ipsum generators on the
-Internet need </p>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-bb2ad0a elementor-position-left elementor-view-stacked elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="bb2ad0a" data-element_type="widget" data-widget_type="icon-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-box-wrapper">
-<div class="elementor-icon-box-icon">
-<a class="elementor-icon elementor-animation-" href="#">
-<i aria-hidden="true" class="triply-icon- triply-icon-fast-booking"></i> </a>
-</div>
-<div class="elementor-icon-box-content">
-<h3 class="elementor-icon-box-title">
-<a href="#">
-Fast Booking </a>
-</h3>
-<p class="elementor-icon-box-description">
-If you are going to use a passage of Lorem Ipsum, you need </p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-d34eb72 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="d34eb72" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;background_motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;],&quot;background_motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:4,&quot;sizes&quot;:[]},&quot;background_motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}}}">
-<div class="elementor-background-overlay"></div>
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4ec4321 animated-fast elementor-invisible" data-id="4ec4321" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-up&quot;,&quot;animation_delay&quot;:250}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-7437d1d elementor-view-default elementor-widget elementor-widget-icon" data-id="7437d1d" data-element_type="widget" data-widget_type="icon.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-wrapper">
-<div class="elementor-icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-destination"></i> </div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-a234b53 elementor-widget elementor-widget-counter" data-id="a234b53" data-element_type="widget" data-widget_type="counter.default">
-<div class="elementor-widget-container">
-<div class="elementor-counter">
-<div class="elementor-counter-number-wrapper">
-<span class="elementor-counter-number-prefix"></span>
-<span class="elementor-counter-number" data-duration="2000" data-to-value="154" data-from-value="100" data-delimiter=",">100</span>
-<span class="elementor-counter-number-suffix"></span>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-c8413a3 elementor-widget elementor-widget-text-editor" data-id="c8413a3" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-Destinations </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4629a25 animated-fast elementor-invisible" data-id="4629a25" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-up&quot;,&quot;animation_delay&quot;:350}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-e53f16d elementor-view-default elementor-widget elementor-widget-icon" data-id="e53f16d" data-element_type="widget" data-widget_type="icon.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-wrapper">
-<div class="elementor-icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-tours"></i> </div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-3032992 elementor-widget elementor-widget-counter" data-id="3032992" data-element_type="widget" data-widget_type="counter.default">
-<div class="elementor-widget-container">
-<div class="elementor-counter">
-<div class="elementor-counter-number-wrapper">
-<span class="elementor-counter-number-prefix"></span>
-<span class="elementor-counter-number" data-duration="2000" data-to-value="2165" data-from-value="2100" data-delimiter=",">2100</span>
-<span class="elementor-counter-number-suffix"></span>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-7fc1dd5 elementor-widget elementor-widget-text-editor" data-id="7fc1dd5" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-Amazing tours </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-f8b5796 animated-fast elementor-invisible" data-id="f8b5796" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-up&quot;,&quot;animation_delay&quot;:450}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-4d2fc59 elementor-view-default elementor-widget elementor-widget-icon" data-id="4d2fc59" data-element_type="widget" data-widget_type="icon.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-wrapper">
-<div class="elementor-icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-types"></i> </div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-16f26f4 elementor-widget elementor-widget-counter" data-id="16f26f4" data-element_type="widget" data-widget_type="counter.default">
-<div class="elementor-widget-container">
-<div class="elementor-counter">
-<div class="elementor-counter-number-wrapper">
-<span class="elementor-counter-number-prefix"></span>
-<span class="elementor-counter-number" data-duration="2000" data-to-value="98" data-from-value data-delimiter=","></span>
-<span class="elementor-counter-number-suffix"></span>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-b4a12fd elementor-widget elementor-widget-text-editor" data-id="b4a12fd" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-Tour types </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-c27972c animated-fast elementor-invisible" data-id="c27972c" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;opal-move-up&quot;,&quot;animation_delay&quot;:550}">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-e65e932 elementor-view-default elementor-widget elementor-widget-icon" data-id="e65e932" data-element_type="widget" data-widget_type="icon.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-wrapper">
-<div class="elementor-icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-happy"></i> </div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-8aa9855 elementor-widget elementor-widget-counter" data-id="8aa9855" data-element_type="widget" data-widget_type="counter.default">
-<div class="elementor-widget-container">
-<div class="elementor-counter">
-<div class="elementor-counter-number-wrapper">
-<span class="elementor-counter-number-prefix"></span>
-<span class="elementor-counter-number" data-duration="2000" data-to-value="117259" data-from-value="117200" data-delimiter=",">117200</span>
-<span class="elementor-counter-number-suffix"></span>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-744e9a3 elementor-widget elementor-widget-text-editor" data-id="744e9a3" data-element_type="widget" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-Happy customers </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-90cdf4a elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="90cdf4a" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2146f77" data-id="2146f77" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-081732e animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="081732e" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="text-editor.default">
-<!--<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<div>Our team</div> </div>
-</div>-->
-</div>
-<div class="elementor-element elementor-element-baba6a0 animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="baba6a0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Meet The Team</h2> </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-4c0e699 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4c0e699" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-ab8f7bb" data-id="ab8f7bb" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-80c2656 elementor-widget-mobile__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-triply-team-box" data-id="80c2656" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;,&quot;_animation_delay&quot;:250}" data-widget_type="triply-team-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-teams-wrapper triply-team-box">
-<div class="team-image">
-<img width="164" height="164" src="../wp-content/uploads/2020/11/about_image-2-2.jpg" class="attachment-full size-full wp-image-2728" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-2-2.jpg 164w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-2-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-2-2-100x100.jpg 100w" sizes="(max-width: 164px) 100vw, 164px" /> </div>
-<div class="team-content">
-<div class="team-name"><span>Adam Johnson </span></div>
-<div class="team-job"><span> CEO, Founder</span></div>
-</div>
-<div class="team-icon-socials">
-<ul>
-<li class="social">
-<a href="https://www.facebook.com/opalwordpress">
-<i class="triply-icon-facebook"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://www.youtube.com/user/WPOpalTheme">
-<i class="triply-icon-youtube"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://twitter.com/opalwordpress">
-<i class="triply-icon-twitter"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://plus.google.com/u/0/+WPOpal">
-<i class="triply-icon-instagram"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-c2c8d84" data-id="c2c8d84" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-993fa32 elementor-widget-mobile__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-triply-team-box" data-id="993fa32" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;,&quot;_animation_delay&quot;:350}" data-widget_type="triply-team-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-teams-wrapper triply-team-box">
-<div class="team-image">
-<img width="164" height="164" src="../wp-content/uploads/2020/11/about_image-3-2.jpg" class="attachment-full size-full wp-image-2729" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-3-2.jpg 164w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-3-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-3-2-100x100.jpg 100w" sizes="(max-width: 164px) 100vw, 164px" /> </div>
-<div class="team-content">
-<div class="team-name"><span>Kevin D. </span></div>
-<div class="team-job"><span> Marketing</span></div>
-</div>
-<div class="team-icon-socials">
-<ul>
-<li class="social">
-<a href="https://www.facebook.com/opalwordpress">
-<i class="triply-icon-facebook"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://www.youtube.com/user/WPOpalTheme">
-<i class="triply-icon-youtube"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://twitter.com/opalwordpress">
-<i class="triply-icon-twitter"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://plus.google.com/u/0/+WPOpal">
-<i class="triply-icon-instagram"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6d29ba0" data-id="6d29ba0" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-58210c4 elementor-widget-mobile__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-triply-team-box" data-id="58210c4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;,&quot;_animation_delay&quot;:450}" data-widget_type="triply-team-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-teams-wrapper triply-team-box">
-<div class="team-image">
-<img width="164" height="164" src="../wp-content/uploads/2020/11/about_image-4-2.jpg" class="attachment-full size-full wp-image-2730" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-4-2.jpg 164w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-4-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-4-2-100x100.jpg 100w" sizes="(max-width: 164px) 100vw, 164px" /> </div>
-<div class="team-content">
-<div class="team-name"><span>Frank L. </span></div>
-<div class="team-job"><span> Designer</span></div>
-</div>
-<div class="team-icon-socials">
-<ul>
-<li class="social">
-<a href="https://www.facebook.com/opalwordpress">
-<i class="triply-icon-facebook"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://www.youtube.com/user/WPOpalTheme">
-<i class="triply-icon-youtube"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://twitter.com/opalwordpress">
-<i class="triply-icon-twitter"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://plus.google.com/u/0/+WPOpal">
-<i class="triply-icon-instagram"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-9f4e7c6" data-id="9f4e7c6" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-ecf5f76 elementor-widget-mobile__width-initial animated-fast elementor-invisible elementor-widget elementor-widget-triply-team-box" data-id="ecf5f76" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;,&quot;_animation_delay&quot;:550}" data-widget_type="triply-team-box.default">
-<div class="elementor-widget-container">
-<div class="elementor-teams-wrapper triply-team-box">
-<div class="team-image">
-<img width="164" height="164" src="../wp-content/uploads/2020/11/about_image-5-2.jpg" class="attachment-full size-full wp-image-2731" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-5-2.jpg 164w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-5-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-5-2-100x100.jpg 100w" sizes="(max-width: 164px) 100vw, 164px" /> </div>
-<div class="team-content">
-<div class="team-name"><span>Alena Doe </span></div>
-<div class="team-job"><span> Support</span></div>
-</div>
-<div class="team-icon-socials">
-<ul>
-<li class="social">
-<a href="https://www.facebook.com/opalwordpress">
-<i class="triply-icon-facebook"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://www.youtube.com/user/WPOpalTheme">
-<i class="triply-icon-youtube"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://twitter.com/opalwordpress">
-<i class="triply-icon-twitter"></i>
-</a>
-</li>
-<li class="social">
-<a href="https://plus.google.com/u/0/+WPOpal">
-<i class="triply-icon-instagram"></i>
-</a>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-section elementor-top-section elementor-element elementor-element-5ec7d07 elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5ec7d07" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-830cef8" data-id="830cef8" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-bd6236c animated-fast elementor-invisible elementor-widget elementor-widget-text-editor" data-id="bd6236c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="text-editor.default">
-<div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">
-<div>Testimonials</div> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-fd53318 animated-fast elementor-invisible elementor-widget elementor-widget-heading" data-id="fd53318" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Customer Reviews</h2> </div>
-</div>
-<div class="elementor-element elementor-element-d14dc93 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-hidden-phone animated-fast elementor-invisible elementor-widget elementor-widget-image" data-id="d14dc93" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-right&quot;}" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<div class="elementor-image">
-<img decoding="async" width="180" height="129" src="../wp-content/uploads/2020/11/h1_quote-1.png" class="attachment-full size-full wp-image-2016" alt loading="lazy" /> </div>
-</div>
-</div>
-<div class="elementor-element elementor-element-ddb3ca6 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget-mobile__width-inherit animated-fast elementor-invisible elementor-widget elementor-widget-triply-testimonials" data-id="ddb3ca6" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="triply-testimonials.default">
-<div class="elementor-widget-container">
-<div class="elementor-testimonial-item-wrapper testimonial-triply-style-1">
-<div class="row triply-carousel" data-settings="{&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplayHoverPause&quot;:true,&quot;autoplay&quot;:true,&quot;autoplaySpeed&quot;:5000,&quot;items&quot;:&quot;1&quot;,&quot;items_laptop&quot;:&quot;1&quot;,&quot;items_tablet_extra&quot;:&quot;1&quot;,&quot;items_tablet&quot;:&quot;&quot;,&quot;items_mobile_extra&quot;:&quot;&quot;,&quot;items_mobile&quot;:&quot;&quot;,&quot;loop&quot;:true,&quot;breakpoint_laptop&quot;:1366,&quot;breakpoint_tablet_extra&quot;:1200,&quot;breakpoint_tablet&quot;:1024,&quot;breakpoint_mobile_extra&quot;:880,&quot;breakpoint_mobile&quot;:767}">
-<div class="column-item elementor-testimonial-item">
-<div class="testimonial-content">
-<div class="content">
-“This was an amazing trip! There were so many highlights... our outstanding, kind, patient, amazing leader Gustavo!! What an absolute saint. He was so organized and” </div>
-<div class="details ">
-<div class="image-wrap">
-<div class="icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-quote-2"></i> </div>
-<div class="image">
-<img width="93" height="138" src="../wp-content/uploads/2020/11/h3-img-box-1.png" class="attachment-full size-full wp-image-2117" alt decoding="async" loading="lazy" /> </div>
-</div>
-<div class="name-wrap">
-<div class="elementor-testimonial-rating"><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i></div> <div class="name">Melisa Joan H.</div> <div class="job"> New York, USA</div>
-</div>
-</div>
-</div>
-</div>
-<div class="column-item elementor-testimonial-item">
-<div class="testimonial-content">
-<div class="content">
-"Needless to say we are extremely satisfied with the results. Booking tour was the best investment I ever made. Nice work on your booking tour. Booking tour impressed." </div>
-<div class="details ">
-<div class="image-wrap">
-<div class="icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-quote-2"></i> </div>
-<div class="image">
-<img width="164" height="164" src="../wp-content/uploads/2020/11/about_image-4-2.jpg" class="attachment-full size-full wp-image-2730" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-4-2.jpg 164w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-4-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-4-2-100x100.jpg 100w" sizes="(max-width: 164px) 100vw, 164px" /> </div>
-</div>
-<div class="name-wrap">
-<div class="elementor-testimonial-rating"><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i></div> <div class="name">Roselin D.</div> <div class="job"> New York, USA</div>
-</div>
-</div>
-</div>
-</div>
-<div class="column-item elementor-testimonial-item">
-<div class="testimonial-content">
-<div class="content">
-"Great job, I will definitely be ordering again! After using booking tour my business skyrocketed! Man, this thing is getting better and better as I learn more about it. " </div>
-<div class="details ">
-<div class="image-wrap">
-<div class="icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-quote-2"></i> </div>
-<div class="image">
-<img width="164" height="164" src="../wp-content/uploads/2020/11/about_image-5-2.jpg" class="attachment-full size-full wp-image-2731" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-5-2.jpg 164w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-5-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/about_image-5-2-100x100.jpg 100w" sizes="(max-width: 164px) 100vw, 164px" /> </div>
-</div>
-<div class="name-wrap">
-<div class="elementor-testimonial-rating"><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i><i class="triply-icon-star-bold active" aria-hidden="true"></i></div> <div class="name">Cleveland A.</div> <div class="job"> New York, USA</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-05be521 elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-hidden-phone animated-fast elementor-invisible elementor-widget elementor-widget-image" data-id="05be521" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-left&quot;}" data-widget_type="image.default">
-<div class="elementor-widget-container">
-<div class="elementor-image">
-<img decoding="async" width="180" height="129" src="../wp-content/uploads/2020/11/h1_quote-2.png" class="attachment-full size-full wp-image-2017" alt loading="lazy" /> </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<?php include"../footerx.php";?>
+<?php include '../footerx.php';?>
 <link rel="stylesheet" id="e-animations-css" href="../wp-content/plugins/elementor/assets/lib/animations/animations.minfb6f.css?ver=3.12.1" type="text/css" media="all" />
 <link rel="stylesheet" id="rs-plugin-settings-css" href="../wp-content/plugins/revslider/public/assets/css/rs69f6d.css?ver=6.5.31" type="text/css" media="all" />
 <style id="rs-plugin-settings-inline-css" type="text/css">
@@ -876,13 +415,10 @@ var triplyAjax = {"ajaxurl":"https:\/\/demo2.pavothemes.com\/triply\/wp-admin\/a
 <script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/share-link/share-link.minfb6f.js?ver=3.12.1" id="share-link-js"></script>
 <script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/dialog/dialog.mind227.js?ver=4.9.0" id="elementor-dialog-js"></script>
 <script type="text/javascript" id="elementor-frontend-js-before">
-var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.12.1","is_static":false,"experimentalFeatures":{"a11y_improvements":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"notes":true,"loop":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/demo2.pavothemes.com\/triply\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"stretched_section_container":"body","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":614,"title":"About%20Us%20%E2%80%93%20Triply","excerpt":"","featuredImage":false}};
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.12.1","is_static":false,"experimentalFeatures":{"a11y_improvements":true,"theme_builder_v2":true,"landing-pages":true,"page-transitions":true,"notes":true,"loop":true,"e_scroll_snap":true},"urls":{"assets":"https:\/\/demo2.pavothemes.com\/triply\/wp-content\/plugins\/elementor\/assets\/"},"swiperClass":"swiper-container","settings":{"page":[],"editorPreferences":[]},"kit":{"stretched_section_container":"body","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":1005,"title":"Faq%20%E2%80%93%20Triply","excerpt":"","featuredImage":false}};
 </script>
 <script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/frontend.minfb6f.js?ver=3.12.1" id="elementor-frontend-js"></script>
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/elementor/login95b8.js?ver=2.3.2" id="triply-elementor-login-js"></script>
-<script type="text/javascript" src="../wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min3958.js?ver=0.2.1" id="jquery-numerator-js"></script>
-<script type="text/javascript" src="../wp-content/themes/triply/assets/js/elementor/testimonial95b8.js?ver=2.3.2" id="triply-elementor-testimonial-js"></script>
-<script type="text/javascript" src="../wp-content/themes/triply/assets/js/vendor/slick.min95b8.js?ver=2.3.2" id="slick-js"></script>
 <script type="text/javascript" src="../wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min695d.js?ver=3.12.0" id="elementor-pro-webpack-runtime-js"></script>
 <script type="text/javascript" src="../wp-includes/js/dist/vendor/wp-polyfill-inert.min0226.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
 <script type="text/javascript" src="../wp-includes/js/dist/vendor/regenerator-runtime.min8fa4.js?ver=0.13.11" id="regenerator-runtime-js"></script>
@@ -902,5 +438,5 @@ var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/demo2.pavothemes.com\/tri
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/elementor-frontend95b8.js?ver=2.3.2" id="triply-elementor-frontend-js"></script>
 </body>
 
-<!-- Mirrored from demo2.pavothemes.com/triply/about-us/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:57:49 GMT -->
+<!-- Mirrored from demo2.pavothemes.com/triply/faq/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:57:57 GMT -->
 </html>

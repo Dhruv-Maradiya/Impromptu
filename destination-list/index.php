@@ -180,7 +180,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-79a03f8 elementor-widget elementor-widget-taxonomy-item" data-id="79a03f8" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="../ba_locations/africa/index.html">
+<a class="title-location" href="#"><!-- ../ba_locations/africa/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/38x.png" alt="Ladakh">
 </div>
@@ -203,7 +203,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-7dbc275 elementor-widget elementor-widget-taxonomy-item" data-id="7dbc275" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="../ba_types/beaches/index.html">
+ <a class="title-location" href="#"> <!--../ba_types/beaches/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/1x.png" alt="Goa">
 </div>
@@ -226,12 +226,12 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-1ebd871 elementor-widget elementor-widget-taxonomy-item" data-id="1ebd871" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="../ba_locations/japan/index.html">
+<a class="title-location" href="../state/index.php">
 <div class="thumbnail-location">
-<img decoding="async" src=".././images/mpx.png" alt="West Bengal">
+<img decoding="async" src=".././images/12x.png" alt="Gujarat">
 </div>
 <div class="content-location">
-<h2 class="title-tours">West Bengal</h2>
+<h2 class="title-tours">Gujarat</h2>
 <div class="taxonomy-infor">
 <div class="location-count">4 &nbsp;Tours</div>
 </div>
@@ -249,7 +249,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-fa827a1 elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-taxonomy-item" data-id="fa827a1" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="../ba_locations/iceland/index.html">
+<a class="title-location" href="#"><!-- ../ba_locations/iceland/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/29x.png" alt="Rajasthan">
 </div>
@@ -272,7 +272,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-7bafdeb elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-taxonomy-item" data-id="7bafdeb" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="../ba_locations/europe/index.html">
+<a class="title-location" href="#">  <!-- ../ba_locations/europe/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/18x.png" alt="Kerala">
 </div>

@@ -5,7 +5,7 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Tours List Top Search &#8211; Triply</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>Tours List &#8211; Triply</title>
 <meta name="robots" content="max-image-preview:large" />
 <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 <link rel="dns-prefetch" href="http://s.w.org/">
@@ -156,7 +156,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div class="elementor-element elementor-element-3c6b8263 elementor-widget elementor-widget-theme-page-title elementor-page-title elementor-widget-heading" data-id="3c6b8263" data-element_type="widget" data-widget_type="theme-page-title.default">
 <div class="elementor-widget-container">
-<h1 class="elementor-heading-title elementor-size-default">Tours List Top Search</h1> </div>
+<h1 class="elementor-heading-title elementor-size-default">Tours List</h1> </div>
 </div>
 </div>
 </div>
