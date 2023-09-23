@@ -676,7 +676,7 @@ confirm_password.onkeyup = validatePassword;
 <div class="elementor-element elementor-element-abea76a elementor-widget elementor-widget-text-editor" data-id="abea76a" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p style="color:white">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in</p> </div>
+<p style="color:white">Welcome to Triply, where your travel dreams come to life! Discover your next adventure with a simple click on our interactive map.</p> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-aea0fac elementor-widget elementor-widget-heading" data-id="aea0fac" data-element_type="widget" data-widget_type="heading.default">
@@ -687,7 +687,7 @@ confirm_password.onkeyup = validatePassword;
 <div class="elementor-element elementor-element-60d5a94 elementor-widget elementor-widget-text-editor" data-id="60d5a94" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p style="color:white">184 Mayfield St. Hopewell<br>Junction, NY 12533 </p></div>
+<p style="color:white">Pandit Deendayal Energy University, Gandhinagar - 382007</p></div>
 </div>
 </div>
 <div class="elementor-element elementor-element-59eac6e elementor-widget elementor-widget-heading" data-id="59eac6e" data-element_type="widget" data-widget_type="heading.default">
@@ -698,7 +698,7 @@ confirm_password.onkeyup = validatePassword;
 <div class="elementor-element elementor-element-dc1f561 elementor-widget elementor-widget-text-editor" data-id="dc1f561" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p style="color:white"><!-- <a href="844-1755-44411.html"> -->+ 844 1755 &#8211; 444 11<!-- </a> --></p> </div>
+<p style="color:white"><!-- <a href="844-1755-44411.html"> -->(+91) 6351494173<!-- </a> --></p> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-46ae3c7 elementor-widget elementor-widget-heading" data-id="46ae3c7" data-element_type="widget" data-widget_type="heading.default">
@@ -708,7 +708,11 @@ confirm_password.onkeyup = validatePassword;
 <div class="elementor-element elementor-element-28d333b elementor-widget elementor-widget-text-editor" data-id="28d333b" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p><a href="https://demo2.pavothemes.com/cdn-cgi/l/email-protection#13707c7d6772706753766b727e637f763d707c7e"><span class="__cf_email__" data-cfemail="e2818d8c96838196a2879a838f928e87cc818d8f">[email&#160;protected]</span></a></p> </div>
+<p>
+	<!-- <a href="https://demo2.pavothemes.com/cdn-cgi/l/email-protection#13707c7d6772706753766b727e637f763d707c7e"> -->
+		<span class="__cf_email__" data-cfemail="e2818d8c96838196a2879a838f928e87cc818d8f">impromptu1809@gmail.com</span>
+	<!-- </a> -->
+</p> </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-dd0007d e-grid-align-left elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="dd0007d" data-element_type="widget" data-widget_type="social-icons.default">

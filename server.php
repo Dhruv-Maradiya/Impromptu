@@ -59,9 +59,9 @@ if (array_key_exists("new-submit", $_POST)) {
        
         //Check if email is already exist in the Database
  
-        $query = "SELECT id FROM user WHERE email_id = '$email'";
+        $query = "SELECT id FROM user WHERE email = '$email'";
         $result = mysqli_query($linkdb, $query);
-        $queryx = "SELECT id FROM user WHERE user_name = '$name'";
+        $queryx = "SELECT id FROM user WHERE 'name' = '$name'";
         $resultx = mysqli_query($linkdb, $query);
         if (mysqli_num_rows($result) > 0)
         {
@@ -92,7 +92,7 @@ if (array_key_exists("new-submit", $_POST)) {
 
             //Password encryption or Password Hashing
             $hashedPassword = password_hash($password, PASSWORD_DEFAULT); 
-            $query = "INSERT INTO user (user_name, email_id, password) VALUES ('$name', '$email', '$hashedPassword')";
+            $query = "INSERT INTO user (name, email, password) VALUES ('$name', '$email', '$hashedPassword')";
             
              
             if (!mysqli_query($linkdb, $query)){
@@ -165,11 +165,11 @@ if (array_key_exists("login_submit", $_POST)) {
       else {        
           //matching email and password
  
-            $query = "SELECT * FROM user WHERE email_id='$email_user'";
+            $query = "SELECT * FROM user WHERE email='$email_user'";
             $result = mysqli_query($linkdb, $query);
             $row = mysqli_fetch_array($result);
 
-            $queryx = "SELECT * FROM user WHERE user_name='$email_user'";
+            $queryx = "SELECT * FROM user WHERE name='$email_user'";
             $resultx = mysqli_query($linkdb, $queryx);
             $rowx = mysqli_fetch_array($resultx);
          
