@@ -172,7 +172,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="entry-header">
 <div class="entry-meta">
 <span class="categories-link"><span class="screen-reader-text">Categories</span><a href="../category/company-insight/index.html" rel="category tag">Company Insight</a></span><span class="posted-on"><a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark"><time class="entry-date published" datetime="2020-11-09T09:56:05+00:00">9 Nov, 2020</time><time class="updated" datetime="2020-11-26T01:57:24+00:00">26 Nov, 2020</time></a></span> <span class="post-author"><span>By <a href="../author/admin/index.html">admin</a></span></span> </div>
-<h3 class="entry-title"><a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark">Pack wisely before traveling</a></h3> </div>
+<h3 class="entry-title"><a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark">Pack wisely before traveling</a></h3>
+ </div>
 <div class="entry-bottom">
 <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I&hellip;</p>
 </div>
@@ -181,7 +182,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-<div class="column-item post-style-2 hentry">
+<!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../the-surfing-man-will-blow-your-mind-2/index.html">
@@ -200,8 +201,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-</div>
-<div class="column-item post-style-2 hentry">
+</div>-->
+<!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../separated-they-live-in-bookmarksgrove-2/index.html">
@@ -220,8 +221,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-</div>
-<div class="column-item post-style-2 hentry">
+</div>-->
+<!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../even-the-all-powerful-pointing-2/index.html">
@@ -240,8 +241,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-</div>
-<div class="column-item post-style-2 hentry">
+</div>-->
+<!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../pityful-a-rethoric-question-ran-2/index.html">
@@ -260,8 +261,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-</div>
-<div class="column-item post-style-2 hentry">
+</div>-->
+<!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../change-your-place-and-get-the-fresh-air-2/index.html">
@@ -280,8 +281,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-</div>
-<div class="column-item post-style-2 hentry">
+</div>-->
+<!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../introducing-this-amazing-city-2/index.html">
@@ -300,8 +301,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-</div>
-<div class="column-item post-style-2 hentry">
+</div>-->
+<!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../how-to-travel-with-paper-map-2/index.html">
@@ -320,8 +321,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-</div>
-<div class="column-item post-style-2 hentry">
+</div>-->
+<!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../pack-wisely-before-traveling/index.html">
@@ -340,8 +341,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-</div>
-<div class="column-item post-style-2 hentry">
+</div>-->
+<!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../the-surfing-man-will-blow-your-mind/index.html">
@@ -360,11 +361,15 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
+</div>-->
 </div>
-</div><nav id="post-navigation" class="navigation pagination" role="navigation" aria-label="Post Navigation"><h2 class="screen-reader-text">Posts navigation</h2><div class="nav-links"><ul class="page-numbers">
-<li><span aria-current="page" class="page-numbers current">1</span></li>
-<li><a class="page-numbers" href="page/2/indexb995.html?blog_style=grid">2</a></li>
-<li><a class="next page-numbers" href="page/2/indexb995.html?blog_style=grid"><span>NEXT</span><i class="triply-icon triply-icon-angle-double-right"></i></a></li>
+<nav id="post-navigation" class="navigation pagination" role="navigation" aria-label="Post Navigation">
+	<h2 class="screen-reader-text">Posts navigation</h2>
+	<div class="nav-links">
+		<ul class="page-numbers">
+			<li><span aria-current="page" class="page-numbers current">1</span></li>
+			<li><a class="page-numbers" href="page/2/indexb995.html?blog_style=grid">2</a></li>
+			<li><a class="next page-numbers" href="page/2/indexb995.html?blog_style=grid"><span>NEXT</span><i class="triply-icon triply-icon-angle-double-right"></i></a></li>
 </ul>
 </div></nav>
 </main>
@@ -376,7 +381,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <input type="search" class="search-field" placeholder="Search &hellip;" value name="s" />
 </label>
 <input type="submit" class="search-submit" value="Search" />
-</form></div><div id="categories-3" class="widget widget_categories"><span class="gamma widget-title">Blog Categories</span><div class="opal-custom-widget-categories">
+</form></div>
+<!--<div id="categories-3" class="widget widget_categories"><span class="gamma widget-title">Blog Categories</span><div class="opal-custom-widget-categories">
 <ul>
 <li class="cat-item cat-item-47"><a href="../category/company-insight/index.html"><span class="cat-name">Company Insight</span> <span class="cat-count">1</span></a>
 <li class="cat-item cat-item-45"><a href="../category/creative/index.html"><span class="cat-name">Creative</span> <span class="cat-count">1</span></a>
@@ -384,7 +390,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <li class="cat-item cat-item-46"><a href="../category/tips-tricks/index.html"><span class="cat-name">Tips &amp; Tricks</span> <span class="cat-count">1</span></a>
 <li class="cat-item cat-item-1"><a href="../category/uncategorized/index.html"><span class="cat-name">Uncategorized</span> <span class="cat-count">12</span></a>
 </ul>
-</div></div> <div id="recent-posts-2" class="widget widget_recent_entries"> <span class="gamma widget-title">Recent Posts</span> <ul>
+</div></div>-->
+<div id="recent-posts-2" class="widget widget_recent_entries"> <span class="gamma widget-title">Recent Posts</span> <ul>
 <li>
 <div class="recent-posts-thumbnail">
 <a href="../pack-wisely-before-traveling-2/index.html">
@@ -416,15 +423,17 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>-->
 </li>
 </ul>
-</div><div id="tag_cloud-2" class="widget widget_tag_cloud"><span class="gamma widget-title">Popular Tag</span><div class="tagcloud"><a href="../tag/bread/index.html" class="tag-cloud-link tag-link-52 tag-link-position-1" style="font-size: 8pt;" aria-label="bread (1 item)">bread</a>
+</div>
+<!--<div id="tag_cloud-2" class="widget widget_tag_cloud"><span class="gamma widget-title">Popular Tag</span><div class="tagcloud"><a href="../tag/bread/index.html" class="tag-cloud-link tag-link-52 tag-link-position-1" style="font-size: 8pt;" aria-label="bread (1 item)">bread</a>
 <a href="../tag/fruits/index.html" class="tag-cloud-link tag-link-50 tag-link-position-2" style="font-size: 8pt;" aria-label="fruits (1 item)">fruits</a>
 <a href="../tag/meat/index.html" class="tag-cloud-link tag-link-51 tag-link-position-3" style="font-size: 8pt;" aria-label="meat (1 item)">meat</a>
 <a href="../tag/natural/index.html" class="tag-cloud-link tag-link-53 tag-link-position-4" style="font-size: 8pt;" aria-label="natural (1 item)">natural</a>
 <a href="../tag/vegetables/index.html" class="tag-cloud-link tag-link-49 tag-link-position-5" style="font-size: 8pt;" aria-label="vegetables (1 item)">vegetables</a></div>
-</div></div>
+</div>
+</div>-->
 </div>
 </div>
-<?php include '../footer.php';?>
+<?php include '../footerx.php';?>
 <link rel="stylesheet" id="e-animations-css" href="../wp-content/plugins/elementor/assets/lib/animations/animations.minfb6f.css?ver=3.12.1" type="text/css" media="all" />
 <link rel="stylesheet" id="rs-plugin-settings-css" href="../wp-content/plugins/revslider/public/assets/css/rs69f6d.css?ver=6.5.31" type="text/css" media="all" />
 <style id="rs-plugin-settings-inline-css" type="text/css">
