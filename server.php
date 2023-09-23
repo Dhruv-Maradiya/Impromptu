@@ -5,7 +5,7 @@ session_start();
 $error = "";
 $error2 = "";
 
-error_reporting(E_ALL ^ E_WARNING);
+error_reporting(E_ALL ^ (E_NOTICE | E_WARNING | E_DEPRECATED));
 
 if (array_key_exists("new-submit", $_POST)) {
  
@@ -173,9 +173,9 @@ if (array_key_exists("login_submit", $_POST)) {
             $resultx = mysqli_query($linkdb, $queryx);
             $rowx = mysqli_fetch_array($resultx);
          
-            if (isset($row) || isset($rowx)) {
+            if (isset($row)) {
                  
-                if (password_verify($password, $row['password']) || password_verify($password, $rowx['password'])) 
+                if (password_verify($password, $row['password'])) 
                 {
 
                     //session variables to keep user logged in
@@ -194,14 +194,42 @@ if (array_key_exists("login_submit", $_POST)) {
                    </script>";
                    
  
-                } else {
+                } 
+                else {
                     //$error2 = "Combination of email/password does not match!";
                     echo "<script> alert('Combination of email/password does not match.');
                     location='login.php';  
              
                     </script>";
                      }
-   
+            elseif (isset($rowx)) {
+        
+            if (password_verify($password, $rowx['password'])) 
+            {
+
+                //session variables to keep user logged in
+                $_SESSION['id'] = $rowx['id'];  
+
+                  //Logged in for long time untill user didn't log out
+                // if (isset($_POST['remember-me'])) 
+                // {
+                // setcookie('id', $row['id'], time() + 60*60*24); //Logged in permanently
+                // }
+                  
+                // header("Location: ../recyclo_after/recyclocart.nicepage.io/Home.html"); //*Change header
+                echo "<script> alert('Login Successful.');
+                location='';  
+          
+                </script>";
+                
+
+            } else {
+                //$error2 = "Combination of email/password does not match!";
+                echo "<script> alert('Combination of email/password does not match.');
+                location='login.php';  
+          
+                </script>";
+                  }
             }  else {
               //  $error2 = "Combination of email/password does not match!";
                 echo "<script> alert('Combination of email/password does not match.');
