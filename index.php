@@ -5,6 +5,34 @@ $sql1 = "SELECT * FROM state WHERE id > 20 AND id < 29";
     $result1 = mysqli_query($linkdb, $sql1);
 
 
+	$sql2 = "SELECT * FROM destination WHERE state = '12'";
+    $result2 = mysqli_query($linkdb, $sql2);
+	$row2=mysqli_num_rows ( $result2 );
+
+
+	$sql3 = "SELECT * FROM destination WHERE state = '36'";
+    $result3 = mysqli_query($linkdb, $sql3);
+	$row3=mysqli_num_rows ( $result3 );
+
+
+	$sql4 = "SELECT * FROM destination WHERE state = '4'";
+    $result4 = mysqli_query($linkdb, $sql4);
+	$row4=mysqli_num_rows ( $result4 );
+
+	$sql5 = "SELECT * FROM destination WHERE state = '34'";
+    $result5 = mysqli_query($linkdb, $sql5);
+	$row5=mysqli_num_rows ( $result5 );
+
+
+	$sql6 = "SELECT * FROM destination WHERE state = '30'";
+    $result6 = mysqli_query($linkdb, $sql6);
+	$row6=mysqli_num_rows ( $result6 );
+
+
+	$sql7 = "SELECT * FROM destination WHERE state = '35'";
+    $result7 = mysqli_query($linkdb, $sql7);
+	$row7=mysqli_num_rows ( $result7);
+
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -394,7 +422,7 @@ $i++;
 </div>
 <div class="content-location">
 <span class="location-name">Gujarat</span>
-<span class="location-count">1&nbsp;Tour</span>
+<span class="location-count"><?php echo $row2;?>&nbsp;Tour</span>
 </div>
 </a>
 </div>
@@ -407,7 +435,7 @@ $i++;
 </div>
 <div class="content-location">
 <span class="location-name">Jammu And <br> Kashmir</span>
-<span class="location-count">1&nbsp;Tour</span>
+<span class="location-count"><?php echo $row3;?>&nbsp;Tour</span>
 </div>
 </a>
 </div>
@@ -420,7 +448,7 @@ $i++;
 </div>
 <div class="content-location">
 <span class="location-name">West Bengal</span>
-<span class="location-count">2&nbsp;Tours</span>
+<span class="location-count"><?php echo $row7;?>&nbsp;Tours</span>
 </div>
 </a>
 </div>
@@ -433,7 +461,7 @@ $i++;
 </div>
 <div class="content-location">
 <span class="location-name">Assam</span>
-<span class="location-count">1&nbsp;Tour</span>
+<span class="location-count"><?php echo $row4;?>&nbsp;Tour</span>
 </div>
 </a>
 </div>
@@ -446,7 +474,7 @@ $i++;
 </div>
 <div class="content-location">
 <span class="location-name">Uttarakhand</span>
-<span class="location-count">1&nbsp;Tour</span>
+<span class="location-count"><?php echo $row5;?>&nbsp;Tour</span>
 </div>
 </a>
 </div>
@@ -459,7 +487,8 @@ $i++;
 </div>
 <div class="content-location">
 <span class="location-name">Sikkim</span>
-<span class="location-count">3&nbsp;Tours</span>
+<span class="location-count">
+<?php echo $row6;?>&nbsp;Tours</span>
 </div>
 </a>
 </div>

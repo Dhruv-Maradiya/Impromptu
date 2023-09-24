@@ -2,6 +2,16 @@
 	include '../linkDB.php';
     $stateId = $_REQUEST['id'];
 
+	$sql = "SELECT * FROM state WHERE id > 20 AND id < 29";
+    $result = mysqli_query($linkdb, $sql);
+
+	$sql6 = "SELECT * FROM state WHERE id > 10 AND id < 20";
+    $result6 = mysqli_query($linkdb, $sql6);
+	
+
+	$sql7 = "SELECT * FROM state WHERE id > 1 AND id < 10";
+    $result7 = mysqli_query($linkdb, $sql7);
+
 	$sql1 = "SELECT * FROM destination WHERE state = '38'";
     $result1 = mysqli_query($linkdb, $sql1);
 	$row=mysqli_num_rows ( $result1 );
@@ -357,58 +367,22 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-widget-wrap">
 <div class="elementor-element elementor-element-c17bb90 elementor-widget elementor-widget-heading" data-id="c17bb90" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Continents</h2> </div>
+<h2 class="elementor-heading-title elementor-size-default">States</h2> </div>
 </div>
 <div class="elementor-element elementor-element-23d41b4 elementor-widget-mobile__width-initial elementor-widget elementor-widget-babe-taxonomies-list" data-id="23d41b4" data-element_type="widget" data-widget_type="babe-taxonomies-list.default">
 <div class="elementor-widget-container">
-<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="1" data-elementor-columns-mobile="2"> <div class="location-list column-item">
-<a class="location-content" href="../ba_locations/africa/index.html">
-<span class="title-tour"> Africa </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="1" data-elementor-columns-mobile="2"> 
+<!---------     -------->	
+<?php 
+		while($row=mysqli_fetch_array($result)){ ?>
+
 <div class="location-list column-item">
-<a class="location-content" href="../ba_locations/americas/index.html">
-<span class="title-tour"> Americas </span>
-<span class="count-count">(1)</span>
+<a class="location-content" href="../state/?id=<?php echo $row["id"];?>">
+<span class="title-tour"> <?php echo $row["name"]; ?> </span>
 </a>
 </div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/argentina/index.html">
-<span class="title-tour"> Argentina </span>
-<span class="count-count">(2)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/asia/index.html">
-<span class="title-tour"> Asia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/australia/index.html">
-<span class="title-tour"> Australia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/cambodia/index.html">
-<span class="title-tour"> Cambodia </span>
-<span class="count-count">(3)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/canada/index.html">
-<span class="title-tour"> Canada </span>
-<span class="count-count">(5)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/colombia/index.html">
-<span class="title-tour"> Colombia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<?php }?>
+<!--------- ---------->
 </div> </div>
 </div>
 </div>
@@ -419,58 +393,22 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-widget-wrap">
 <div class="elementor-element elementor-element-25f585c elementor-widget elementor-widget-heading" data-id="25f585c" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Asia & The Pacific</h2> </div>
+<h2 class="elementor-heading-title elementor-size-default"><br></h2> </div>
 </div>
 <div class="elementor-element elementor-element-e15c4a0 elementor-widget-mobile__width-initial elementor-widget elementor-widget-babe-taxonomies-list" data-id="e15c4a0" data-element_type="widget" data-widget_type="babe-taxonomies-list.default">
 <div class="elementor-widget-container">
-<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="1" data-elementor-columns-mobile="2"> <div class="location-list column-item">
-<a class="location-content" href="../ba_locations/africa/index.html">
-<span class="title-tour"> Africa </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="1" data-elementor-columns-mobile="2"> 
+<!--- ----------->	
+<?php 
+		while($row=mysqli_fetch_array($result6)){ ?>
+
 <div class="location-list column-item">
-<a class="location-content" href="../ba_locations/americas/index.html">
-<span class="title-tour"> Americas </span>
-<span class="count-count">(1)</span>
+<a class="location-content" href="../state/?id=<?php echo $row["id"];?>">
+<span class="title-tour"> <?php echo $row["name"]; ?> </span>
 </a>
 </div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/argentina/index.html">
-<span class="title-tour"> Argentina </span>
-<span class="count-count">(2)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/asia/index.html">
-<span class="title-tour"> Asia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/australia/index.html">
-<span class="title-tour"> Australia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/cambodia/index.html">
-<span class="title-tour"> Cambodia </span>
-<span class="count-count">(3)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/canada/index.html">
-<span class="title-tour"> Canada </span>
-<span class="count-count">(5)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/colombia/index.html">
-<span class="title-tour"> Colombia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<?php }?>
+<!------ ------------>
 </div> </div>
 </div>
 </div>
@@ -481,58 +419,22 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-widget-wrap">
 <div class="elementor-element elementor-element-28fbe3e elementor-widget elementor-widget-heading" data-id="28fbe3e" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Countries</h2> </div>
+<h2 class="elementor-heading-title elementor-size-default"><br></h2> </div>
 </div>
 <div class="elementor-element elementor-element-45c9b3b elementor-widget-mobile__width-initial elementor-widget elementor-widget-babe-taxonomies-list" data-id="45c9b3b" data-element_type="widget" data-widget_type="babe-taxonomies-list.default">
 <div class="elementor-widget-container">
-<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="1" data-elementor-columns-mobile="2"> <div class="location-list column-item">
-<a class="location-content" href="../ba_locations/africa/index.html">
-<span class="title-tour"> Africa </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="1" data-elementor-columns-mobile="2"> 
+<!------ ---------->	
+<?php 
+		while($row=mysqli_fetch_array($result7)){ ?>
+
 <div class="location-list column-item">
-<a class="location-content" href="../ba_locations/americas/index.html">
-<span class="title-tour"> Americas </span>
-<span class="count-count">(1)</span>
+<a class="location-content" href="../state/?id=<?php echo $row["id"];?>">
+<span class="title-tour"> <?php echo $row["name"]; ?> </span>
 </a>
 </div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/argentina/index.html">
-<span class="title-tour"> Argentina </span>
-<span class="count-count">(2)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/asia/index.html">
-<span class="title-tour"> Asia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/australia/index.html">
-<span class="title-tour"> Australia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/cambodia/index.html">
-<span class="title-tour"> Cambodia </span>
-<span class="count-count">(3)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/canada/index.html">
-<span class="title-tour"> Canada </span>
-<span class="count-count">(5)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="../ba_locations/colombia/index.html">
-<span class="title-tour"> Colombia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<?php }?>
+<!--------- -------->
 </div> </div>
 </div>
 </div>
