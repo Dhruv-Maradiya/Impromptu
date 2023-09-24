@@ -303,7 +303,7 @@ km²</div>
 	<div class="babe_items babe_items_1 column-item">
 <div class="babe_all_items_item_inner">
 <div class="item_img">
-<a class="item-thumb" href="../to_book/osa-peninsula-to-dominical/index.html"><img src="../images/<?php echo $row['img']; ?>" alt="Osa Peninsula to Dominical"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Osa Peninsula to Dominical" data-book-id="255">
+<a class="item-thumb" href="../to_book/osa-peninsula-to-dominical/index.html"><img src="../images/<?php echo $row['img']; ?>" alt="<?php echo $row["name"]; ?>"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Osa Peninsula to Dominical" data-book-id="255">
 <span class="wishlist triply-icon-heart"></span>
 </a>
 </div>
