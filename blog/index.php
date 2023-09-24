@@ -1,3 +1,12 @@
+<?php 
+	include '../linkDB.php';
+	$sql1 = "SELECT blog.*, identifier FROM blog JOIN image ON image.id = blog.image";
+    $result1 = mysqli_query($linkdb, $sql1);
+
+	mysqli_close($linkdb);
+	
+	?>
+
 <!DOCTYPE html>
 <html lang="en-US">
 <?php
@@ -160,69 +169,34 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 <div id="content" class="site-content" tabindex="-1">
-	<div class="col-full">
-		<div id="primary" class="content-area">
-			<main id="main" class="site-main" role="main">
-				<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1">
-					<div class="column-item post-style-2 hentry">
-					<?php
-							$q="SELECT blog.*, identifier FROM blog JOIN image ON image.id = blog.image";
-							$res=mysqli_query($linkdb,$q);
-							while($row=mysqli_fetch_array($res))
-							{
-						?>
-					<div class="post-inner">
-						>
-						<div class="post-thumbnail" >
-							<a href="../blog-page/index.php?id=<?php echo $row['id']; ?>">
-								<img width="850" height="600" src="../wp-content/uploads/2020/11/<?php echo $row['identifier']; ?>" class="attachment-triply-tour-detail-gallery-3 size-triply-tour-detail-gallery-3 wp-post-image" alt decoding="async" loading="lazy" /> 
-							</a>
-						</div>
-						<div class="entry-content">
-							<div class="entry-content-wrapper">
-								<div class="entry-header">
-									<div class="entry-meta">
-										<!-- <span class="categories-link">
-											<span class="screen-reader-text">Categories</span>
-											<a href="../category/company-insight/index.html" rel="category tag">Uncategorized</a>
-										</span> -->
-										<!-- <span class="posted-on">
-											<a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark"><?php $row['date']; ?>
-											</a>
-										</span>  -->
-										<span class="post-author">
-											<span>By <a href="../author/admin/index.html">admin</a>
-										</span>
-									</span> 
-								</div>
-								<h3 class="entry-title"><a href="../blog-page/index.php?id=<?php echo $row['id']; ?>" rel="bookmark"><?php echo $row["name"]; ?></a></h3>
-							</div>
-							<div class="entry-bottom">
-								<p><?php echo substr($row['description'], 0, 100) . " ..."; ?>&hellip;</p>
-							</div>
-							<div class="more-link-wrap">
-								<a class="more-link" href="../blog-page/index.php?id=<?php echo $row['id']; ?>"><span>Read More</span>
-								<i class="triply-icon-long-arrow-right"></i></a>
-							</div>
-						</div><?php } ?>
-							</div>
-							</div>
-					</div>
-				</div>
-			</div>
-			</div>
-			<!-- <nav id="post-navigation" class="navigation pagination" role="navigation" aria-label="Post Navigation">
-				<h2 class="screen-reader-text">Posts navigation</h2>
-				<div class="nav-links">
-					<ul class="page-numbers">
-						<li><span aria-current="page" class="page-numbers current">1</span></li>
-						<li><a class="page-numbers" href="page/2/indexb995.html?blog_style=grid">2</a></li>
-						<li><a class="next page-numbers" href="page/2/indexb995.html?blog_style=grid"><span>NEXT</span><i class="triply-icon triply-icon-angle-double-right"></i></a></li>
-					</ul>
-				</div>
-			</nav> -->
-		</main>
-	</div>
+<div class="col-full">
+<div id="primary" class="content-area">
+<main id="main" class="site-main" role="main">
+<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1">
+	<!------      ----->
+	<?php while($row= mysqli_fetch_array($result1)){ ?>
+	<div class="column-item post-style-2 hentry">
+<div class="post-inner">
+<div class="post-thumbnail">
+<a href="../pack-wisely-before-traveling-2/index.html">
+<img width="850" height="600" src="../wp-content/uploads/2020/11/<?php echo $row['identifer']; ?>" class="attachment-triply-tour-detail-gallery-3 size-triply-tour-detail-gallery-3 wp-post-image" alt decoding="async" loading="lazy" /> </a>
+</div>
+<div class="entry-content">
+<div class="entry-content-wrapper">
+<div class="entry-header">
+<div class="entry-meta">
+<span class="categories-link"><span class="screen-reader-text">Categories</span><a href="../category/company-insight/index.html" rel="category tag">Company Insight</a></span><span class="posted-on"><a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark"><time class="entry-date published" datetime="2020-11-09T09:56:05+00:00">9 Nov, 2020</time><time class="updated" datetime="2020-11-26T01:57:24+00:00">26 Nov, 2020</time></a></span> <span class="post-author"><span>By <a href="../author/admin/index.html">admin</a></span></span> </div>
+<h3 class="entry-title"><a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark"><?php echo $row['name']; ?></a></h3>
+ </div>
+<div class="entry-bottom">
+<p><?php echo substr($row['description'],0,100); ?> I&hellip;</p>
+</div>
+<div class="more-link-wrap"><a class="more-link" href="../pack-wisely-before-traveling-2/index.html"><span>Read More</span><i class="triply-icon-long-arrow-right"></i></a></div>
+</div>
+</div>
+</div>
+</div>
+<?php } ?>
 <!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
@@ -403,8 +377,18 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>-->
-
-
+</div>
+<!-- <nav id="post-navigation" class="navigation pagination" role="navigation" aria-label="Post Navigation">
+	<h2 class="screen-reader-text">Posts navigation</h2>
+	<div class="nav-links">
+		<ul class="page-numbers">
+			<li><span aria-current="page" class="page-numbers current">1</span></li>
+			<li><a class="page-numbers" href="page/2/indexb995.html?blog_style=grid">2</a></li>
+			<li><a class="next page-numbers" href="page/2/indexb995.html?blog_style=grid"><span>NEXT</span><i class="triply-icon triply-icon-angle-double-right"></i></a></li>
+</ul>
+</div></nav> -->
+</main>
+</div>
 <div id="secondary" class="widget-area" role="complementary">
 <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://demo2.pavothemes.com/triply/">
 <label>
