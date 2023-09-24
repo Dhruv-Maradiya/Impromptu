@@ -1,8 +1,12 @@
 <?php 
 	include '../linkDB.php';
-	$sql1 = "SELECT * FROM destination;";
+	$sql1 = "SELECT * FROM destination";
     $result1 = mysqli_query($linkdb, $sql1);
+
+	$sql10 = "SELECT * FROM state";
+    $result10 = mysqli_query($linkdb, $sql10);
 	mysqli_close($linkdb);
+	
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -193,24 +197,13 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="add_ids_title">
 <div class="add_ids_title_value">Where are you going?</div><i class="js-triply-icon triply-icon triply-icon-chevron-down"></i>
 <ul id="add_ids_list_ba_locations" class="add_ids_list" data-parent="0">
-<li class="term_item term_item_all" data-id="0">All Destinations</li><li class="term_item_disabled term_item_level_0" data-id="56">Africa
+<li class="term_item term_item_all" data-id="0">All States</li><li class="term_item_disabled term_item_level_0" data-id="56">
 <ul id="add_ids_list_ba_locations_56" class="add_ids_list_1">
-<li class="term_item term_item_level_1" data-id="57"> Morocco</li><li class="term_item term_item_level_1" data-id="58"> Tanzania</li>
+	<?php while($row=mysqli_fetch_array($result10)){?>
+<li class="term_item term_item_level_1" data-id="57"> <?php echo $row['name'] ?></li>
+<?php } ?>
 </ul>
-</li><li class="term_item_disabled term_item_level_0" data-id="59">Americas
-<ul id="add_ids_list_ba_locations_59" class="add_ids_list_1">
-<li class="term_item term_item_level_1" data-id="60"> Argentina</li><li class="term_item term_item_level_1" data-id="61"> Canada</li><li class="term_item term_item_level_1" data-id="62"> Colombia</li><li class="term_item term_item_level_1" data-id="63"> Costa Rica</li><li class="term_item term_item_level_1" data-id="64"> United States</li>
-</ul>
-</li><li class="term_item_disabled term_item_level_0" data-id="65">Asia
-<ul id="add_ids_list_ba_locations_65" class="add_ids_list_1">
-<li class="term_item term_item_level_1" data-id="66"> Cambodia</li><li class="term_item term_item_level_1" data-id="69"> Japan</li><li class="term_item term_item_level_1" data-id="67"> Nepal</li><li class="term_item term_item_level_1" data-id="70"> ThaiLand</li><li class="term_item term_item_level_1" data-id="68"> Viet Nam</li>
-</ul>
-</li><li class="term_item term_item_level_0" data-id="93">Australia</li><li class="term_item_disabled term_item_level_0" data-id="71">Europe
-<ul id="add_ids_list_ba_locations_71" class="add_ids_list_1">
-<li class="term_item term_item_level_1" data-id="72"> France</li><li class="term_item term_item_level_1" data-id="73"> Greece</li><li class="term_item term_item_level_1" data-id="74"> Iceland</li><li class="term_item term_item_level_1" data-id="75"> Italy</li><li class="term_item term_item_level_1" data-id="76"> Switzerland</li>
-</ul>
-</li><li class="term_item term_item_level_0" data-id="94">Sri Lanka</li>
-</ul>
+
 <input type="hidden" class="input_select_input_value" name="add_ids_ba_locations" value="0">
 </div>
 </div></div></div></div><div class="field-search-group "><div class="field-group-inner locations-block"><div class="icon-search left-search"><i class="triply-icon- triply-icon-activity"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">Activity</h4><div class="add_input_field is-active" data-tax="ba_types" tabindex="0">
@@ -221,36 +214,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </ul>
 <input type="hidden" class="input_select_input_value" name="add_ids_ba_types" value="0">
 </div>
-</div></div></div></div><div class="field-search-group"><div class="field-group-inner date-block"><div class="icon-search left-search"><i class="triply-icon-calendar-days"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">When</h4><div class="search_date_wrapper"><span class="search-date search_date_wrapper_date_from" data-title="Date from">
-<label class="triply-date-from" for="date_from"></label><input type="text" class="search_date" id="date_from" name="date_from" value placeholder="Date from">
-</span></div></div></div></div><div class="field-search-group"><div class="field-group-inner"><div class="guest-block search_guests_field is-active"><div class="icon-search left-search"><i class="triply-icon-user-2"></i></div><div class="field-search right-search"><h4 class="field-title">Guests</h4><span class="search_guests_title_value search_guests_title">0</span>
-<div class="search_guests_select_wrapper close_by_apply_btn">
-<div class="input_select_field input_select_field_guests" data-name="guests[2]">
-<span class="select_guests_value">0</span>
-<span class="select_guests_title">Adult</span>
-<span class="search_guests_plus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-plus"></i></span>
-<span class="search_guests_minus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-minus"></i></span>
-<input type="hidden" class="select_guests_input_value" name="guests[2]" value="0">
-</div> <div class="input_select_field input_select_field_guests" data-name="guests[3]">
-<span class="select_guests_value">0</span>
-<span class="select_guests_title">Youth</span>
-<span class="search_guests_plus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-plus"></i></span>
-<span class="search_guests_minus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-minus"></i></span>
-<input type="hidden" class="select_guests_input_value" name="guests[3]" value="0">
-</div> <div class="input_select_field input_select_field_guests" data-name="guests[4]">
-<span class="select_guests_value">0</span>
-<span class="select_guests_title">Children</span>
-<span class="search_guests_plus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-plus"></i></span>
-<span class="search_guests_minus btn-search-guests-change btn btn-secondary-outlined" tabindex="0"><i class="fas fa-minus"></i></span>
-<input type="hidden" class="select_guests_input_value" name="guests[4]" value="0">
-</div>
-<div class="search_guests_apply">
-<button class="btn button btn-primary search_apply_btn">Apply</button>
-</div>
-</div>
-</div>
-</div>
-</div></div> </div>
+</div></div></div></div>
 <div class="submit">
 <button name="submit" class="btn button btn-primary btn-search" value="1">
 <i class="triply-icon triply-icon-search"></i>
