@@ -1,4 +1,21 @@
 <!DOCTYPE html>
+<?php
+	include "../linkDB.php";
+	if(isset($_POST["submit"])){
+		$name = $_POST['name'];
+		$email=$_POST['email'];
+		$msg=$_POST['message'];
+		$sql="insert into contact (name,email,message) values('$name','$email','$msg')";
+		if(mysqli_query($linkdb,$sql))
+		{
+			echo "<script>alert('Message Submitted')</script>";
+		}
+		else
+		{
+			echo "<script>alert('Message not submitted')</script>";
+		}
+	}
+?>
 <html lang="en-US">
 
 <!-- Mirrored from demo2.pavothemes.com/triply/contact/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:57:57 GMT -->
@@ -265,30 +282,32 @@ Mon- Sat: 10:00 AM - 20:00 PM </p>
 </div>
 <div class="elementor-element elementor-element-ea152d8 elementor-button-align-start elementor-mobile-button-align-center elementor-widget elementor-widget-form" data-id="ea152d8" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">
 <div class="elementor-widget-container">
-<form class="elementor-form" method="post" name="New Form">
-<input type="hidden" name="post_id" value="890" />
-<input type="hidden" name="form_id" value="ea152d8" />
-<input type="hidden" name="referer_title" value="Contact" />
-<input type="hidden" name="queried_id" value="890" />
-<div class="elementor-form-fields-wrapper elementor-labels-above">
-<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100">
-<input size="1" type="text" name="form_fields[name]" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your name *">
-</div>
-<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
-<input size="1" type="email" name="form_fields[email]" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your email *" required="required" aria-required="true">
-</div>
-<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
-<textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="form_fields[message]" id="form-field-message" rows="6" placeholder="Message"></textarea> </div>
-<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
-<button type="submit" class="elementor-button elementor-size-sm">
-<span>
-<span class=" elementor-button-icon">
-</span>
-<span class="elementor-button-text" id="map">Submit</span>
-</span>
-</button>
-</div>
-</div>
+<form class="elementor-form" action="" method="post" name="contact">
+	<input type="hidden" name="post_id" value="890" />
+	<input type="hidden" name="form_id" value="ea152d8" />
+	<input type="hidden" name="referer_title" value="Contact" />
+	<input type="hidden" name="queried_id" value="890" />
+	<div class="elementor-form-fields-wrapper elementor-labels-above">
+		<div class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-100">
+			<input size="1" type="text" name="name" id="form-field-name" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your name *" required>
+		</div>
+		<div class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-100 elementor-field-required">
+			<input size="1" type="email" name="email" id="form-field-email" class="elementor-field elementor-size-sm  elementor-field-textual" placeholder="Your email *" required="required" aria-required="true" required>
+		</div>
+		<div class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
+			<textarea class="elementor-field-textual elementor-field  elementor-size-sm" name="message" id="form-field-message" rows="6" placeholder="Message" required></textarea> 
+		</div>
+		<div class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100 e-form__buttons">
+			<input type="submit" name="submit">
+			<!--<button type="submit" class="elementor-button elementor-size-sm" name="submit">
+				<span>
+					<span class=" elementor-button-icon">
+					</span>
+					<span class="elementor-button-text" id="map">Submit</span>
+				</span>
+			</button>-->
+		</div>
+	</div>
 </form>
 </div>
 </div>
@@ -398,7 +417,7 @@ wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
 var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/demo2.pavothemes.com\/triply\/wp-admin\/admin-ajax.php","nonce":"0d40091312","urls":{"assets":"https:\/\/demo2.pavothemes.com\/triply\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/demo2.pavothemes.com\/triply\/wp-json\/"},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/demo2.pavothemes.com\/triply\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
 </script>
 <script type="text/javascript" src="../wp-content/plugins/elementor-pro/assets/js/frontend.min695d.js?ver=3.12.0" id="elementor-pro-frontend-js"></script>
-<script type="text/javascript" src="../wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min695d.js?ver=3.12.0" id="pro-preloaded-elements-handlers-js"></script>
+<!-- <script type="text/javascript" src="../wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min695d.js?ver=3.12.0" id="pro-preloaded-elements-handlers-js"></script> -->
 <script type="text/javascript" src="../wp-content/plugins/elementor/assets/js/preloaded-modules.minfb6f.js?ver=3.12.1" id="preloaded-modules-js"></script>
 <script type="text/javascript" src="../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min695d.js?ver=3.12.0" id="e-sticky-js"></script>
 <script type="text/javascript" src="../wp-content/themes/triply/assets/js/elementor-frontend95b8.js?ver=2.3.2" id="triply-elementor-frontend-js"></script>
