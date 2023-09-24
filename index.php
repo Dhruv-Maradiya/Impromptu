@@ -1,4 +1,11 @@
-<?php error_reporting(E_ALL ^ E_WARNING); ?>
+<?php error_reporting(E_ALL ^ E_WARNING); 
+	include 'linkDB.php';
+
+$sql1 = "SELECT * FROM state WHERE id > 20 AND id < 29";
+    $result1 = mysqli_query($linkdb, $sql1);
+
+
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -355,54 +362,20 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="elementor-element elementor-element-c841bc3 animated-fast elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-babe-taxonomies-list" data-id="c841bc3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="babe-taxonomies-list.default">
 <div class="elementor-widget-container">
-<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="2" data-elementor-columns-mobile="2"> <div class="location-list column-item">
-<a class="location-content" href="ba_locations/africa/index.html">
-<span class="title-tour"> Africa </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="2" data-elementor-columns-mobile="2">
+	<!----       -------> 
+	<?php 
+		while($row=mysqli_fetch_array($result1)){ ?>
 <div class="location-list column-item">
-<a class="location-content" href="ba_locations/americas/index.html">
-<span class="title-tour"> Americas </span>
-<span class="count-count">(1)</span>
+<a class="location-content" href="state/?id=<?php echo $row["id"];?>">
+<span class="title-tour"> <?php echo $row["name"]; ?> </span>
 </a>
 </div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/argentina/index.html">
-<span class="title-tour"> Argentina </span>
-<span class="count-count">(2)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/asia/index.html">
-<span class="title-tour"> Asia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/australia/index.html">
-<span class="title-tour"> Australia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/cambodia/index.html">
-<span class="title-tour"> Cambodia </span>
-<span class="count-count">(3)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/canada/index.html">
-<span class="title-tour"> Canada </span>
-<span class="count-count">(5)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/colombia/index.html">
-<span class="title-tour"> Colombia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<?php 
+$i++;
+}
+?>
+<!------        --------->
 </div> </div>
 </div>
 </div>

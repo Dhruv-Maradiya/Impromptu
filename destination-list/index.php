@@ -1,3 +1,31 @@
+<?php 
+	include '../linkDB.php';
+    $stateId = $_REQUEST['id'];
+
+	$sql1 = "SELECT * FROM destination WHERE state = '38'";
+    $result1 = mysqli_query($linkdb, $sql1);
+	$row=mysqli_num_rows ( $result1 );
+
+
+	$sql2 = "SELECT * FROM destination WHERE state = '11'";
+    $result2 = mysqli_query($linkdb, $sql2);
+	$row2=mysqli_num_rows ( $result2 );
+
+
+	$sql3 = "SELECT * FROM destination WHERE state = '12'";
+    $result3 = mysqli_query($linkdb, $sql3);
+	$row3=mysqli_num_rows ( $result3 );
+
+
+	$sql4 = "SELECT * FROM destination WHERE state = '29'";
+    $result4 = mysqli_query($linkdb, $sql4);
+	$row4=mysqli_num_rows ( $result4 );
+
+
+	$sql5 = "SELECT * FROM destination WHERE state = '18'";
+    $result5 = mysqli_query($linkdb, $sql5);
+	$row5=mysqli_num_rows ( $result5 );
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -180,14 +208,14 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-79a03f8 elementor-widget elementor-widget-taxonomy-item" data-id="79a03f8" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="#"><!-- ../ba_locations/africa/index.html -->
+<a class="title-location" href="../state/?id=38"><!-- ../ba_locations/africa/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/38x.png" alt="Ladakh">
 </div>
 <div class="content-location">
 <h2 class="title-tours">Ladakh</h2>
 <div class="taxonomy-infor">
-<div class="location-count">1 &nbsp;Tour</div>
+<div class="location-count"> <?php echo $row; ?>&nbsp;Tour</div>
 </div>
 </div>
 </a>
@@ -203,14 +231,14 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-7dbc275 elementor-widget elementor-widget-taxonomy-item" data-id="7dbc275" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
- <a class="title-location" href="#"> <!--../ba_types/beaches/index.html -->
+ <a class="title-location" href="../state/?id=11"> <!--../ba_types/beaches/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/1x.png" alt="Goa">
 </div>
 <div class="content-location">
 <h2 class="title-tours">Goa</h2>
 <div class="taxonomy-infor">
-<div class="location-count">10 &nbsp;Tours</div>
+<div class="location-count"> <?php echo $row2; ?> &nbsp;Tours</div>
 </div>
 </div>
 </a>
@@ -226,14 +254,14 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-1ebd871 elementor-widget elementor-widget-taxonomy-item" data-id="1ebd871" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="../state/index.php">
+<a class="title-location" href="../state/?id=12">
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/12x.png" alt="Gujarat">
 </div>
 <div class="content-location">
 <h2 class="title-tours">Gujarat</h2>
 <div class="taxonomy-infor">
-<div class="location-count">4 &nbsp;Tours</div>
+<div class="location-count"><?php echo $row3; ?> &nbsp;Tours</div>
 </div>
 </div>
 </a>
@@ -249,14 +277,14 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-fa827a1 elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-taxonomy-item" data-id="fa827a1" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="#"><!-- ../ba_locations/iceland/index.html -->
+<a class="title-location" href="../state/?id=29"><!-- ../ba_locations/iceland/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/29x.png" alt="Rajasthan">
 </div>
 <div class="content-location">
 <h2 class="title-tours">Rajasthan</h2>
 <div class="taxonomy-infor">
-<div class="location-count">5 &nbsp;Tours</div>
+<div class="location-count"> <?php echo $row4; ?> &nbsp;Tours</div>
 </div>
 </div>
 </a>
@@ -272,14 +300,14 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-7bafdeb elementor-widget-tablet__width-initial elementor-widget-mobile__width-initial elementor-widget elementor-widget-taxonomy-item" data-id="7bafdeb" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
-<a class="title-location" href="#">  <!-- ../ba_locations/europe/index.html -->
+<a class="title-location" href="../state/?id=18">  <!-- ../ba_locations/europe/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/18x.png" alt="Kerala">
 </div>
 <div class="content-location">
 <h2 class="title-tours">Kerala</h2>
 <div class="taxonomy-infor">
-<div class="location-count">1 &nbsp;Tour</div>
+<div class="location-count"> <?php echo $row5; ?> &nbsp;Tour</div>
 </div>
 </div>
 </a>
