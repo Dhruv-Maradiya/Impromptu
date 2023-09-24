@@ -272,7 +272,7 @@ km²</div>
 <div class="elementor-element elementor-element-15359e4 elementor-widget elementor-widget-babe-featured-image" data-id="15359e4" data-element_type="widget" data-widget_type="babe-featured-image.default">
 <div class="elementor-widget-container">
 <div class="elementor-image">
-<a class="term-link" href="index.html">
+<a class="term-link">
 <img width="410" height="410" src=<?php echo "../images/".$images["identifier"] ?> class="attachment-triply-item size-triply-item wp-image-10881" alt decoding="async" loading="lazy" srcset="" sizes="(max-width: 410px) 100vw, 410px" /> </a>
 <!-- <img width="410" height="410" src="../images/12.jpeg" class="attachment-triply-item size-triply-item wp-image-10881" alt decoding="async" loading="lazy" srcset="" sizes="(max-width: 410px) 100vw, 410px" /> </a> -->
 </div>
@@ -303,7 +303,9 @@ km²</div>
 	<div class="babe_items babe_items_1 column-item">
 <div class="babe_all_items_item_inner">
 <div class="item_img">
-<a class="item-thumb" href="../to_book/osa-peninsula-to-dominical/index.html"><img src="../images/<?php echo $row['img']; ?>" alt="<?php echo $row["name"]; ?>"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Osa Peninsula to Dominical" data-book-id="255">
+<a class="item-thumb" href="../to_book/index.php?id=<?php echo $row[
+    "id"
+]; ?>"><img src="../images/<?php echo $row['img']; ?>" alt="<?php echo $row["name"]; ?>"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Osa Peninsula to Dominical" data-book-id="255">
 <span class="wishlist triply-icon-heart"></span>
 </a>
 </div>
@@ -325,7 +327,9 @@ km²</div>
 <label>From </label>
 <span class="item_info_price_new"><span class="currency_amount" data-amount="103"><span class="currency_symbol"></span>₹<?php echo $row["price"]; ?></span></span>
 </div>
-<a class="read-more-item" href="../to_book/osa-peninsula-to-dominical/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
+<a class="read-more-item" href="../to_book/index.php?id=<?php echo $row[
+    "id"
+]; ?>">Explore <i class="triply-icon-long-arrow-right"></i></a>
 </div>
 </div>
 </div>

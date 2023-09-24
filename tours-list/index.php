@@ -308,7 +308,9 @@ Tours </div>
 </div>
 </div>
 <div class="item_title">
-<a href="../to_book/osa-peninsula-to-dominical/index.html"><?php echo $row["name"]; ?></a>
+<a href="../to_book/index.php?id=<?php echo $row[
+    "id"
+]; ?>"><?php echo $row["name"]; ?></a>
 </div>
 <div class="item-location">
 <i class="triply-icon-map-marker-alt"></i><span><?php echo $row["address"]; ?></span>
