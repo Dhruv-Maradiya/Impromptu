@@ -1,4 +1,39 @@
-<?php error_reporting(E_ALL ^ E_WARNING); ?>
+<?php error_reporting(E_ALL ^ E_WARNING); 
+	include 'linkDB.php';
+
+$sql1 = "SELECT * FROM state WHERE id > 20 AND id < 29";
+    $result1 = mysqli_query($linkdb, $sql1);
+
+
+	$sql2 = "SELECT * FROM destination WHERE state = '12'";
+    $result2 = mysqli_query($linkdb, $sql2);
+	$row2=mysqli_num_rows ( $result2 );
+
+
+	$sql3 = "SELECT * FROM destination WHERE state = '36'";
+    $result3 = mysqli_query($linkdb, $sql3);
+	$row3=mysqli_num_rows ( $result3 );
+
+
+	$sql4 = "SELECT * FROM destination WHERE state = '4'";
+    $result4 = mysqli_query($linkdb, $sql4);
+	$row4=mysqli_num_rows ( $result4 );
+
+	$sql5 = "SELECT * FROM destination WHERE state = '34'";
+    $result5 = mysqli_query($linkdb, $sql5);
+	$row5=mysqli_num_rows ( $result5 );
+
+
+	$sql6 = "SELECT * FROM destination WHERE state = '30'";
+    $result6 = mysqli_query($linkdb, $sql6);
+	$row6=mysqli_num_rows ( $result6 );
+
+
+	$sql7 = "SELECT * FROM destination WHERE state = '35'";
+    $result7 = mysqli_query($linkdb, $sql7);
+	$row7=mysqli_num_rows ( $result7);
+
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -355,54 +390,20 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="elementor-element elementor-element-c841bc3 animated-fast elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-babe-taxonomies-list" data-id="c841bc3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="babe-taxonomies-list.default">
 <div class="elementor-widget-container">
-<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="2" data-elementor-columns-mobile="2"> <div class="location-list column-item">
-<a class="location-content" href="ba_locations/africa/index.html">
-<span class="title-tour"> Africa </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="2" data-elementor-columns-mobile="2">
+	<!----       -------> 
+	<?php 
+		while($row=mysqli_fetch_array($result1)){ ?>
 <div class="location-list column-item">
-<a class="location-content" href="ba_locations/americas/index.html">
-<span class="title-tour"> Americas </span>
-<span class="count-count">(1)</span>
+<a class="location-content" href="state/?id=<?php echo $row["id"];?>">
+<span class="title-tour"> <?php echo $row["name"]; ?> </span>
 </a>
 </div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/argentina/index.html">
-<span class="title-tour"> Argentina </span>
-<span class="count-count">(2)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/asia/index.html">
-<span class="title-tour"> Asia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/australia/index.html">
-<span class="title-tour"> Australia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/cambodia/index.html">
-<span class="title-tour"> Cambodia </span>
-<span class="count-count">(3)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/canada/index.html">
-<span class="title-tour"> Canada </span>
-<span class="count-count">(5)</span>
-</a>
-</div>
-<div class="location-list column-item">
-<a class="location-content" href="ba_locations/colombia/index.html">
-<span class="title-tour"> Colombia </span>
-<span class="count-count">(1)</span>
-</a>
-</div>
+<?php 
+$i++;
+}
+?>
+<!------        --------->
 </div> </div>
 </div>
 </div>
@@ -421,7 +422,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="content-location">
 <span class="location-name">Gujarat</span>
-<span class="location-count">1&nbsp;Tour</span>
+<span class="location-count"><?php echo $row2;?>&nbsp;Tour</span>
 </div>
 </a>
 </div>
@@ -434,7 +435,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="content-location">
 <span class="location-name">Jammu And <br> Kashmir</span>
-<span class="location-count">1&nbsp;Tour</span>
+<span class="location-count"><?php echo $row3;?>&nbsp;Tour</span>
 </div>
 </a>
 </div>
@@ -447,7 +448,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="content-location">
 <span class="location-name">West Bengal</span>
-<span class="location-count">2&nbsp;Tours</span>
+<span class="location-count"><?php echo $row7;?>&nbsp;Tours</span>
 </div>
 </a>
 </div>
@@ -460,7 +461,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="content-location">
 <span class="location-name">Assam</span>
-<span class="location-count">1&nbsp;Tour</span>
+<span class="location-count"><?php echo $row4;?>&nbsp;Tour</span>
 </div>
 </a>
 </div>
@@ -473,7 +474,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="content-location">
 <span class="location-name">Uttarakhand</span>
-<span class="location-count">1&nbsp;Tour</span>
+<span class="location-count"><?php echo $row5;?>&nbsp;Tour</span>
 </div>
 </a>
 </div>
@@ -486,7 +487,8 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="content-location">
 <span class="location-name">Sikkim</span>
-<span class="location-count">3&nbsp;Tours</span>
+<span class="location-count">
+<?php echo $row6;?>&nbsp;Tours</span>
 </div>
 </a>
 </div>
