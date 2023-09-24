@@ -1,13 +1,34 @@
 <?php 
 	include '../linkDB.php';
-	$sql1 = "SELECT * FROM destination";
+
+	$destination = $_REQUEST["add_ids_ba_locations"];
+	$activity = $_REQUEST["add_ids_ba_types"];
+
+	$filters = "";
+
+	if ($destination || $activity) {
+		$filters = " WHERE";
+	}
+
+	if ($destination) {
+		$filters = $filters." state = $destination";
+
+		if ($activity) {
+			$filters = 		$filters." AND";
+		}
+	}
+	if ($activity) {
+		$filters = $filters." activity = '$activity'";
+	}
+	
+	$sql1 = "SELECT * FROM destination".$filters;
     $result1 = mysqli_query($linkdb, $sql1);
 
 	$sql10 = "SELECT * FROM state";
     $result10 = mysqli_query($linkdb, $sql10);
 	mysqli_close($linkdb);
 	
-?>
+	?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -190,7 +211,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-755578f layout-style-1 elementor-widget elementor-widget-babe-search-form" data-id="755578f" data-element_type="widget" data-widget_type="babe-search-form.default">
 <div class="elementor-widget-container">
 <div id="triply-search-box" class="babe-search-box">
-<form name="search_form" action="https://demo2.pavothemes.com/triply/all-tours/" method="get" id="search_form" class="babe-search-form">
+<form name="search_form" action="" method="get" id="search_form" class="babe-search-form">
 <div class="search-form-inner">
 <div class="input-group col-4">
 <div class="field-search-group "><div class="field-group-inner locations-block"><div class="icon-search left-search"><i class="triply-icon- triply-icon-map-marker-rounded"></i></div><div class="field-search right-search"><h4 class="field-title advanced-header">Destinations</h4><div class="add_input_field is-active" data-tax="ba_locations" tabindex="0">
@@ -200,7 +221,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <li class="term_item term_item_all" data-id="0">All States</li><li class="term_item_disabled term_item_level_0" data-id="56">
 <ul id="add_ids_list_ba_locations_56" class="add_ids_list_1">
 	<?php while($row=mysqli_fetch_array($result10)){?>
-<li class="term_item term_item_level_1" data-id="57"> <?php echo $row['name'] ?></li>
+<li class="term_item term_item_level_1" data-id=<?php echo $row['id'] ?>> <?php echo $row['name'] ?></li>
 <?php } ?>
 </ul>
 
@@ -210,7 +231,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="add_ids_title">
 <div class="add_ids_title_value">All Activity</div><i class="js-triply-icon triply-icon triply-icon-chevron-down"></i>
 <ul id="add_ids_list_ba_types" class="add_ids_list" data-parent="0">
-<li class="term_item term_item_all" data-id="0">All Activity</li><li class="term_item term_item_level_0" data-id="77">Beaches</li><li class="term_item term_item_level_0" data-id="78">City Tours</li><li class="term_item term_item_level_0" data-id="79">Cruises</li><li class="term_item term_item_level_0" data-id="80">Hiking</li><li class="term_item term_item_level_0" data-id="81">Historical</li><li class="term_item term_item_level_0" data-id="82">Museum Tours</li>
+<li class="term_item term_item_all" data-id="0">All Activity</li><li class="term_item term_item_level_0" data-id="Beaches">Beaches</li><li class="term_item term_item_level_0" data-id="City Tours">City Tours</li><li class="term_item term_item_level_0" data-id="Cruises">Cruises</li><li class="term_item term_item_level_0" data-id="Hiking">Hiking</li><li class="term_item term_item_level_0" data-id="81">Historical</li><li class="term_item term_item_level_0" data-id="Museum Tours">Museum Tours</li>
 </ul>
 <input type="hidden" class="input_select_input_value" name="add_ids_ba_types" value="0">
 </div>
