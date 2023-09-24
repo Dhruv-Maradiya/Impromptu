@@ -310,7 +310,7 @@ Tours </div>
 <div class="item_title">
 <a href="../to_book/index.php?id=<?php echo $row[
     "id"
-]; ?>"><?php echo $row["name"]; ?></a>
+]; ?>"i><?php echo $row["name"]; ?></a>
 </div>
 <div class="item-location">
 <i class="triply-icon-map-marker-alt"></i><span><?php echo $row["address"]; ?></span>
