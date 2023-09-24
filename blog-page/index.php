@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<?php
+	include "../linkDB.php";
+	$id=$_GET['id'];
+	$q="SELECT blog.*, identifier FROM blog JOIN image ON image.id = blog.image WHERE blog.id=$id";
+	$res=mysqli_query($linkdb,$q);
+	while($row=mysqli_fetch_array($res))
+	{
+?>
 <html lang="en-US">
 
 <!-- Mirrored from demo2.pavothemes.com/triply/pityful-a-rethoric-question-ran-2/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:59:24 GMT -->
@@ -142,139 +150,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-dark-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0.49803921568627" /><feFuncG type="table" tableValues="0 0.49803921568627" /><feFuncB type="table" tableValues="0 0.49803921568627" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-grayscale"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.54901960784314 0.98823529411765" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.71764705882353 0.25490196078431" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-red"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 1" /><feFuncG type="table" tableValues="0 0.27843137254902" /><feFuncB type="table" tableValues="0.5921568627451 0.27843137254902" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-midnight"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0 0" /><feFuncG type="table" tableValues="0 0.64705882352941" /><feFuncB type="table" tableValues="0 1" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-magenta-yellow"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.78039215686275 1" /><feFuncG type="table" tableValues="0 0.94901960784314" /><feFuncB type="table" tableValues="0.35294117647059 0.47058823529412" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-purple-green"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.65098039215686 0.40392156862745" /><feFuncG type="table" tableValues="0 1" /><feFuncB type="table" tableValues="0.44705882352941 0.4" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="0" height="0" focusable="false" role="none" style="visibility: hidden; position: absolute; left: -9999px; overflow: hidden;"><defs><filter id="wp-duotone-blue-orange"><feColorMatrix color-interpolation-filters="sRGB" type="matrix" values=" .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 .299 .587 .114 0 0 " /><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="table" tableValues="0.098039215686275 1" /><feFuncG type="table" tableValues="0 0.66274509803922" /><feFuncB type="table" tableValues="0.84705882352941 0.41960784313725" /><feFuncA type="table" tableValues="1 1" /></feComponentTransfer><feComposite in2="SourceGraphic" operator="in" /></filter></defs></svg> <div id="page" class="hfeed site">
 <div data-elementor-type="header" data-elementor-id="406" class="elementor elementor-406 elementor-location-header">
 <div class="elementor-section-wrap">
-<header class="elementor-section elementor-top-section elementor-element elementor-element-69072552 elementor-section-content-middle elementor-section-stretched elementor-section-height-min-height sticky-header elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="69072552" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_effects_offset&quot;:120,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0}">
-<div class="elementor-container elementor-column-gap-no">
-<div class="elementor-row">
-<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-6733616b" data-id="6733616b" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-66f99ff elementor-widget__width-auto elementor-hidden-desktop elementor-view-default elementor-widget elementor-widget-icon" data-id="66f99ff" data-element_type="widget" data-widget_type="icon.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-wrapper">
-<a class="elementor-icon" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjEyMDkiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-<i aria-hidden="true" class="triply-icon- triply-icon-bars"></i> </a>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-75d5909a elementor-widget__width-auto logo elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="75d5909a" data-element_type="widget" data-widget_type="theme-site-logo.default">
-<div class="elementor-widget-container">
-<div class="elementor-image">
-<a href="https://demo2.pavothemes.com/triply">
-<img width="1" height="1" src="../wp-content/uploads/2020/11/logo.svg" class="attachment-full size-full wp-image-371" alt loading="lazy" /> </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-a87471b elementor-hidden-tablet elementor-hidden-phone" data-id="a87471b" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-32a3ceff elementor-widget elementor-widget-triply-nav-menu" data-id="32a3ceff" data-element_type="widget" data-widget_type="triply-nav-menu.default">
-<div class="elementor-widget-container">
-<div class="elementor-nav-menu-wrapper">
-<nav class="main-navigation" role="navigation" aria-label="Primary Navigation">
-<div class="primary-navigation"><ul id="menu-main-menu" class="menu"><li id="menu-item-950" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-950"><a href="../index.html">Home</a>
-<ul class="sub-menu">
-<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-430"><a href="../index.html">Home 01</a></li>
-<li id="menu-item-954" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-954"><a href="../home-2/index.html">Home 02</a></li>
-<li id="menu-item-480" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-480"><a href="../home-3/index.html">Home 03</a></li>
-<li id="menu-item-479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-479"><a href="../home-4/index.html">Home 04</a></li>
-<li id="menu-item-8250" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8250"><a href="../home-5/index.html">Home 05</a></li>
-<li id="menu-item-8249" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8249"><a href="../home-6/index.html">Home 06</a></li>
-<li id="menu-item-8248" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8248"><a href="../home-7/index.html">Home 07</a></li>
-<li id="menu-item-8247" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8247"><a href="../home-8/index.html">Home 08</a></li>
-</ul>
-</li>
-<li id="menu-item-433" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-433"><a href="../tours-list-top-search/index.html">Tours</a>
-<ul class="sub-menu">
-<li id="menu-item-6636" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6636"><a href="../tours-list-top-search/index.html">Tour List &#8211; Top Search</a></li>
-<li id="menu-item-6637" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6637"><a href="../tours-list-sidebar/index.html">Tour List &#8211; Sidebar Filter</a></li>
-<li id="menu-item-6635" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6635"><a href="../tours-list-view/index.html">Tour List &#8211; List View</a></li>
-<li id="menu-item-7190" class="menu-item menu-item-type-post_type menu-item-object-to_book menu-item-7190"><a href="../to_book/buenos-aires-calafate-chalten-ushuaia/index.html">Tour Single &#8211; Layout 1</a></li>
-<li id="menu-item-7189" class="menu-item menu-item-type-post_type menu-item-object-to_book menu-item-7189"><a href="../to_book/waterfalls-geysers-and-glacier/index.html">Tour Single &#8211; Layout 2</a></li>
-<li id="menu-item-7192" class="menu-item menu-item-type-post_type menu-item-object-to_book menu-item-7192"><a href="../to_book/best-of-argentina/index.html">Tour Single &#8211; Layout 3</a></li>
-</ul>
-</li>
-<li id="menu-item-7088" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-7088"><a href="../destination-list/index.html">Destination</a>
-<ul class="sub-menu">
-<li id="menu-item-3201" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3201"><a href="../destination-list/index.html">Destination List 1</a></li>
-<li id="menu-item-3202" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3202"><a href="../destination-list-2/index.html">Destination List 2</a></li>
-<li id="menu-item-6973" class="menu-item menu-item-type-taxonomy menu-item-object-ba_locations menu-item-6973"><a href="../ba_locations/americas/index.html">Destination Detail</a></li>
-</ul>
-</li>
-<li id="menu-item-969" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children menu-item-969"><a href="../blog/index.html">Blog</a>
-<ul class="sub-menu">
-<li id="menu-item-971" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-971"><a href="../blog/index.html">Blog &#8211; Listview</a></li>
-<li id="menu-item-972" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-972"><a href="../blog/indexb995.html?blog_style=grid">Blog &#8211; Gridview</a></li>
-<li id="menu-item-973" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-973"><a href="../pack-wisely-before-traveling-2/index.html">Blog &#8211; Single Post</a></li>
-</ul>
-</li>
-<li id="menu-item-432" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-432"><a href="#">Page</a>
-<ul class="sub-menu">
-<li id="menu-item-958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-958"><a href="../about-us/index.html">About Us</a></li>
-<li id="menu-item-429" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-429"><a href="../icons/index.html">Icons</a></li>
-<li id="menu-item-4136" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4136"><a href="../faq/index.html">FAQ</a></li>
-<li id="menu-item-959" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-959"><a href="../404.html">404</a></li>
-</ul>
-</li>
-<li id="menu-item-970" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-970"><a href="../contact/index.html">Contact</a></li>
-</ul></div> </nav>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-f3d336e" data-id="f3d336e" data-element_type="column">
-<div class="elementor-column-wrap elementor-element-populated">
-<div class="elementor-widget-wrap">
-<div class="elementor-element elementor-element-36fefbb8 elementor-widget__width-auto elementor-hidden-phone elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="36fefbb8" data-element_type="widget" data-widget_type="icon-list.default">
-<div class="elementor-widget-container">
-<ul class="elementor-icon-list-items">
-<li class="elementor-icon-list-item">
-<a href="tel:1800%20-%20333%205578">
-<span class="elementor-icon-list-icon">
-<i aria-hidden="true" class="triply-icon- triply-icon-phone-1"></i> </span>
-<span class="elementor-icon-list-text">1800 - 333 5578</span>
-</a>
-</li>
-</ul>
-</div>
-</div>
-<div class="elementor-element elementor-element-3f99baa2 elementor-widget__width-auto elementor-hidden-phone elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="3f99baa2" data-element_type="widget" data-widget_type="divider.default">
-<div class="elementor-widget-container">
-<div class="elementor-divider">
-<span class="elementor-divider-separator">
-</span>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-7bf2274 elementor-widget__width-auto elementor-widget elementor-widget-triply-login" data-id="7bf2274" data-element_type="widget" data-widget_type="triply-login.default">
-<div class="elementor-widget-container">
-<div class="elementor-login-wrapper elementor-login-style-1">
-<div class="login-action">
-<div class="site-header-account">
-<a class="login-button-icon group-button popup js-btn-register-popup" href="#triply-login-form"><i class="triply-icon-login"></i></a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-151299dd elementor-widget__width-auto elementor-view-default elementor-widget elementor-widget-icon" data-id="151299dd" data-element_type="widget" data-widget_type="icon.default">
-<div class="elementor-widget-container">
-<div class="elementor-icon-wrapper">
-<a class="elementor-icon" href="#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjE1ODkiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D">
-<i aria-hidden="true" class="triply-icon- triply-icon-menu"></i> </a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</header>
+<?php include "../headerx.php"; ?>
 <div class="elementor-section elementor-top-section elementor-element elementor-element-4a39b113 elementor-section-stretched elementor-section-height-min-height triply-breadcrumb-build elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="4a39b113" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 <div class="elementor-background-overlay"></div>
 <div class="elementor-container elementor-column-gap-no">
@@ -288,7 +164,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div class="elementor-element elementor-element-3c6b8263 elementor-widget elementor-widget-theme-page-title elementor-page-title elementor-widget-heading" data-id="3c6b8263" data-element_type="widget" data-widget_type="theme-page-title.default">
 <div class="elementor-widget-container">
-<h1 class="elementor-heading-title elementor-size-default">Pityful a rethoric question ran</h1> </div>
+<h1 class="elementor-heading-title elementor-size-default"><?php echo $row['name']; ?></h1> </div>
 </div>
 </div>
 </div>
@@ -306,37 +182,31 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="single-content">
 <header class="entry-header">
 <div class="entry-meta">
-<span class="categories-link"><span class="screen-reader-text">Categories</span><a href="../category/uncategorized/index.html" rel="category tag">Uncategorized</a></span><span class="posted-on"><a href="index.html" rel="bookmark"><time class="entry-date published" datetime="2020-11-09T09:56:05+00:00">9 Nov, 2020</time><time class="updated" datetime="2020-11-24T04:29:54+00:00">24 Nov, 2020</time></a></span> <span class="post-author"><span>By <a href="../author/admin/index.html">admin</a></span></span> </div>
-<h1 class="entry-title">Pityful a rethoric question ran</h1> </header>
-<div class="post-thumbnail"><img width="1000" height="565" src="../wp-content/uploads/2020/11/blog-7-1000x565.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt decoding="async" /></div>
+	<!-- <span class="categories-link">
+		<span class="screen-reader-text">Categories</span>
+		<a href="../category/uncategorized/index.html" rel="category tag">Uncategorized</a>
+	</span>
+	<span class="posted-on"><a href="index.html" rel="bookmark">
+		<time class="entry-date published" datetime="2020-11-09T09:56:05+00:00">9 Nov, 2020</time>
+		<time class="updated" datetime="2020-11-24T04:29:54+00:00">24 Nov, 2020</time></a>
+	</span>  -->
+	<span class="post-author">
+		<span>By <a href="../author/admin/index.html">admin</a></span>
+	</span> 
+</div>
+<h1 class="entry-title"><?php echo $row['name']; ?></h1> </header>
+<div class="post-thumbnail"><img width="1000" height="565" src="../wp-content/uploads/2020/11/<?php echo $row['identifier']; ?>" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt decoding="async" /></div>
 <div class="entry-content-wrapper">
 <div class="entry-content">
-<p style="text-align: left;">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, <strong>which was created for the bliss of souls like mine</strong>. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.<span id="more-315"></span></p>
-<h5>When, while the lovely valley teems with</h5>
-<p>vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains us, as it floats around us in an eternity of blist.</p>
-<blockquote><p>I sink under the weight of the splendour of these visions!A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which</p></blockquote>
-<p>I sink under the weight of the splendour of these visions!A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquis</p>
-<h6>I throw myself down among the tall grass</h6>
-<p>I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and</p>
-<p><a href="../../../demo.goodlayers.com/traveltour/wp-content/uploads/2016/06/shutterstock_147744218.jpg"><img decoding="async" loading="lazy" class="alignnone wp-image-4501 size-full" src="../../../demo.goodlayers.com/traveltour/wp-content/uploads/2016/06/shutterstock_147744218.jpg" sizes="(max-width: 1800px) 100vw, 1800px" srcset="https://demo.goodlayers.com/traveltour/wp-content/uploads/2016/06/shutterstock_147744218.jpg 1800w, https://demo.goodlayers.com/traveltour/wp-content/uploads/2016/06/shutterstock_147744218-600x400.jpg 600w, https://demo.goodlayers.com/traveltour/wp-content/uploads/2016/06/shutterstock_147744218-300x200.jpg 300w, https://demo.goodlayers.com/traveltour/wp-content/uploads/2016/06/shutterstock_147744218-768x512.jpg 768w, https://demo.goodlayers.com/traveltour/wp-content/uploads/2016/06/shutterstock_147744218-1024x683.jpg 1024w, https://demo.goodlayers.com/traveltour/wp-content/uploads/2016/06/shutterstock_147744218-60x40.jpg 60w, https://demo.goodlayers.com/traveltour/wp-content/uploads/2016/06/shutterstock_147744218-1500x1000.jpg 1500w" width="1800" height="1201" /></a></p>
-<h6>Text, that where it came from it</h6>
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Littl</p>
-<ul>
-<li>Far far away, behind the word mountain</li>
-<li>When she reached the first hills</li>
-<li>A small river named Duden flows</li>
-<li>A small river named Duden flows by their plat.</li>
-<li>Far far away, behind the word mountain</li>
-</ul>
-<p>Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their projects again and again. And if she hasn’t been rewritten, then they are still using her.Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their plate.</p>
+<p style="text-align: left;"><?php echo $row['description']; ?></p>
 </div>
 </div>
 </div>
-<aside class="entry-taxonomy">
+<!-- <aside class="entry-taxonomy">
 <div class="tags-links">
 <strong>Tag:</strong>
 <a href="../tag/natural/index.html" rel="tag">natural</a> </div>
-</aside>
+</aside> -->
 <nav id="post-navigation" class="navigation post-navigation" role="navigation" aria-label="Post Navigation"><h2 class="screen-reader-text">Post navigation</h2><div class="nav-links"><div class="nav-previous"><a href="../how-to-travel-with-paper-map-2/index.html" rel="prev"><span class="nav-content"><span class="reader-text">PREV POST </span>How to travel with paper map</span> </a></div></div></nav>
 <section id="comments" class="comments-area" aria-label="Post Comments">
 <div id="respond" class="comment-respond">
@@ -364,26 +234,37 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <input type="search" class="search-field" placeholder="Search &hellip;" value name="s" />
 </label>
 <input type="submit" class="search-submit" value="Search" />
-</form></div><div id="categories-2" class="widget widget_categories"><span class="gamma widget-title">Blog Categories</span><div class="opal-custom-widget-categories">
+</form></div>
+<!-- <div id="categories-2" class="widget widget_categories">
+	<span class="gamma widget-title">Blog Categories</span>
+	<div class="opal-custom-widget-categories">
+		<ul>
+			<li class="cat-item cat-item-47"><a href="../category/company-insight/index.html"><span class="cat-name">Company Insight</span> <span class="cat-count">1</span></a>
+			<li class="cat-item cat-item-45"><a href="../category/creative/index.html"><span class="cat-name">Creative</span> <span class="cat-count">1</span></a>
+			<li class="cat-item cat-item-44"><a href="../category/lifestyle/index.html"><span class="cat-name">Lifestyle</span> <span class="cat-count">1</span></a>
+			<li class="cat-item cat-item-46"><a href="../category/tips-tricks/index.html"><span class="cat-name">Tips &amp; Tricks</span> <span class="cat-count">1</span></a>
+			<li class="cat-item cat-item-1"><a href="../category/uncategorized/index.html"><span class="cat-name">Uncategorized</span> <span class="cat-count">12</span></a>
+		</ul>
+	</div>
+</div>  -->
+<div id="recent-posts-3" class="widget widget_recent_entries"> <span class="gamma widget-title">Recent Posts</span> 
 <ul>
-<li class="cat-item cat-item-47"><a href="../category/company-insight/index.html"><span class="cat-name">Company Insight</span> <span class="cat-count">1</span></a>
-<li class="cat-item cat-item-45"><a href="../category/creative/index.html"><span class="cat-name">Creative</span> <span class="cat-count">1</span></a>
-<li class="cat-item cat-item-44"><a href="../category/lifestyle/index.html"><span class="cat-name">Lifestyle</span> <span class="cat-count">1</span></a>
-<li class="cat-item cat-item-46"><a href="../category/tips-tricks/index.html"><span class="cat-name">Tips &amp; Tricks</span> <span class="cat-count">1</span></a>
-<li class="cat-item cat-item-1"><a href="../category/uncategorized/index.html"><span class="cat-name">Uncategorized</span> <span class="cat-count">12</span></a>
-</ul>
-</div></div> <div id="recent-posts-3" class="widget widget_recent_entries"> <span class="gamma widget-title">Recent Posts</span> <ul>
-<li>
-<div class="recent-posts-thumbnail">
-<a href="../pack-wisely-before-traveling-2/index.html">
-<img width="100" height="100" src="../wp-content/uploads/2020/11/blog-1-100x100.jpg" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-100x100.jpg 100w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-500x500.jpg 500w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-768x768.jpg 768w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
-</div>
-<div class="recent-posts-info">
-<a class="post-title" href="../pack-wisely-before-traveling-2/index.html"><span>Pack wisely before traveling</span></a>
-<span class="post-date">9 Nov, 2020</span>
-</div>
-</li>
-<li>
+	<?php
+		$q="SELECT blog.*, identifier FROM blog JOIN image ON image.id = blog.image order by id desc limit 3";
+		$res=mysqli_query($linkdb,$q);
+		while($row=mysqli_fetch_array($res))
+		{
+	?>
+	<li>
+		<div class="recent-posts-thumbnail">
+			<a href="../pack-wisely-before-traveling-2/index.html">
+				<img width="100" height="100" src="../wp-content/uploads/2020/11/blog-1-100x100.jpg" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-100x100.jpg 100w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-500x500.jpg 500w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-768x768.jpg 768w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
+			</div>
+			<div class="recent-posts-info">
+				<a class="post-title" href="../blog-page/travel-buget.php"><span><?php echo $row['name']; ?></span></a>
+			</div>
+		</li><?php } ?>
+<!-- <li>
 <div class="recent-posts-thumbnail">
 <a href="../the-surfing-man-will-blow-your-mind-2/index.html">
 <img width="100" height="100" src="../wp-content/uploads/2020/11/blog-2-100x100.jpg" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-2-100x100.jpg 100w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-2-500x500.jpg 500w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-2-768x768.jpg 768w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
@@ -392,8 +273,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <a class="post-title" href="../the-surfing-man-will-blow-your-mind-2/index.html"><span>The Surfing Man Will Blow Your Mind</span></a>
 <span class="post-date">9 Nov, 2020</span>
 </div>
-</li>
-<li>
+</li> -->
+<!-- <li>
 <div class="recent-posts-thumbnail">
 <a href="../separated-they-live-in-bookmarksgrove-2/index.html">
 <img width="100" height="100" src="../wp-content/uploads/2020/11/blog-3-100x100.jpg" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-3-100x100.jpg 100w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-3-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-3-500x500.jpg 500w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-3-768x768.jpg 768w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
@@ -402,17 +283,19 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <a class="post-title" href="../separated-they-live-in-bookmarksgrove-2/index.html"><span>Separated they live in Bookmarksgrove</span></a>
 <span class="post-date">9 Nov, 2020</span>
 </div>
-</li>
+</li> -->
 </ul>
-</div><div id="tag_cloud-3" class="widget widget_tag_cloud"><span class="gamma widget-title">Popular Tag</span><div class="tagcloud"><a href="../tag/bread/index.html" class="tag-cloud-link tag-link-52 tag-link-position-1" style="font-size: 8pt;" aria-label="bread (1 item)">bread</a>
+</div>
+<!-- <div id="tag_cloud-3" class="widget widget_tag_cloud"><span class="gamma widget-title">Popular Tag</span><div class="tagcloud"><a href="../tag/bread/index.html" class="tag-cloud-link tag-link-52 tag-link-position-1" style="font-size: 8pt;" aria-label="bread (1 item)">bread</a>
 <a href="../tag/fruits/index.html" class="tag-cloud-link tag-link-50 tag-link-position-2" style="font-size: 8pt;" aria-label="fruits (1 item)">fruits</a>
 <a href="../tag/meat/index.html" class="tag-cloud-link tag-link-51 tag-link-position-3" style="font-size: 8pt;" aria-label="meat (1 item)">meat</a>
 <a href="../tag/natural/index.html" class="tag-cloud-link tag-link-53 tag-link-position-4" style="font-size: 8pt;" aria-label="natural (1 item)">natural</a>
 <a href="../tag/vegetables/index.html" class="tag-cloud-link tag-link-49 tag-link-position-5" style="font-size: 8pt;" aria-label="vegetables (1 item)">vegetables</a></div>
-</div></div>
+</div> -->
 </div>
 </div>
-<div data-elementor-type="footer" data-elementor-id="490" class="elementor elementor-490 elementor-location-footer">
+</div>
+<!-- <div data-elementor-type="footer" data-elementor-id="490" class="elementor elementor-490 elementor-location-footer">
 <div class="elementor-section-wrap">
 <div class="elementor-section elementor-top-section elementor-element elementor-element-1f3d631 elementor-section-height-min-height elementor-section-stretched elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="1f3d631" data-element_type="section" data-settings="{&quot;stretch_section&quot;:&quot;section-stretched&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
 <div class="elementor-container elementor-column-gap-no">
@@ -1089,7 +972,9 @@ Encino, CA 91316 </p>
 </div>
 </div>
 </div>
-</div>
+</div> -->
+<?php } ?>
+<?php include "footerx.php"; ?>
 <link rel="stylesheet" id="e-animations-css" href="../wp-content/plugins/elementor/assets/lib/animations/animations.minfb6f.css?ver=3.12.1" type="text/css" media="all" />
 <link rel="stylesheet" id="rs-plugin-settings-css" href="../wp-content/plugins/revslider/public/assets/css/rs69f6d.css?ver=6.5.31" type="text/css" media="all" />
 <style id="rs-plugin-settings-inline-css" type="text/css">

@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
+<?php
+	include "../linkDB.php";
+?>
 <!-- Mirrored from demo2.pavothemes.com/triply/blog/?blog_style=grid by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 19 Sep 2023 12:57:31 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
@@ -158,30 +160,69 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 <div id="content" class="site-content" tabindex="-1">
-<div class="col-full">
-<div id="primary" class="content-area">
-<main id="main" class="site-main" role="main">
-<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1"><div class="column-item post-style-2 hentry">
-<div class="post-inner">
-<div class="post-thumbnail">
-<a href="../pack-wisely-before-traveling-2/index.html">
-<img width="850" height="600" src="../wp-content/uploads/2020/11/blog-1-850x600.jpg" class="attachment-triply-tour-detail-gallery-3 size-triply-tour-detail-gallery-3 wp-post-image" alt decoding="async" loading="lazy" /> </a>
-</div>
-<div class="entry-content">
-<div class="entry-content-wrapper">
-<div class="entry-header">
-<div class="entry-meta">
-<span class="categories-link"><span class="screen-reader-text">Categories</span><a href="../category/company-insight/index.html" rel="category tag">Company Insight</a></span><span class="posted-on"><a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark"><time class="entry-date published" datetime="2020-11-09T09:56:05+00:00">9 Nov, 2020</time><time class="updated" datetime="2020-11-26T01:57:24+00:00">26 Nov, 2020</time></a></span> <span class="post-author"><span>By <a href="../author/admin/index.html">admin</a></span></span> </div>
-<h3 class="entry-title"><a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark">Pack wisely before traveling</a></h3>
- </div>
-<div class="entry-bottom">
-<p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I&hellip;</p>
-</div>
-<div class="more-link-wrap"><a class="more-link" href="../pack-wisely-before-traveling-2/index.html"><span>Read More</span><i class="triply-icon-long-arrow-right"></i></a></div>
-</div>
-</div>
-</div>
-</div>
+	<div class="col-full">
+		<div id="primary" class="content-area">
+			<main id="main" class="site-main" role="main">
+				<div class="row" data-elementor-columns="2" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1">
+					<div class="column-item post-style-2 hentry">
+					<?php
+							$q="SELECT blog.*, identifier FROM blog JOIN image ON image.id = blog.image";
+							$res=mysqli_query($linkdb,$q);
+							while($row=mysqli_fetch_array($res))
+							{
+						?>
+					<div class="post-inner">
+						>
+						<div class="post-thumbnail" >
+							<a href="../blog-page/index.php?id=<?php echo $row['id']; ?>">
+								<img width="850" height="600" src="../wp-content/uploads/2020/11/<?php echo $row['identifier']; ?>" class="attachment-triply-tour-detail-gallery-3 size-triply-tour-detail-gallery-3 wp-post-image" alt decoding="async" loading="lazy" /> 
+							</a>
+						</div>
+						<div class="entry-content">
+							<div class="entry-content-wrapper">
+								<div class="entry-header">
+									<div class="entry-meta">
+										<!-- <span class="categories-link">
+											<span class="screen-reader-text">Categories</span>
+											<a href="../category/company-insight/index.html" rel="category tag">Uncategorized</a>
+										</span> -->
+										<!-- <span class="posted-on">
+											<a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark"><?php $row['date']; ?>
+											</a>
+										</span>  -->
+										<span class="post-author">
+											<span>By <a href="../author/admin/index.html">admin</a>
+										</span>
+									</span> 
+								</div>
+								<h3 class="entry-title"><a href="../blog-page/index.php?id=<?php echo $row['id']; ?>" rel="bookmark"><?php echo $row["name"]; ?></a></h3>
+							</div>
+							<div class="entry-bottom">
+								<p><?php echo substr($row['description'], 0, 100) . " ..."; ?>&hellip;</p>
+							</div>
+							<div class="more-link-wrap">
+								<a class="more-link" href="../blog-page/index.php?id=<?php echo $row['id']; ?>"><span>Read More</span>
+								<i class="triply-icon-long-arrow-right"></i></a>
+							</div>
+						</div><?php } ?>
+							</div>
+							</div>
+					</div>
+				</div>
+			</div>
+			</div>
+			<!-- <nav id="post-navigation" class="navigation pagination" role="navigation" aria-label="Post Navigation">
+				<h2 class="screen-reader-text">Posts navigation</h2>
+				<div class="nav-links">
+					<ul class="page-numbers">
+						<li><span aria-current="page" class="page-numbers current">1</span></li>
+						<li><a class="page-numbers" href="page/2/indexb995.html?blog_style=grid">2</a></li>
+						<li><a class="next page-numbers" href="page/2/indexb995.html?blog_style=grid"><span>NEXT</span><i class="triply-icon triply-icon-angle-double-right"></i></a></li>
+					</ul>
+				</div>
+			</nav> -->
+		</main>
+	</div>
 <!--<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
@@ -362,18 +403,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>-->
-</div>
-<nav id="post-navigation" class="navigation pagination" role="navigation" aria-label="Post Navigation">
-	<h2 class="screen-reader-text">Posts navigation</h2>
-	<div class="nav-links">
-		<ul class="page-numbers">
-			<li><span aria-current="page" class="page-numbers current">1</span></li>
-			<li><a class="page-numbers" href="page/2/indexb995.html?blog_style=grid">2</a></li>
-			<li><a class="next page-numbers" href="page/2/indexb995.html?blog_style=grid"><span>NEXT</span><i class="triply-icon triply-icon-angle-double-right"></i></a></li>
-</ul>
-</div></nav>
-</main>
-</div>
+
+
 <div id="secondary" class="widget-area" role="complementary">
 <div id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://demo2.pavothemes.com/triply/">
 <label>
@@ -391,27 +422,33 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <li class="cat-item cat-item-1"><a href="../category/uncategorized/index.html"><span class="cat-name">Uncategorized</span> <span class="cat-count">12</span></a>
 </ul>
 </div></div>-->
-<div id="recent-posts-2" class="widget widget_recent_entries"> <span class="gamma widget-title">Recent Posts</span> <ul>
-<li>
-<div class="recent-posts-thumbnail">
-<a href="../pack-wisely-before-traveling-2/index.html">
-<img width="100" height="100" src="../wp-content/uploads/2020/11/blog-1-100x100.jpg" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-100x100.jpg 100w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-500x500.jpg 500w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-1-768x768.jpg 768w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
-</div>
-<div class="recent-posts-info">
-<a class="post-title" href="../pack-wisely-before-traveling-2/index.html"><span>Pack wisely before traveling</span></a>
-<span class="post-date">9 Nov, 2020</span>
-</div>
-</li>
-<li>
-<div class="recent-posts-thumbnail">
+<div id="recent-posts-2" class="widget widget_recent_entries"> <span class="gamma widget-title">Recent Posts</span> 
+<ul>
+	<?php
+		$q="SELECT blog.*, identifier FROM blog JOIN image ON image.id = blog.image order by id desc limit 3";
+		$res=mysqli_query($linkdb,$q);
+		while($row=mysqli_fetch_array($res))
+		{
+	?>
+	<li>
+		<div class="recent-posts-thumbnail">
+			<a href="../blog-page/index.php?id=<?php echo $row['id']; ?>">
+				<img width="100" height="100" src="../wp-content/uploads/2020/11/<?php echo $row['identifier']; ?>" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy"  /> </a>
+			</div>
+			<div class="recent-posts-info">
+				<a class="post-title" href="../blog-page/index.php?id=<?php echo $row['id']; ?>"><span><?php echo $row['name']; ?></span></a>
+			</div>
+		</li><?php } ?>
+<!-- <li>
+ <div class="recent-posts-thumbnail">
 <a href="../the-surfing-man-will-blow-your-mind-2/index.html">
 <img width="100" height="100" src="../wp-content/uploads/2020/11/blog-2-100x100.jpg" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-2-100x100.jpg 100w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-2-150x150.jpg 150w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-2-500x500.jpg 500w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/blog-2-768x768.jpg 768w" sizes="(max-width: 100px) 100vw, 100px" /> </a>
-</div>
+</div> 
 <div class="recent-posts-info">
 <a class="post-title" href="../the-surfing-man-will-blow-your-mind-2/index.html"><span>The Surfing Man Will Blow Your Mind</span></a>
 <span class="post-date">9 Nov, 2020</span>
 </div>
-</li>
+</li> -->
 <li>
 <!--<div class="recent-posts-thumbnail">
 <a href="../separated-they-live-in-bookmarksgrove-2/index.html">
