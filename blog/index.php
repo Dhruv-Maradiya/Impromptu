@@ -178,7 +178,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 	<div class="column-item post-style-2 hentry">
 <div class="post-inner">
 <div class="post-thumbnail">
-<a href="../pack-wisely-before-traveling-2/index.html">
+<a href="../blog-page/index.php?id=<?php echo $row["id"] ?>">
 <img width="850" height="600" src="../wp-content/uploads/2020/11/<?php echo $row['identifier']; ?>" class="attachment-triply-tour-detail-gallery-3 size-triply-tour-detail-gallery-3 wp-post-image" alt decoding="async" loading="lazy" style="aspect-ratio: 1 / 1;" /> </a>
 </div>
 <div class="entry-content">
@@ -186,12 +186,12 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="entry-header">
 <div class="entry-meta">
 <span class="categories-link"><span class="screen-reader-text">Categories</span><a href="../category/company-insight/index.html" rel="category tag">Company Insight</a></span><span class="posted-on"><a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark"><time class="entry-date published" datetime="2020-11-09T09:56:05+00:00">9 Nov, 2020</time><time class="updated" datetime="2020-11-26T01:57:24+00:00">26 Nov, 2020</time></a></span> <span class="post-author"><span>By <a href="../author/admin/index.html">admin</a></span></span> </div>
-<h3 class="entry-title"><a href="../pack-wisely-before-traveling-2/index.html" rel="bookmark"><?php echo $row['name']; ?></a></h3>
+<h3 class="entry-title"><a href="../blog-page/index.php?id=<?php echo $row["id"] ?>" rel="bookmark"><?php echo $row['name']; ?></a></h3>
  </div>
 <div class="entry-bottom">
 <p><?php echo substr($row['description'],0,100); ?> I&hellip;</p>
 </div>
-<div class="more-link-wrap"><a class="more-link" href="../pack-wisely-before-traveling-2/index.html"><span>Read More</span><i class="triply-icon-long-arrow-right"></i></a></div>
+<div class="more-link-wrap"><a class="more-link" href="../blog-page/index.php?id=<?php echo $row["id"] ?>"><span>Read More</span><i class="triply-icon-long-arrow-right"></i></a></div>
 </div>
 </div>
 </div>
