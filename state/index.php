@@ -11,9 +11,17 @@
 
     $result = mysqli_query($linkdb, $sql);
 
+	$images = mysqli_query($linkdb, "SELECT * FROM stateimagemapping JOIN image ON image.id = stateimagemapping.image WHERE state = $stateId");
+
     if (mysqli_num_rows($result) > 0) {
         $row = mysqli_fetch_assoc($result);
     }
+
+	if (mysqli_num_rows($images) > 0) {
+		$images = mysqli_fetch_assoc($images);
+	}
+
+	mysqli_close($linkdb);
 ?>
 <!DOCTYPE html>
 <html lang="en-US">
@@ -261,7 +269,8 @@ km²</div>
 <div class="elementor-widget-container">
 <div class="elementor-image">
 <a class="term-link" href="index.html">
-<img width="410" height="410" src="12.jpeg" class="attachment-triply-item size-triply-item wp-image-10881" alt decoding="async" loading="lazy" srcset="" sizes="(max-width: 410px) 100vw, 410px" /> </a>
+<img width="410" height="410" src=<?php echo "../images/".$images["identifier"] ?> class="attachment-triply-item size-triply-item wp-image-10881" alt decoding="async" loading="lazy" srcset="" sizes="(max-width: 410px) 100vw, 410px" /> </a>
+<!-- <img width="410" height="410" src="../images/12.jpeg" class="attachment-triply-item size-triply-item wp-image-10881" alt decoding="async" loading="lazy" srcset="" sizes="(max-width: 410px) 100vw, 410px" /> </a> -->
 </div>
 </div>
 </div>
