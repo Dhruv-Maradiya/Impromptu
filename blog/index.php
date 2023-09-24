@@ -179,7 +179,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="post-inner">
 <div class="post-thumbnail">
 <a href="../pack-wisely-before-traveling-2/index.html">
-<img width="850" height="600" src="../wp-content/uploads/2020/11/<?php echo $row['identifer']; ?>" class="attachment-triply-tour-detail-gallery-3 size-triply-tour-detail-gallery-3 wp-post-image" alt decoding="async" loading="lazy" /> </a>
+<img width="850" height="600" src="../wp-content/uploads/2020/11/<?php echo $row['identifier']; ?>" class="attachment-triply-tour-detail-gallery-3 size-triply-tour-detail-gallery-3 wp-post-image" alt decoding="async" loading="lazy" style="aspect-ratio: 1 / 1;" /> </a>
 </div>
 <div class="entry-content">
 <div class="entry-content-wrapper">
@@ -417,7 +417,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 	<li>
 		<div class="recent-posts-thumbnail">
 			<a href="../blog-page/index.php?id=<?php echo $row['id']; ?>">
-				<img width="100" height="100" src="../wp-content/uploads/2020/11/<?php echo $row['identifier']; ?>" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy"  /> </a>
+				<img width="100" height="100" src="../wp-content/uploads/2020/11/<?php echo $row['identifier']; ?>" class="attachment-triply-recent-post size-triply-recent-post wp-post-image" alt decoding="async" loading="lazy" style="aspect-ratio: 1 / 1;" /> </a>
 			</div>
 			<div class="recent-posts-info">
 				<a class="post-title" href="../blog-page/index.php?id=<?php echo $row['id']; ?>"><span><?php echo $row['name']; ?></span></a>
