@@ -282,7 +282,7 @@ Search </button>
 <div class="count-posts">
 <strong class="count"><?php $row_num = mysqli_num_rows($result1); echo $row_num; ?></strong>&nbsp;
 Tours </div>
-<div class="filter-sort"><span>Sort by</span><div class="input_select_field input_select_field_sr_sort_by " data-name="sr_sort_by" tabindex="0">
+<!-- <div class="filter-sort"><span>Sort by</span><div class="input_select_field input_select_field_sr_sort_by " data-name="sr_sort_by" tabindex="0">
 <div class="input_select_sort"><i class="fa fa-sort-alpha-down"></i>
 <input type="hidden" class="input_select_input_value" name="sr_sort_by" value="title_desc">
 </div>
@@ -298,7 +298,7 @@ Tours </div>
 <i class="fas fa-chevron-down"></i>
 </div>
 </div>
-</div>
+</div> -->
 </div> </div>
 <div class="ba-items-style-1" data-elementor-columns="3" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1">
 	<div class="babe_shortcode_block sc_all_items">
@@ -351,7 +351,7 @@ Tours </div>
 </div>
 </div>
 </div>
-</div
+</div>
 <?php include '../footerx.php';?>
 <link rel="stylesheet" id="e-animations-css" href="../wp-content/plugins/elementor/assets/lib/animations/animations.minfb6f.css?ver=3.12.1" type="text/css" media="all" />
 <link rel="stylesheet" id="rs-plugin-settings-css" href="../wp-content/plugins/revslider/public/assets/css/rs69f6d.css?ver=6.5.31" type="text/css" media="all" />
