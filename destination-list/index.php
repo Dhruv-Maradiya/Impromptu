@@ -311,7 +311,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-ff0246f elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="ff0246f" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<div>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div> </div>
+<div>Explore the diverse landscapes of India, from the Himalayas to the Kerala backwaters.</div> </div>
 </div>
 </div>
 </div>

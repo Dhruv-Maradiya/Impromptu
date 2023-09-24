@@ -179,30 +179,21 @@ University, Gandhinagar - 382007 </p>
 <div class="elementor-widget-container">
 <ul class="elementor-icon-list-items">
 <li class="elementor-icon-list-item">
-<a href="to_book/index.html">
-<span class="elementor-icon-list-text">Booking</span>
+<a href="../tours-list/index.php">
+<span class="elementor-icon-list-text">Tours</span>
 </a>
 </li>
 <li class="elementor-icon-list-item">
-<a href="categories/car/index.html">
-<span class="elementor-icon-list-text">RentalCar</span>
+<a href="../destination-list/index.php">
+<span class="elementor-icon-list-text">Destination</span>
 </a>
 </li>
 <li class="elementor-icon-list-item">
-<a href="categories/hostel/index.html">
-<span class="elementor-icon-list-text">HostelWorld</span>
+<a href="../blog/index.php">
+<span class="elementor-icon-list-text">Blog</span>
 </a>
 </li>
-<li class="elementor-icon-list-item">
-<a href="categories/hostel/index.html">
-<span class="elementor-icon-list-text">Trivago</span>
-</a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="categories/hotel/index.html">
-<span class="elementor-icon-list-text">TripAdvisor</span>
-</a>
-</li>
+
 </ul>
 </div>
 </div>
@@ -220,28 +211,23 @@ University, Gandhinagar - 382007 </p>
 <div class="elementor-widget-container">
 <ul class="elementor-icon-list-items">
 <li class="elementor-icon-list-item">
-<a href="categories/one-time-event/index.html">
-<span class="elementor-icon-list-text">Madrid Tour</span>
+<a href="../index.php">
+<span class="elementor-icon-list-text">Home</span>
 </a>
 </li>
 <li class="elementor-icon-list-item">
-<a href="categories/tour/index.html">
-<span class="elementor-icon-list-text">Stockholm City</span>
+<a href="../about-us/index.php">
+<span class="elementor-icon-list-text">About Us</span>
 </a>
 </li>
 <li class="elementor-icon-list-item">
-<a href="categories/one-time-event/index.html">
-<span class="elementor-icon-list-text">Roma City</span>
+<a href="../faq/index.php">
+<span class="elementor-icon-list-text">FAQ</span>
 </a>
 </li>
 <li class="elementor-icon-list-item">
-<a href="categories/tour/index.html">
-<span class="elementor-icon-list-text">Shanghai City</span>
-</a>
-</li>
-<li class="elementor-icon-list-item">
-<a href="categories/one-time-event/index.html">
-<span class="elementor-icon-list-text">Tokyo</span>
+<a href="../contact/index.php">
+<span class="elementor-icon-list-text">Contact Us</span>
 </a>
 </li>
 </ul>

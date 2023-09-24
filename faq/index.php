@@ -157,7 +157,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div class="elementor-element elementor-element-3c6b8263 elementor-widget elementor-widget-theme-page-title elementor-page-title elementor-widget-heading" data-id="3c6b8263" data-element_type="widget" data-widget_type="theme-page-title.default">
 <div class="elementor-widget-container">
-<h1 class="elementor-heading-title elementor-size-default">Faq</h1> </div>
+<h1 class="elementor-heading-title elementor-size-default">FAQ</h1> </div>
 </div>
 </div>
 </div>
@@ -185,7 +185,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-11ce8bc elementor-widget elementor-widget-text-editor" data-id="11ce8bc" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-<p>Lorem ipsum dolor sit amet, consectetur adipiicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> </div>
+<p>Explore our comprehensive FAQ section for in-depth answers to common inquiries about our services and offerings</p> </div>
 </div>
 </div>
 </div>
@@ -209,7 +209,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </span>
 <a class="elementor-accordion-title" href>Are there any extra fees that I will have to pay on top of the listed price?</a>
 </div>
-<div id="elementor-tab-content-1041" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1041"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+<div id="elementor-tab-content-1041" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1041"><p>No, our listed prices are all-inclusive with no extra fees.</p></div>
 </div>
 <div class="elementor-accordion-item">
 <div id="elementor-tab-title-1042" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-1042" aria-expanded="false">
@@ -219,7 +219,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </span>
 <a class="elementor-accordion-title" href>Should I print a receipt to show the tour guide?</a>
 </div>
-<div id="elementor-tab-content-1042" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1042"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+<div id="elementor-tab-content-1042" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1042"><p>In our effort to reduce paper waste and promote sustainability, we encourage electronic receipts, but if you prefer a printout, it's available upon request.</p></div>
 </div>
 <div class="elementor-accordion-item">
 <div id="elementor-tab-title-1043" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-1043" aria-expanded="false">
@@ -229,7 +229,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </span>
 <a class="elementor-accordion-title" href>How much does it cost to do a private tour?</a>
 </div>
-<div id="elementor-tab-content-1043" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1043"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p></div>
+<div id="elementor-tab-content-1043" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1043"><p>For specific pricing on private tours, we recommend reaching out to our company directly. Please contact us, and our dedicated team will provide you with all the details you need</p></div>
 </div>
 <div class="elementor-accordion-item">
 <div id="elementor-tab-title-1044" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-1044" aria-expanded="false">
@@ -239,107 +239,15 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </span>
 <a class="elementor-accordion-title" href>What do I need to bring?</a>
 </div>
-<div id="elementor-tab-content-1044" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1044">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+<div id="elementor-tab-content-1044" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1044">Your packing list may vary depending on the trip you choose. Please check our trip-specific recommendations on our website or contact our team for personalized guidance based on your chosen adventure.</div>
 </div>
 </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-e305e54 elementor-widget elementor-widget-heading" data-id="e305e54" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Reservation</h2> </div>
-</div>
-<div class="elementor-element elementor-element-46f431d style-theme-yes elementor-widget elementor-widget-accordion" data-id="46f431d" data-element_type="widget" data-widget_type="accordion.default">
-<div class="elementor-widget-container">
-<div class="elementor-accordion" role="tablist">
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-7441" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-7441" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
-</span>
-<a class="elementor-accordion-title" href>Are there any extra fees that I will have to pay on top of the listed price?</a>
-</div>
-<div id="elementor-tab-content-7441" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-7441"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-7442" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-7442" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
-</span>
-<a class="elementor-accordion-title" href>Should I print a receipt to show the tour guide?</a>
-</div>
-<div id="elementor-tab-content-7442" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-7442">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-7443" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-7443" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
-</span>
-<a class="elementor-accordion-title" href>How much does it cost to do a private tour?</a>
-</div>
-<div id="elementor-tab-content-7443" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-7443">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-7444" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-7444" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
-</span>
-<a class="elementor-accordion-title" href>What do I need to bring?</a>
-</div>
-<div id="elementor-tab-content-7444" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-7444">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-8942d70 elementor-widget elementor-widget-heading" data-id="8942d70" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Weather</h2> </div>
-</div>
-<div class="elementor-element elementor-element-7e98683 style-theme-yes elementor-widget elementor-widget-accordion" data-id="7e98683" data-element_type="widget" data-widget_type="accordion.default">
-<div class="elementor-widget-container">
-<div class="elementor-accordion" role="tablist">
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-1321" class="elementor-tab-title" data-tab="1" role="tab" aria-controls="elementor-tab-content-1321" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
-</span>
-<a class="elementor-accordion-title" href>Are there any extra fees that I will have to pay on top of the listed price?</a>
-</div>
-<div id="elementor-tab-content-1321" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1321"><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-1322" class="elementor-tab-title" data-tab="2" role="tab" aria-controls="elementor-tab-content-1322" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
-</span>
-<a class="elementor-accordion-title" href>Should I print a receipt to show the tour guide?</a>
-</div>
-<div id="elementor-tab-content-1322" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-1322">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-1323" class="elementor-tab-title" data-tab="3" role="tab" aria-controls="elementor-tab-content-1323" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
-</span>
-<a class="elementor-accordion-title" href>How much does it cost to do a private tour?</a>
-</div>
-<div id="elementor-tab-content-1323" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-1323">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
-</div>
-<div class="elementor-accordion-item">
-<div id="elementor-tab-title-1324" class="elementor-tab-title" data-tab="4" role="tab" aria-controls="elementor-tab-content-1324" aria-expanded="false">
-<span class="elementor-accordion-icon elementor-accordion-icon-left" aria-hidden="true">
-<span class="elementor-accordion-icon-closed"><i class="far fa-question-circle"></i></span>
-<span class="elementor-accordion-icon-opened"><i class="far fa-question-circle"></i></span>
-</span>
-<a class="elementor-accordion-title" href>What do I need to bring?</a>
-</div>
-<div id="elementor-tab-content-1324" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-1324">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</div>
+
+
 </div>
 </div>
 </div>
