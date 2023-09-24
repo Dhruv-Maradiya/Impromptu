@@ -1,3 +1,33 @@
+<?php
+
+include "../linkDB.php";
+$tourid = $_REQUEST["id"];
+if (!isset($tourid)) {
+    $tourid = 1;
+    echo "hello";
+}
+
+$sql = "SELECT * FROM destination WHERE id = $tourid";
+
+$result = mysqli_query($linkdb, $sql);
+
+$images = mysqli_query(
+    $linkdb,
+    "SELECT * FROM destinationimagemapping JOIN image ON image.id = destinationimagemapping.image WHERE destination = $tourid"
+);
+
+$sql1 = "SELECT * FROM destination";
+$result1 = mysqli_query($linkdb, $sql1);
+
+if (mysqli_num_rows($result) > 0) {
+    $row = mysqli_fetch_assoc($result);
+}
+
+if (mysqli_num_rows($images) > 0) {
+    $images = mysqli_fetch_assoc($images);
+}
+mysqli_close($linkdb);
+?>
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -5,7 +35,10 @@
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> <title>7 Days in Costa Rica &#8211; Classic (Self-Drive) &#8211; Triply</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> 
+<title>
+	<?php echo $row["name"]; ?>
+</title>
 <meta name="robots" content="max-image-preview:large" />
 <link rel="dns-prefetch" href="http://fonts.googleapis.com/">
 <link rel="dns-prefetch" href="http://s.w.org/">
@@ -295,7 +328,9 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div class="elementor-element elementor-element-3c6b8263 elementor-widget elementor-widget-theme-page-title elementor-page-title elementor-widget-heading" data-id="3c6b8263" data-element_type="widget" data-widget_type="theme-page-title.default">
 <div class="elementor-widget-container">
-<h1 class="elementor-heading-title elementor-size-default">7 Days in Costa Rica &#8211; Classic (Self-Drive)</h1> </div>
+<h1 class="elementor-heading-title elementor-size-default">
+	<?php echo $row["name"]; ?>
+	</h1> </div>
 </div>
 </div>
 </div>
@@ -323,7 +358,9 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-widget-wrap">
 <div class="elementor-element elementor-element-5179d977 elementor-widget elementor-widget-theme-page-title elementor-page-title elementor-widget-heading" data-id="5179d977" data-element_type="widget" data-widget_type="theme-page-title.default">
 <div class="elementor-widget-container">
-<h1 class="elementor-heading-title elementor-size-default">7 Days in Costa Rica &#8211; Classic (Self-Drive)</h1> </div>
+<h1 class="elementor-heading-title elementor-size-default">
+<?php echo $row["name"]; ?>
+</h1> </div>
 </div>
 <div class="elementor-element elementor-element-75a0719 elementor-widget elementor-widget-babe-item-address" data-id="75a0719" data-element_type="widget" data-widget_type="babe-item-address.default">
 <div class="elementor-widget-container">
@@ -365,29 +402,10 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 
 <div class="inner triply-carousel" data-popup-json="[{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e446385610a9322e525fa06_zdenek-machacek-EtxsgEcHnZg-unsplash-copy.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e445afc5b99c9de272f18a9_ftntrek-102-9346.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44646533c82610595d5850_ftntrek-ext172-3457.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2e35016602754fe65ec277_03-11-copy.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44639d8cccc3c760f51893_atanas-malamov-xGhaXZtQb1s-unsplash-copy.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44647eafa7d72f839dee41_ftnwalk-ext172-3457.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e44641cd2b9fa5b2639a2c6_etienne-delorieux-Vfl75eA2Zu0-unsplash-copy.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e445b217bb0e8572899f28f_ftnwalk-154-6784.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e4463cb34f5fc176b819bce_chalo-garcia-kfj6GRCBCFQ-unsplash-copy.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e4463c08cccc36dc7f525a7_zdenek-machacek-XUFMiGkv-60-unsplash-copy.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2e3515d604bdcdd721ed81_010_0530-copy.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750},{&quot;src&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5e4463b58cccc3d927f52164_dana-fallentine-1rMHZ-omK9Y-unsplash-copy.jpg&quot;,&quot;w&quot;:1200,&quot;h&quot;:750}]">
 <div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e446385610a9322e525fa06_zdenek-machacek-EtxsgEcHnZg-unsplash-copy-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e446385610a9322e525fa06_zdenek-machacek-EtxsgEcHnZg-unsplash-copy-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e446385610a9322e525fa06_zdenek-machacek-EtxsgEcHnZg-unsplash-copy-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e446385610a9322e525fa06_zdenek-machacek-EtxsgEcHnZg-unsplash-copy-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e446385610a9322e525fa06_zdenek-machacek-EtxsgEcHnZg-unsplash-copy-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e446385610a9322e525fa06_zdenek-machacek-EtxsgEcHnZg-unsplash-copy.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e445afc5b99c9de272f18a9_ftntrek-102-9346-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445afc5b99c9de272f18a9_ftntrek-102-9346-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445afc5b99c9de272f18a9_ftntrek-102-9346-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445afc5b99c9de272f18a9_ftntrek-102-9346-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445afc5b99c9de272f18a9_ftntrek-102-9346-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445afc5b99c9de272f18a9_ftntrek-102-9346.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e44646533c82610595d5850_ftntrek-ext172-3457-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44646533c82610595d5850_ftntrek-ext172-3457-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44646533c82610595d5850_ftntrek-ext172-3457-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44646533c82610595d5850_ftntrek-ext172-3457-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44646533c82610595d5850_ftntrek-ext172-3457-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44646533c82610595d5850_ftntrek-ext172-3457.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5c2e35016602754fe65ec277_03-11-copy-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e35016602754fe65ec277_03-11-copy-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e35016602754fe65ec277_03-11-copy-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e35016602754fe65ec277_03-11-copy-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e35016602754fe65ec277_03-11-copy-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e35016602754fe65ec277_03-11-copy.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e44639d8cccc3c760f51893_atanas-malamov-xGhaXZtQb1s-unsplash-copy-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44639d8cccc3c760f51893_atanas-malamov-xGhaXZtQb1s-unsplash-copy-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44639d8cccc3c760f51893_atanas-malamov-xGhaXZtQb1s-unsplash-copy-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44639d8cccc3c760f51893_atanas-malamov-xGhaXZtQb1s-unsplash-copy-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44639d8cccc3c760f51893_atanas-malamov-xGhaXZtQb1s-unsplash-copy-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44639d8cccc3c760f51893_atanas-malamov-xGhaXZtQb1s-unsplash-copy.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e44647eafa7d72f839dee41_ftnwalk-ext172-3457-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44647eafa7d72f839dee41_ftnwalk-ext172-3457-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44647eafa7d72f839dee41_ftnwalk-ext172-3457-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44647eafa7d72f839dee41_ftnwalk-ext172-3457-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44647eafa7d72f839dee41_ftnwalk-ext172-3457-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44647eafa7d72f839dee41_ftnwalk-ext172-3457.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e44641cd2b9fa5b2639a2c6_etienne-delorieux-Vfl75eA2Zu0-unsplash-copy-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44641cd2b9fa5b2639a2c6_etienne-delorieux-Vfl75eA2Zu0-unsplash-copy-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44641cd2b9fa5b2639a2c6_etienne-delorieux-Vfl75eA2Zu0-unsplash-copy-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44641cd2b9fa5b2639a2c6_etienne-delorieux-Vfl75eA2Zu0-unsplash-copy-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44641cd2b9fa5b2639a2c6_etienne-delorieux-Vfl75eA2Zu0-unsplash-copy-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e44641cd2b9fa5b2639a2c6_etienne-delorieux-Vfl75eA2Zu0-unsplash-copy.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e445b217bb0e8572899f28f_ftnwalk-154-6784-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445b217bb0e8572899f28f_ftnwalk-154-6784-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445b217bb0e8572899f28f_ftnwalk-154-6784-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445b217bb0e8572899f28f_ftnwalk-154-6784-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445b217bb0e8572899f28f_ftnwalk-154-6784-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e445b217bb0e8572899f28f_ftnwalk-154-6784.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e4463cb34f5fc176b819bce_chalo-garcia-kfj6GRCBCFQ-unsplash-copy-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463cb34f5fc176b819bce_chalo-garcia-kfj6GRCBCFQ-unsplash-copy-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463cb34f5fc176b819bce_chalo-garcia-kfj6GRCBCFQ-unsplash-copy-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463cb34f5fc176b819bce_chalo-garcia-kfj6GRCBCFQ-unsplash-copy-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463cb34f5fc176b819bce_chalo-garcia-kfj6GRCBCFQ-unsplash-copy-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463cb34f5fc176b819bce_chalo-garcia-kfj6GRCBCFQ-unsplash-copy.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e4463c08cccc36dc7f525a7_zdenek-machacek-XUFMiGkv-60-unsplash-copy-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463c08cccc36dc7f525a7_zdenek-machacek-XUFMiGkv-60-unsplash-copy-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463c08cccc36dc7f525a7_zdenek-machacek-XUFMiGkv-60-unsplash-copy-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463c08cccc36dc7f525a7_zdenek-machacek-XUFMiGkv-60-unsplash-copy-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463c08cccc36dc7f525a7_zdenek-machacek-XUFMiGkv-60-unsplash-copy-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463c08cccc36dc7f525a7_zdenek-machacek-XUFMiGkv-60-unsplash-copy.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5c2e3515d604bdcdd721ed81_010_0530-copy-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e3515d604bdcdd721ed81_010_0530-copy-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e3515d604bdcdd721ed81_010_0530-copy-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e3515d604bdcdd721ed81_010_0530-copy-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e3515d604bdcdd721ed81_010_0530-copy-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5c2e3515d604bdcdd721ed81_010_0530-copy.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
-<div class="gallery-wrap">
-<img width="720" height="450" src="../wp-content/uploads/2020/11/5e4463b58cccc3d927f52164_dana-fallentine-1rMHZ-omK9Y-unsplash-copy-720x450.jpg" class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" srcset="https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463b58cccc3d927f52164_dana-fallentine-1rMHZ-omK9Y-unsplash-copy-720x450.jpg 720w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463b58cccc3d927f52164_dana-fallentine-1rMHZ-omK9Y-unsplash-copy-300x188.jpg 300w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463b58cccc3d927f52164_dana-fallentine-1rMHZ-omK9Y-unsplash-copy-1024x640.jpg 1024w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463b58cccc3d927f52164_dana-fallentine-1rMHZ-omK9Y-unsplash-copy-768x480.jpg 768w, https://demo2.pavothemes.com/triply/wp-content/uploads/2020/11/5e4463b58cccc3d927f52164_dana-fallentine-1rMHZ-omK9Y-unsplash-copy.jpg 1200w" sizes="(max-width: 720px) 100vw, 720px" /> </div>
+<img width="720" height="450" src=<?php echo "../images/" .
+    $images[
+        "identifier"
+    ]; ?> class="attachment-triply-tour-detail-gallery-2 size-triply-tour-detail-gallery-2" alt decoding="async" loading="lazy" sizes="(max-width: 720px) 100vw, 720px" /> </div>
 </div>
 </div>
 </div>
@@ -412,7 +430,9 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-widget-container">
 <div class="elementor-widget-inner"><h4 class="babe-section-title">Price</h4> <div class="item_info_price">
 <label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="114"><span class="currency_symbol">&#36;</span>114.00</span></span>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="114"><span class="currency_symbol">₹</span><?php echo $row[
+    "price"
+]; ?></span></span>
 </div>
 </div> </div>
 </div>
@@ -439,7 +459,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <i aria-hidden="true" class="triply-icon- triply-icon-users"></i> </div>
 <div class="item_info">
 <h4 class="babe-section-title">Max People</h4> <div class="item-days item-meta-value">
-<span>30</span>
+<span><?php echo $row["person"]; ?></span>
 </div>
 </div>
 </div>
@@ -468,14 +488,12 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="item_icon">
 <i aria-hidden="true" class="triply-icon- triply-icon-location-circle"></i> </div>
 <div class="item_info">
-<h4 class="babe-section-title">Tour Type</h4><div class="item-term item-meta-value"><a href="../ba_types/city-tours/index.html" rel="tag">City Tours</a>, <a href="../ba_types/cruises/index.html" rel="tag">Cruises</a></div> </div>
+<h4 class="babe-section-title">Tour Type</h4><div class="item-term item-meta-value"><a rel="tag"><?php echo $row[
+    "activity"
+]; ?></a></div> </div>
 </div>
 </div>
 </div>
-</div>
-<div class="elementor-element elementor-element-a30263d elementor-widget__width-auto elementor-widget-mobile__width-initial elementor-widget elementor-widget-babe-item-stars" data-id="a30263d" data-element_type="widget" data-widget_type="babe-item-stars.default">
-<div class="elementor-widget-container">
-<div class="elementor-widget-inner"><h4 class="babe-section-title">Reviews</h4>No reviews yet</div> </div>
 </div>
 </div>
 </div>
@@ -495,10 +513,12 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 <div class="elementor-element elementor-element-7f29806 elementor-widget elementor-widget-babe-item-content" data-id="7f29806" data-element_type="widget" data-widget_type="babe-item-content.default">
 <div class="elementor-widget-container">
-<div class="elementor-widget-inner"><div class="triply-single-content"><h5><em>Set off on this Epic 7 day trip through Costa Rica's must see locations. From jungle to beach you will get to explore the amazing wildlife rich park of Manuel Antonio National Park, before heading off to the cloud forest of Monteverde, ending in the adventure packed town of La Fortuna at the base of Arenal National Park.</em></h5>
+<div class="elementor-widget-inner"><div class="triply-single-content"><h5><em><?php echo $row[
+    "description"
+]; ?></em></h5>
 <p>​<em>*This package trip requires a minimum of 2 people.</em></p>
 <p><em>*Can be customized upon request, to meet travelers needs</em></p>
-<p><em>*6 Nights Hotel/Lodge 3 Star accommodation (upgrades on request)</em></p>
+<!-- <p><em>*6 Nights Hotel/Lodge 3 Star accommodation (upgrades on request)</em></p> -->
 <p><em>*Meals = (B) Breakfast</em></p>
 <p>‍</p>
 <p>Trip Extensions available on request.</p>
@@ -731,7 +751,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-<div class="elementor-element elementor-element-b27efe5 elementor-widget elementor-widget-babe-item-address-map" data-id="b27efe5" data-element_type="widget" data-widget_type="babe-item-address-map.default">
+<!-- <div class="elementor-element elementor-element-b27efe5 elementor-widget elementor-widget-babe-item-address-map" data-id="b27efe5" data-element_type="widget" data-widget_type="babe-item-address-map.default">
 <div class="elementor-widget-container">
 <div class="elementor-widget-inner"></div> </div>
 </div>
@@ -742,8 +762,8 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </span>
 </div>
 </div>
-</div>
-<div class="elementor-element elementor-element-758372e5 elementor-widget elementor-widget-babe-item-calendar" data-id="758372e5" data-element_type="widget" data-widget_type="babe-item-calendar.default">
+</div> -->
+<!-- <div class="elementor-element elementor-element-758372e5 elementor-widget elementor-widget-babe-item-calendar" data-id="758372e5" data-element_type="widget" data-widget_type="babe-item-calendar.default">
 <div class="elementor-widget-container">
 <div class="elementor-widget-inner"> <h2 class="elementor-heading-title elementor-size-default">Calendar & Prices</h2> <div id="av-cal">
 <div class="cal-month-block cal-month-active" data-yearmonth="2023-09">
@@ -5689,45 +5709,65 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </span>
 </div>
 </div>
-</div>
+</div> -->
 <div class="elementor-element elementor-element-4e65f301 elementor-widget elementor-widget-babe-item-related" data-id="4e65f301" data-element_type="widget" data-widget_type="babe-item-related.default">
 <div class="elementor-widget-container">
 <div class="triply-carousel-items" data-carousel="{&quot;navigation&quot;:&quot;dots&quot;,&quot;autoplayHoverPause&quot;:true,&quot;autoplay&quot;:true,&quot;autoplaySpeed&quot;:5000,&quot;items&quot;:&quot;2&quot;,&quot;items_laptop&quot;:&quot;2&quot;,&quot;items_tablet_extra&quot;:&quot;2&quot;,&quot;items_tablet&quot;:2,&quot;items_mobile_extra&quot;:2,&quot;items_mobile&quot;:1,&quot;loop&quot;:true,&quot;breakpoint_laptop&quot;:1366,&quot;breakpoint_tablet_extra&quot;:1200,&quot;breakpoint_tablet&quot;:1024,&quot;breakpoint_mobile_extra&quot;:880,&quot;breakpoint_mobile&quot;:767}"> <div id="block_related" class="babe_shortcode_block">
 <h2 class="elementor-heading-title elementor-size-default">You may like</h2>
 <div class="babe_shortcode_block_inner">
+<?php while ($row = mysqli_fetch_array($result1)) { ?>
 <div class="babe_items babe_items_1 column-item">
 <div class="babe_all_items_item_inner">
 <div class="item_img">
-<a class="item-thumb" href="../serrania-de-la-macarena-jungle-tour/index.html"><img src="../wp-content/uploads/2020/11/5c2766fa0d5f11811eac7734_DSC05310-copy-820x520.jpg" alt="Serranía de la Macarena, Jungle Tour"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Serranía de la Macarena, Jungle Tour" data-book-id="56">
+<a class="item-thumb" href="../serrania-de-la-macarena-jungle-tour/index.html"><img src="../images/<?php echo $row[
+    "img"
+]; ?>" alt="<?php echo $row[
+    "name"
+]; ?>"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Serranía de la Macarena, Jungle Tour" data-book-id="56">
 <span class="wishlist triply-icon-heart"></span>
 </a>
 </div>
 <div class="item_text">
 <div class="item-meta">
 <div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>5 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>60</span></span> </div>
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span><?php echo $row[
+    "days"
+]; ?></span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span><?php echo $row[
+    "person"
+]; ?></span></span> </div>
 <div class="item-meta-right">
 <div class="item-meta-media">
 <a href="#" data-images="[{&quot;image_id&quot;:58,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c27682d99ec4a71e35ef212_DSC05010-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 1&quot;},{&quot;image_id&quot;:59,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c27684358439170e20ab6fa_DSC05028-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 2&quot;},{&quot;image_id&quot;:60,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2768572de86359eecc8a3f_DSC05081-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 3&quot;},{&quot;image_id&quot;:61,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1ba1a62fa9323147fc1083_DSC05213-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 4&quot;},{&quot;image_id&quot;:62,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2767072de8630badcc8a35_DSC05357-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 5&quot;},{&quot;image_id&quot;:63,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2768b72de8635ac2cc8a40_DSC05279-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 6&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>6</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
 </div>
 </div>
 <div class="item_title">
-<a href="../serrania-de-la-macarena-jungle-tour/index.html">Serranía de la Macarena, Jungle Tour</a>
+<a href="../to_book/index.php?id=<?php echo $row[
+    "id"
+]; ?>"><?php echo $row[
+    "name"
+]; ?></a>
 </div>
 <div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Anchorage, USA</span>
+<i class="triply-icon-map-marker-alt"></i><span><?php echo $row[
+    "address"
+]; ?></span>
 </div>
 <div class="item-bottom">
 <div class="item_info_price">
 <label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="151"><span class="currency_symbol">&#36;</span>151.00</span></span>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="151"><span class="currency_symbol">₹</span><?php echo $row[
+    "price"
+]; ?></span></span>
 </div>
-<a class="read-more-item" href="../serrania-de-la-macarena-jungle-tour/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
+<a class="read-more-item" href="../to_book/index.php?id=<?php echo $row[
+    "id"
+]; ?>">Explore <i class="triply-icon-long-arrow-right"></i></a>
 </div>
 </div>
 </div>
 </div>
-<div class="babe_items babe_items_1 column-item">
+<?php } ?>
+<!-- <div class="babe_items babe_items_1 column-item">
 <div class="babe_all_items_item_inner">
 <div class="item_img">
 <a class="item-thumb" href="../highlights-of-morocco-8-day/index.html"><img src="../wp-content/uploads/2020/11/5cf97d1a4f30ebc6af37b9a7_jessica-arias-1275829-unsplash-copy-820x520.jpg" alt="Highlights of Morocco-8 day"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Highlights of Morocco-8 day" data-book-id="109">
@@ -5790,7 +5830,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </div>
 </div>
 </div>
-</div>
+</div> -->
 </div>
 </div>
 </div> </div>
@@ -5802,14 +5842,6 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 </span>
 </div>
 </div>
-</div>
-<div class="elementor-element elementor-element-32eac16 elementor-widget elementor-widget-heading" data-id="32eac16" data-element_type="widget" data-widget_type="heading.default">
-<div class="elementor-widget-container">
-<h3 class="elementor-heading-title elementor-size-default">Reviews</h3> </div>
-</div>
-<div class="elementor-element elementor-element-cc48f05 elementor-widget elementor-widget-babe-item-stars-criteria" data-id="cc48f05" data-element_type="widget" data-widget_type="babe-item-stars-criteria.default">
-<div class="elementor-widget-container">
-<div class="elementor-widget-inner"><div class="triply-no-review">No reviews yet</div></div> </div>
 </div>
 <div class="elementor-element elementor-element-13f9860 elementor-widget elementor-widget-post-comments" data-id="13f9860" data-element_type="widget" data-widget_type="post-comments.theme_comments">
 <div class="elementor-widget-container">
@@ -5886,7 +5918,7 @@ please, select date first
 </form>
 </div></div> </div>
 </div>
-<div class="elementor-section elementor-inner-section elementor-element elementor-element-63cc3df9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="63cc3df9" data-element_type="section">
+<!-- <div class="elementor-section elementor-inner-section elementor-element elementor-element-63cc3df9 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="63cc3df9" data-element_type="section">
 <div class="elementor-container elementor-column-gap-no">
 <div class="elementor-row">
 <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-3e2db5cd" data-id="3e2db5cd" data-element_type="column">
@@ -5970,7 +6002,7 @@ please, select date first
 </div>
 </div>
 </div>
-</div>
+</div> -->
 </div>
 </div>
 </div>
