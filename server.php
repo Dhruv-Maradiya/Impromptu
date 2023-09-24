@@ -69,7 +69,7 @@ if (array_key_exists("new-submit", $_POST)) {
             
             echo "<script> alert('Account Alerady Exists.'); 
 
-           location='login.php';  
+           location='index.php';  
             
             </script>";
          
@@ -81,7 +81,7 @@ if (array_key_exists("new-submit", $_POST)) {
             
             echo "<script> alert('Username Alerady Exists.'); 
 
-           location='login.php';  
+           location='index.php#triply-login-form';  
             
             </script>";
          
@@ -143,20 +143,20 @@ if (array_key_exists("login_submit", $_POST)) {
           //$error2 .= "Email is required <br>";
           
         echo "<script> alert('Username or Email is Required.');
-        location='login.php';  
+        location='index.php#triply-login-form';  
  
         </script>";
        }
       if (!$password) {
         echo "<script> alert('Password is Required.');
-        location='login.php';  
+        location='index.php#triply-login-form';  
  
         </script>";
           //$error2 .= "Password is required <br>";
        } 
        if ($error2) {
         echo "<script> alert('There were error(s) in your form.');
-        location='login.php';  
+        location='index.php#triply-login-form';  
  
         </script>";
           //$error2 = "<b>There were error(s) in your form!</b><br>".$error2;
@@ -195,7 +195,7 @@ if (array_key_exists("login_submit", $_POST)) {
                      
                    // header("Location: ../recyclo_after/recyclocart.nicepage.io/Home.html"); //*Change header
                    echo "<script>
-                   location='index.php';  
+                   location='index.php#triply-login-form';  
               
                    </script>";
                    
@@ -203,7 +203,7 @@ if (array_key_exists("login_submit", $_POST)) {
                 } else {
                     //$error2 = "Combination of email/password does not match!";
                     echo "<script> alert('Combination of email/password does not match.');
-                    location='login.php';  
+                    location='index.php#triply-login-form';  
              
                     </script>";
                      }
@@ -211,7 +211,7 @@ if (array_key_exists("login_submit", $_POST)) {
             }  else {
               //  $error2 = "Combination of email/password does not match!";
                 echo "<script> alert('Combination of email/password does not match.');
-                    location='login.php';  
+                    location='index.php#triply-login-form';  
              
                     </script>";
                  }
