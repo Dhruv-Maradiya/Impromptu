@@ -415,7 +415,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 <div class="elementor-widget-container">
 <div class="row triply-carousel-visibility triply-carousel-items" data-carousel="{&quot;navigation&quot;:&quot;arrows&quot;,&quot;autoplayHoverPause&quot;:true,&quot;autoplay&quot;:false,&quot;autoplaySpeed&quot;:null,&quot;items&quot;:&quot;3&quot;,&quot;items_laptop&quot;:&quot;3&quot;,&quot;items_tablet_extra&quot;:&quot;3&quot;,&quot;items_tablet&quot;:&quot;2&quot;,&quot;items_mobile_extra&quot;:&quot;2&quot;,&quot;items_mobile&quot;:&quot;1&quot;,&quot;loop&quot;:false,&quot;breakpoint_laptop&quot;:1366,&quot;breakpoint_tablet_extra&quot;:1200,&quot;breakpoint_tablet&quot;:1024,&quot;breakpoint_mobile_extra&quot;:880,&quot;breakpoint_mobile&quot;:767}"> <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" href="state/index.php">
+<a class="title-location" href="state/index.php?id=12">
 <div class="thumbnail-location">
 <img decoding="async" src="images/12.jpeg" alt="Gujarat">
 </div>
@@ -428,7 +428,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" >  <!-- ba_locations/americas/index.html -->
+<a class="title-location"  href="state/index.php?id=36">  <!-- ba_locations/americas/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src="images/36.jpeg" alt="Jammu And Kashmir">
 </div>
@@ -441,7 +441,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" > <!-- ba_locations/argentina/index.html -->
+<a class="title-location"  href="state/index.php?id=35"> <!-- ba_locations/argentina/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src="images/mp.jpeg" alt="West Bengal">
 </div>
@@ -454,7 +454,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" > <!-- ba_locations/asia/index.html -->
+<a class="title-location"  href="state/index.php?id=4"> <!-- ba_locations/asia/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src="images/4.jpeg" alt="Assam">
 </div>
@@ -467,7 +467,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location"> <!-- ba_locations/australia/index.html -->
+<a class="title-location" href="state/index.php?id=34"> <!-- ba_locations/australia/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src="images/34.jpeg" alt="Uttarakhand">
 </div>
@@ -480,7 +480,7 @@ Experience the cultural tapestry of India, from the serene Ganges River to bustl
 </div>
 <div class="column-item location-item">
 <div class="item-inner">
-<a class="title-location" ><!-- ba_locations/cambodia/index.html -->
+<a class="title-location"  href="state/index.php?id=30"><!-- ba_locations/cambodia/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src="images/30.jpeg" alt="Sikkim">
 </div>

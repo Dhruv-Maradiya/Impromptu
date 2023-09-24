@@ -198,7 +198,7 @@ var simplemaps_countrymap_mapdata = {
       url: "./state?id=33",
     },
     34: {
-      name: "Uttaranchal",
+      name: "Uttarakhand",
       url: "./state?id=34",
     },
     35: {

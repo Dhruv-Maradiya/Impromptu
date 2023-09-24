@@ -273,11 +273,11 @@ Mon- Sat: 10:00 AM - 20:00 PM </p>
 <div class="elementor-widget-wrap">
 <div class="elementor-element elementor-element-bbf83b1 elementor-widget elementor-widget-heading" data-id="bbf83b1" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h2 class="elementor-heading-title elementor-size-default">Send us a message</h2> </div>
+<h2 class="elementor-heading-title elementor-size-default">Reviews & Queries</h2> </div>
 </div>
 <div class="elementor-element elementor-element-68540e9 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="68540e9" data-element_type="widget" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
-<div class="elementor-text-editor elementor-clearfix">In case of any queries, please feel free to reach out to us by filling the form. </div>
+<div class="elementor-text-editor elementor-clearfix">Share your experience with us, and in case of any queries, please feel free to reach out to us by filling the form. </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-ea152d8 elementor-button-align-start elementor-mobile-button-align-center elementor-widget elementor-widget-form" data-id="ea152d8" data-element_type="widget" data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}" data-widget_type="form.default">

@@ -203,7 +203,7 @@ body{--primary:#dc834e;--primary_hover:#9E5D36;--secondary:#202F59;--secondary_h
 <div class="elementor-element elementor-element-7dbc275 elementor-widget elementor-widget-taxonomy-item" data-id="7dbc275" data-element_type="widget" data-widget_type="taxonomy-item.default">
 <div class="elementor-widget-container">
 <div class="elementor-location-wrapper triply-location-item triply-location-item-1"> <div class="location-item">
- <a class="title-location" href="#"> <!--../ba_types/beaches/index.html -->
+ <a class="title-location"  href="state/index.php?id=12"> <!--../ba_types/beaches/index.html -->
 <div class="thumbnail-location">
 <img decoding="async" src=".././images/1x.png" alt="Goa">
 </div>
