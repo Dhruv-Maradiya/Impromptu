@@ -350,7 +350,7 @@ Places to go </div>
 <div class="elementor-element elementor-element-6ab1f74 elementor-widget__width-initial animated-fast elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-text-editor" data-id="6ab1f74" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-right&quot;}" data-widget_type="text-editor.default">
 <div class="elementor-widget-container">
 <div class="elementor-text-editor elementor-clearfix">
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+Experience the cultural tapestry of India, from the serene Ganges River to bustling markets and the majestic temples of this diverse nation. </div>
 </div>
 </div>
 <div class="elementor-element elementor-element-c841bc3 animated-fast elementor-widget-tablet__width-initial elementor-invisible elementor-widget elementor-widget-babe-taxonomies-list" data-id="c841bc3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;opal-move-up&quot;}" data-widget_type="babe-taxonomies-list.default">
@@ -534,7 +534,8 @@ Brilliant reasons </div>
 Competitive Pricing </span>
 </h3>
 <p class="elementor-icon-box-description">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+
+Discover unbeatable deals with our competitive pricing for unforgettable travel experiences. </p>
 </div>
 </div>
 </div>
@@ -558,7 +559,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 Worldwide Coverage </span>
 </h3>
 <p class="elementor-icon-box-description">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+Explore the globe with our worldwide coverage on your ultimate travel adventure. </p>
 </div>
 </div>
 </div>
@@ -582,7 +583,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 Fast Booking </span>
 </h3>
 <p class="elementor-icon-box-description">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+Swift and hassle-free booking for your travel needs. </p>
 </div>
 </div>
 </div>
@@ -606,7 +607,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
 Guided Tours </span>
 </h3>
 <p class="elementor-icon-box-description">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+Embark on enlightening guided tours for a deeper travel experience. </p>
 </div>
 </div>
 </div>
