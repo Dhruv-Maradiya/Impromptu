@@ -13,6 +13,10 @@
 
 	$images = mysqli_query($linkdb, "SELECT * FROM stateimagemapping JOIN image ON image.id = stateimagemapping.image WHERE state = $stateId");
 
+
+	$sql1 = "SELECT * FROM destination WHERE state = $stateId";
+    $result1 = mysqli_query($linkdb, $sql1);
+
     if (mysqli_num_rows($result) > 0) {
         $row = mysqli_fetch_assoc($result);
     }
@@ -288,170 +292,47 @@ km²</div>
 <div class="elementor-widget-wrap">
 <div class="elementor-element elementor-element-fe903bf elementor-widget elementor-widget-heading" data-id="fe903bf" data-element_type="widget" data-widget_type="heading.default">
 <div class="elementor-widget-container">
-<h3 class="elementor-heading-title elementor-size-default">Explore</h3> </div>
+<h3 class="elementor-heading-title elementor-size-default">Tours</h3> </div>
 </div>
 <div class="elementor-element elementor-element-aa9d26a elementor-widget elementor-widget-babe-archive-items" data-id="aa9d26a" data-element_type="widget" data-widget_type="babe-archive-items.default">
 <div class="elementor-widget-container">
-<div data-elementor-columns="3" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1"><div class="babe_shortcode_block sc_all_items"><div class="babe_shortcode_block_bg_inner"><div class="babe_shortcode_block_inner"><div class="babe_items babe_items_1 column-item">
+<div data-elementor-columns="3" data-elementor-columns-tablet="2" data-elementor-columns-mobile="1"><div class="babe_shortcode_block sc_all_items"><div class="babe_shortcode_block_bg_inner"><div class="babe_shortcode_block_inner">
+	<!--------                                -->
+	<?php while($row=mysqli_fetch_array($result1)){
+		?>
+	<div class="babe_items babe_items_1 column-item">
 <div class="babe_all_items_item_inner">
 <div class="item_img">
-<a class="item-thumb" href="../to_book/osa-peninsula-to-dominical/index.html"><img src="../wp-content/uploads/2020/11/5c2edc27ffcbff492b5ee54a_41151778484_88f9afa490_k_edited-copy-820x520.jpg" alt="Osa Peninsula to Dominical"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Osa Peninsula to Dominical" data-book-id="255">
+<a class="item-thumb" href="../to_book/osa-peninsula-to-dominical/index.html"><img src="../images/<?php echo $row['img']; ?>" alt="Osa Peninsula to Dominical"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Osa Peninsula to Dominical" data-book-id="255">
 <span class="wishlist triply-icon-heart"></span>
 </a>
 </div>
 <div class="item_text">
 <div class="item-meta">
 <div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>8 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>30</span></span> </div>
+<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span><?php echo $row["days"]; ?></span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span><?php echo $row["person"];?></span></span> </div>
 <div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:257,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edbe5903a31c4107b4b5f_25876209213_e5e7c5b36b_o-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 1&quot;},{&quot;image_id&quot;:258,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edc5d09a58f510ff20f0d_Screen-Shot-2016-06-08-at-11.14.59-1-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 2&quot;},{&quot;image_id&quot;:259,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edbfaf0d5eea7c7489e6a_Cativo_047-1024x575-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 3&quot;},{&quot;image_id&quot;:260,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edc10f0d5ee2483489e6b_SCRLET-MACOW-1024x682-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 4&quot;},{&quot;image_id&quot;:261,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edc8209a58f0cd3f20f0e_prnl-7-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 5&quot;},{&quot;image_id&quot;:262,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edc932b57188210d6f2e9_IMG_4209.JPG-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 6&quot;},{&quot;image_id&quot;:263,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edca182223c50a55ef441_12049494_944258942304464_5851601838478717528_n-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 7&quot;},{&quot;image_id&quot;:264,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edcaeb29bdf08d18298ba_14600226369-97f569e38b-o-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 8&quot;},{&quot;image_id&quot;:265,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edcb7ffcbff17af5ee54b_18209649860_390b53d5c0_k_edited-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 9&quot;},{&quot;image_id&quot;:266,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edcc52b571824a1d6f2ec_CaminosdeOsa_29junio2015_FabiolaKano_baja183-1-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 10&quot;},{&quot;image_id&quot;:267,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edccf955a5377810da3b0_Cativo_008-1024x575-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 11&quot;},{&quot;image_id&quot;:268,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edcdc82223cf6fb5ef446_COATIMUNDI-1024x682-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 12&quot;},{&quot;image_id&quot;:269,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edcea955a5379290da3bb_DSC_0087-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 13&quot;},{&quot;image_id&quot;:270,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edcfab29bdf2bab8298c6_63-2-1-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 14&quot;},{&quot;image_id&quot;:271,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2edd08955a5336380da3bc_DJI_0021_Moment-1-copy.jpg&quot;,&quot;description&quot;:&quot;Osa Peninsula to Dominical - 8 Days - Image 15&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>15</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
 </div>
 </div>
 <div class="item_title">
-<a href="../to_book/osa-peninsula-to-dominical/index.html">Osa Peninsula to Dominical</a>
+<a href="../to_book/osa-peninsula-to-dominical/index.html"><?php echo $row["name"]; ?></a>
 </div>
 <div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Galapagos Islands, Ecuador</span>
+<i class="triply-icon-map-marker-alt"></i><span><?php echo $row["address"]; ?></span>
 </div>
 <div class="item-bottom">
 <div class="item_info_price">
 <label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="103"><span class="currency_symbol">&#36;</span>103.00</span></span>
+<span class="item_info_price_new"><span class="currency_amount" data-amount="103"><span class="currency_symbol"></span>₹<?php echo $row["price"]; ?></span></span>
 </div>
 <a class="read-more-item" href="../to_book/osa-peninsula-to-dominical/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
 </div>
 </div>
 </div>
 </div>
-<div class="babe_items babe_items_1 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<a class="item-thumb" href="../to_book/highlights-of-morocco-8-day/index.html"><img src="../wp-content/uploads/2020/11/5cf97d1a4f30ebc6af37b9a7_jessica-arias-1275829-unsplash-copy-820x520.jpg" alt="Highlights of Morocco-8 day"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Highlights of Morocco-8 day" data-book-id="109">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>8 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>40</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:111,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5cf97ce1f353af7aebee2ec3_milad-alizadeh-1510654-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Highlights of Morocco-8 day - Image 1&quot;},{&quot;image_id&quot;:112,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5cf97d2a873fb9f4d465326f_macia-serrano-733012-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Highlights of Morocco-8 day - Image 2&quot;},{&quot;image_id&quot;:113,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5cf97d50d4032570a933b24f_wei-pan-128228-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Highlights of Morocco-8 day - Image 3&quot;},{&quot;image_id&quot;:114,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5cf97ccfd4032545ea338ec2_yeo-khee-793547-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Highlights of Morocco-8 day - Image 4&quot;},{&quot;image_id&quot;:115,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5cf97cfe17df6e47354c79fe_dan-calderwood-410296-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Highlights of Morocco-8 day - Image 5&quot;},{&quot;image_id&quot;:116,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5cf97d80f2a5bed7a0996b8a_louis-hansel-705561-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Highlights of Morocco-8 day - Image 6&quot;},{&quot;image_id&quot;:117,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5cf97d90f353af776dee637e_milad-alizadeh-1510648-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Highlights of Morocco-8 day - Image 7&quot;},{&quot;image_id&quot;:118,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5cf97da7c48ebb283efee9a7_fabio-santaniello-bruun-1162811-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Highlights of Morocco-8 day - Image 8&quot;},{&quot;image_id&quot;:119,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5cf97dce4f30ebb83f37e419_dan-calderwood-419654-unsplash-copy.jpg&quot;,&quot;description&quot;:&quot;Highlights of Morocco-8 day - Image 9&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>9</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/highlights-of-morocco-8-day/index.html">Highlights of Morocco-8 day</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Islamabad, Morocco</span>
-</div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="128"><span class="currency_symbol">&#36;</span>128.00</span></span>
-</div>
-<a class="read-more-item" href="../to_book/highlights-of-morocco-8-day/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div>
-<div class="babe_items babe_items_1 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<span class="item-label price_discount">15% OFF</span> <a class="item-thumb" href="../to_book/discovery-islands-kayaking-tour/index.html"><img src="../wp-content/uploads/2020/11/5c50ac0708cc654bf60a5e7b_discovery-islands-176-kayaking-copy-820x520.jpg" alt="Discovery Islands Kayaking Tour"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Discovery Islands Kayaking Tour" data-book-id="98">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>6 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>60</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:100,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50ac8151a9d8597fd92515_discovery-islands-193-tent-and-campfire-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 1&quot;},{&quot;image_id&quot;:101,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50ac1e692a150e2bc0e261_discovery-islands-263-humpback-whale-tail-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 2&quot;},{&quot;image_id&quot;:102,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50ac1308cc654b370a5e7c_discovery-islands-241-seals-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 3&quot;},{&quot;image_id&quot;:103,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c50aca5e9004546065f058c_discovery-islands-180-kayaking-copy.jpg&quot;,&quot;description&quot;:&quot;Discovery Islands Kayaking Tour - 6 Days - Image 4&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>4</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/discovery-islands-kayaking-tour/index.html">Discovery Islands Kayaking Tour</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Soldeu, Andorra</span>
-</div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="93.5"><span class="currency_symbol">&#36;</span>93.50</span></span>
-<span class="item_info_price_old"><span class="currency_amount" data-amount="110"><span class="currency_symbol">&#36;</span>110.00</span></span> </div>
-<a class="read-more-item" href="../to_book/discovery-islands-kayaking-tour/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div>
-<div class="babe_items babe_items_1 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<span class="item-label price_discount">8% OFF</span> <a class="item-thumb" href="../to_book/tour-of-mont-blanc-8-days-self-guided/index.html"><img src="../wp-content/uploads/2020/11/5d963438227202fc87ae93b5_bharat-patil-GH-ArMqYx9M-unsplash-820x520.jpg" alt="Tour of Mont Blanc 8 days – Self Guided"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Tour of Mont Blanc 8 days – Self Guided" data-book-id="86">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>8 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>30</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:88,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d96339e6343f8b717b83a89_mini_magick20180322-4-13286fq.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 1&quot;},{&quot;image_id&quot;:89,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d963459b9756b896001f5e2_harry-burk-ngzehCvVYdY-unsplash.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 2&quot;},{&quot;image_id&quot;:90,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d963465b9756b17d801fbb8_patrick-boucher-w2DBsig0eEY-unsplash.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 3&quot;},{&quot;image_id&quot;:91,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d96347226e53ccb9b50e838_simon-fitall-tvleqH3p1os-unsplash.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 4&quot;},{&quot;image_id&quot;:92,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d96348326e53c22b950fd2b_thomas-jarrand-fp6iXkyQaXU-unsplash.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 5&quot;},{&quot;image_id&quot;:93,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d9634909dcc3f002f2ec484_david-brooke-martin-dU5ZvSi7sic-unsplash.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 6&quot;},{&quot;image_id&quot;:94,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d9634a0c319143c9a022599_les-elby-pe-eF3pFjYI-unsplash.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 7&quot;},{&quot;image_id&quot;:95,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d9634156343f8177fb87230_ludovic-fremondiere-MbnSIp4tz0g-unsplash.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 8&quot;},{&quot;image_id&quot;:96,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d9634b9d21c62c5942d9dce_nicolas-cool-_Ojb8Te7tyI-unsplash.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 9&quot;},{&quot;image_id&quot;:97,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5d9634cf442ad9d160d67c9e_mini_magick20180322-4-le6a5v.jpg&quot;,&quot;description&quot;:&quot;Tour of Mont Blanc 8 days \u2013 Self Guided - Image 10&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>10</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/tour-of-mont-blanc-8-days-self-guided/index.html">Tour of Mont Blanc 8 days – Self Guided</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Nice, France</span>
-</div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="92"><span class="currency_symbol">&#36;</span>92.00</span></span>
-<span class="item_info_price_old"><span class="currency_amount" data-amount="100"><span class="currency_symbol">&#36;</span>100.00</span></span> </div>
-<a class="read-more-item" href="../to_book/tour-of-mont-blanc-8-days-self-guided/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div>
-<div class="babe_items babe_items_1 column-item">
-<div class="babe_all_items_item_inner">
-<div class="item_img">
-<a class="item-thumb" href="../to_book/serrania-de-la-macarena-jungle-tour/index.html"><img src="../wp-content/uploads/2020/11/5c2766fa0d5f11811eac7734_DSC05310-copy-820x520.jpg" alt="Serranía de la Macarena, Jungle Tour"></a> <a class="triply_add_to_wishlist login-acount" href="#triply-login-form" title="Please login account" rel="nofollow" data-book-title="Serranía de la Macarena, Jungle Tour" data-book-id="56">
-<span class="wishlist triply-icon-heart"></span>
-</a>
-</div>
-<div class="item_text">
-<div class="item-meta">
-<div class="item-meta-left">
-<span class="item-days item-meta-value"><i class="triply-icon-calendar"></i><span>5 days</span></span><span class="item-user item-meta-value"><i class="triply-icon-user"></i><span>60</span></span> </div>
-<div class="item-meta-right">
-<div class="item-meta-media">
-<a href="#" data-images="[{&quot;image_id&quot;:58,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c27682d99ec4a71e35ef212_DSC05010-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 1&quot;},{&quot;image_id&quot;:59,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c27684358439170e20ab6fa_DSC05028-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 2&quot;},{&quot;image_id&quot;:60,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2768572de86359eecc8a3f_DSC05081-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 3&quot;},{&quot;image_id&quot;:61,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c1ba1a62fa9323147fc1083_DSC05213-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 4&quot;},{&quot;image_id&quot;:62,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2767072de8630badcc8a35_DSC05357-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 5&quot;},{&quot;image_id&quot;:63,&quot;image&quot;:&quot;https:\/\/demo2.pavothemes.com\/triply\/wp-content\/uploads\/2020\/11\/5c2768b72de8635ac2cc8a40_DSC05279-copy.jpg&quot;,&quot;description&quot;:&quot;Serran\u00eda de la Macarena, Jungle Tour - 4 Days - Image 6&quot;}]" class="item-gallery item-meta-value"><i class="triply-icon-camera-alt"></i><span>6</span></a><a href="https://www.youtube.com/watch?v=shzC2DUO9Hg" class="item-video item-meta-value"><i class="triply-icon-video"></i></a> </div>
-</div>
-</div>
-<div class="item_title">
-<a href="../to_book/serrania-de-la-macarena-jungle-tour/index.html">Serranía de la Macarena, Jungle Tour</a>
-</div>
-<div class="item-location">
-<i class="triply-icon-map-marker-alt"></i><span>Anchorage, USA</span>
-</div>
-<div class="item-bottom">
-<div class="item_info_price">
-<label>From </label>
-<span class="item_info_price_new"><span class="currency_amount" data-amount="151"><span class="currency_symbol">&#36;</span>151.00</span></span>
-</div>
-<a class="read-more-item" href="../to_book/serrania-de-la-macarena-jungle-tour/index.html">Explore <i class="triply-icon-long-arrow-right"></i></a>
-</div>
-</div>
-</div>
-</div>
+<?php } ?>
+
+<!--   ------------  -->
 </div></div></div></div> </div>
 </div>
 </div>
